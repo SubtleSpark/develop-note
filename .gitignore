@@ -1,0 +1,21 @@
+## mac ###
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+.Spotlight-V100
+.Trashes
+
+
+### idea ###
+.idea
+*.iml
+*.ipr
+*.iws
+
+
+.obsidian/workspace.json
+.obsidian/plugins/recent-files-obsidian/data.json
+.obsidian/plugins/obsidian-git/data.json
+.obsidian/plugins/remember-cursor-position/cursor-positions.json
+.obsidian/workspace
