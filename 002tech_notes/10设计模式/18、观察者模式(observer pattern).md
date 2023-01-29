@@ -42,12 +42,16 @@ package "class Observer(观察者模式)" {
 
 ## 3 应用场景
 ### 3.1 JDK  中已经定义了观察者模式的基本结构
-`public class Observable`为上面uml 中的 Subject
-`public interface Observer`为 uml 中的 Observer
+`public class Observable`为上面uml 中的 Subject。即被观察者。
+`public interface Observer`为 uml 中的 Observer。为观察者
 
 
 ### 3.2 Spring 事件发布与监听
 
+
+### 3.3 RxJava 使用扩展的观察者模式
+![[attachments/20230129153810.png]]
+![[attachments/20210321110153668.png]]
 
 
 ## 4 观察者模式优缺点
