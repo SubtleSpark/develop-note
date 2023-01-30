@@ -1,22 +1,35 @@
-## 1 uml
+## 1 什么是观察者模式
+观察者模式（Observer Pattern）：在对象之间定义一个一对多的依赖，当一个对象状态改变的时候，所有依赖的对象都会得到通知并自动更新。说人话：也叫**发布订阅模式**，能够很好的解耦一个对象改变，自动改变另一个对象这种情况。
+
+不同的场景和资料中观察者和被观察者的称呼可能不同
+
+| 场景            | 被观察者   | 观察者      |
+| --------------- | ---------- | ----------- |
+| 发布订阅模型    | publisher  | subscribers |
+| JDK的观察者模式 | Observable | Observer    |
+|                 |            |             |
+
+## 2 uml
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
 
 package "class Observer(观察者模式)" {
-    class Subject<< (A,#FF7700) abstract>>
+    abstract Subject
     {
-    +notifyObservers(Object)
+    # Observer[] observers
+    
+    + notifyObservers(Object)
     }
-    note right: 抽象主题
+    note right: 抽象主题（被观察者）
 
     class ConcreteSubject
     {
-    +notifyObservers(Object)
+
     }
     note right: 具体主题
 
-    class Observer<< (I,#FF7700) interface>>
+    interface Observer
     {
     +update(Object)
     }
@@ -24,7 +37,7 @@ package "class Observer(观察者模式)" {
 
     class ConcreteObserver
     {
-    +update(Object)
+
     }
     note right: 具体观察者
 
@@ -33,14 +46,11 @@ package "class Observer(观察者模式)" {
     Observer <|.. ConcreteObserver
 }
 @enduml
-
 ```
 
-## 2 什么是观察者模式
-观察者模式（Observer Pattern）：在对象之间定义一个一对多的依赖，当一个对象状态改变的时候，所有依赖的对象都会得到通知并自动更新。说人话：也叫**发布订阅模式**，能够很好的解耦一个对象改变，自动改变另一个对象这种情况。
+Subject 中维护了一个观察者链，
 
-
-## 3 应用场景
+## 3 实际应用场景
 ### 3.1 JDK  中已经定义了观察者模式的基本结构
 `public class Observable`为上面uml 中的 Subject。即被观察者。
 `public interface Observer`为 uml 中的 Observer。为观察者
@@ -52,6 +62,11 @@ package "class Observer(观察者模式)" {
 ### 3.3 RxJava 使用扩展的观察者模式
 ![[attachments/20230129153810.png]]
 ![[attachments/20210321110153668.png]]
+
+### 3.4 CompletableFuture 触发当前CF完成后要执行的动作
+
+
+
 
 
 ## 4 观察者模式优缺点
