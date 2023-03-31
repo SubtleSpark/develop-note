@@ -36,3 +36,19 @@ sudo systemctl reload nginx
 ```
 
 
+## 3 错误记录
+### 3.1 nginx: [emerg] bind() to 0.0.0.0:18008 failed (13: Permission denied)
+启动后无法绑定端口，分为两种情况
+1. 端口号小于 1024，需要使用 root 权限启动 nginx
+```shell
+sudo systemctl status nginx
+```
+2. 如果端口号大于1024，是因为端口没有打开http权限
+```shell
+# 查看有http权限的端口
+semanage port -l | grep http_port_t
+
+# 添加http权限端口
+semanage port -a -t http_port_t  -p tcp 18008
+```
+

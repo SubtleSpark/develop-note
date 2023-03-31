@@ -4,9 +4,10 @@
 一个事务是一个完整的业务逻辑单元，不可再分。
 
 比如：银行账户转账，从A账户向B账户转账10000.需要执行两条update语句：
-	update t_act set balance = balance - 10000 where actno = 'act-001';
-	update t_act set balance = balance + 10000 where actno = 'act-002';
-
+```sql
+update t_act set balance = balance - 10000 where actno = 'act-001';
+update t_act set balance = balance + 10000 where actno = 'act-002';
+```
 以上两条DML语句必须同时成功，或者同时失败，不允许出现一条成功，一条失败。
 
 要想保证以上的两条DML语句同时成功或者同时失败，那么就需要使用数据库的“事务机制”。
@@ -25,7 +26,7 @@ A: 原子性：事务是最小的工作单元，不可再分。
 C: 一致性：事务必须保证多条DML语句同时成功或者同时失败。
 I：隔离性：事务A与事务B之间具有隔离。
 D：持久性：持久性说的是最终数据必须持久化到硬盘文件中，事务才算成功的结束。
-	
+
 ## 5 3.5、事务隔离级别
 事务隔离性存在隔离级别，理论上隔离级别包括4个：
 
