@@ -14,7 +14,7 @@ sudo apt-get update sudo apt-get install nginx
 sudo systemctl start nginx
 ```
 
-如果要在系统启动时自动启动 Nginx，请使用以下命令：
+如果要在系统启动时**自动启动** Nginx，请使用以下命令：
 ```sh
 sudo systemctl enable nginx
 ```
