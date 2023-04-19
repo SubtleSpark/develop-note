@@ -3,6 +3,8 @@ https://www.bilibili.com/video/BV1NR4y1x7Ab?p=1
 
 https://24kcs.github.io/vue3_study/
 
+[VUE官方文档](https://cn.vuejs.org/guide/introduction.html)
+
 ## 2 初识TS
 TypeScript是一种由微软开发的开源、跨平台的编程语言。它是JavaScript的超集，最终会被编译为JavaScript代码。
 **TypeScript 是 JavaScript 的一个超集**，主要提供了**类型系统**和**对 ES6+ 的支持**，它由 Microsoft 开发，代码[开源于 GitHub](https://github.com/Microsoft/TypeScript)上。
@@ -33,6 +35,9 @@ console.log(greeter([1,2,3]))     // 这里会报错
 ```
 上面的代码中 `person: string`使用的类型注解。表示了这个函数只能接受 string 类型的入参。
 以其他类型的参数作为入餐，会导致使用`tsc`编译时报错。要注意的是尽管有错误，`greeter.js` 文件还是被创建了。 就算你的代码里有错误，你仍然可以使用 TypeScript。但在这种情况下，TypeScript 会警告你代码可能不会按预期执行。
+
+### 3.2 基础类型
+TS中，变量一开始定义成什么类型，后面赋值就只能使用该类型，这和 JS 这样的弱类型语言不同。
 
 
 ## 4 范式
