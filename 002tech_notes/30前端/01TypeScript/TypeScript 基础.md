@@ -5,6 +5,8 @@ https://24kcs.github.io/vue3_study/
 
 [VUE官方文档](https://cn.vuejs.org/guide/introduction.html)
 
+[深入理解TypeScript](https://jkchao.github.io/typescript-book-chinese/#why)
+
 ## 2 初识TS
 TypeScript是一种由微软开发的开源、跨平台的编程语言。它是JavaScript的超集，最终会被编译为JavaScript代码。
 **TypeScript 是 JavaScript 的一个超集**，主要提供了**类型系统**和**对 ES6+ 的支持**，它由 Microsoft 开发，代码[开源于 GitHub](https://github.com/Microsoft/TypeScript)上。
