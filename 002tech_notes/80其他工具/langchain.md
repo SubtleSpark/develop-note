@@ -17,9 +17,16 @@ FewShotPrompt：一种 Prompt 的技巧，在这个 prompt 中会有一些例子
 这里的 Example 就是用于填充这个方法中例子的部分。
 
 #### 2.1.3 Selector
-在 Example 中可能会定义大量的例子，如果全部都填充入 Prompt 会造成大量的 token 消耗。Selector 的目的就是从这些 Examples 中选出符合要求的几个，
-
-
+在 Example 中可能会定义大量的例子，如果全部都填充入 Prompt 会造成大量的 token 消耗。Selector 的目的就是从这些 Examples 中选出符合要求的几个，从而节省花销。
 
 #### 2.1.4 Output Parsers
+将输出转换成指定的数据格式，如 json。
+
+### 2.2 Indexes 
+文本处理
+
+
+### 2.3 Chains
+
+
 
