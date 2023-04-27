@@ -6,3 +6,10 @@ langchain是一个能将各种 AI 模型集成在一起形成自定义功能的 
 
 注意官方文档的右下角，有一个搜索框，不同于普通文档基于关键字匹配的检索方法，这个搜索功能是 Mendable 提供的。Mendable 本身是一个基于 langchain 框架实现的文档检索工具。
 
+## 2 langchain 组件
+
+### 2.1 selector
+FewShotPromt：一种 Promt 的技巧，在这个 promt 中会有一些例子，告诉 LLM 如何规范地输出
+
+### 2.2 Output Parsers
+
