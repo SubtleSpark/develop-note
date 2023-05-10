@@ -56,3 +56,12 @@ docker run -d -p 16379:6379 --privileged=true
 ```shell
 docker run -d -e TZ="Asia/Shanghai" -p 12181:2181 -v /Users/jun/container/zookeeper/data:/data --name zookeeper --restart always zookeeper
 ```
+
+## 5 portainer
+```shell
+docker run -d --privileged=true \
+-p 8000:8000 -p 9443:9443 -p 9000:9000 \
+--name portainer \
+--restart=always \
+-v /var/run/docker.sock:/var/run/docker.sock  portainer/portainer:latest
+```
