@@ -65,3 +65,6 @@ docker run -d --privileged=true \
 --restart=always \
 -v /var/run/docker.sock:/var/run/docker.sock  portainer/portainer:latest
 ```
+如果不加上 `--privileged=true` 选项，可能会导致无法管理当前 docker 环境（启动 portainer 的 docker）。因为它没有权限访问 `docker.sock`。
+
+
