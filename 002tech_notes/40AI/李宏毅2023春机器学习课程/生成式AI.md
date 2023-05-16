@@ -13,8 +13,8 @@
 ## 2 ChatGPT是怎样炼成的
 ChatGPT 没有直接的论文参考，但根据[官方文档](https://openai.com/blog/chatgpt/)摘要中可以知道: *ChatGPT is a sibling model to [InstructGPT](https://openai.com/blog/instruction-following/)*。它们论文中的图片
 ### 2.1 训练的几个阶段
-**1. 学习文字接龙（预训练，监督学习）**
-通过网上大量的文字资料，可以用监督学习训练出一个会文字接龙的模型。预训练这一步得到的模型叫 **基石模型(Foundation Model)**
+**1. 学习文字接龙（预训练，自监督学习）**
+通过网上大量的文字资料，可以训练出一个会文字接龙的模型。这一步中的数据集不是人工标注的，可以通过程序自动生成，所以这一步叫做**自监督学习**。预训练后得到的模型是之后很多模型的基础，于是这个预训练的模型被叫做 **基石模型(Foundation Model)**。
 
 学习了文字接龙后，GPT 可以完成补充句子的任务，但对它提问可能不会产生让人期待的结果。比如，在同样的输入下，GPT可能输出下面三个结果。在文字接龙的任务下，这几种输出都是 makes sense 的。于是，接下来的任务就变成了引导 GPT 输出我们期望的输出。
 
@@ -33,9 +33,13 @@ ChatGPT 没有直接的论文参考，但根据[官方文档](https://openai.com
 **4. 用 Reinforcement learning 让 GPT 向 teacher model 学习**
 
 **总结**
-在第一阶段时，GPT 是想说啥就说啥，后面的几个步骤是引导 GPT 说人类想要它说的。后面三步y是*自监督学习（Self-supervised Learning）*。
+在第一阶段时，GPT 是想说啥就说啥，后面的几个步骤是引导 GPT 说人类想要它说的。
 
-### 2.2 参考
-[大小文件](https://drive.google.com/file/d/1Ue4J-Kk4ScFTq-UIs8hW9E2h5BAbu-oo/view)
-[ChatGPT (可能)是怎麼煉成的 - GPT 社會化的過程视频](https://www.youtube.com/watch?v=e0aKI2GGZNg)
-[ChatGPT (可能)是怎麼煉成的 - GPT 社會化的過程PPT](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDJHYmFYX3JFUmx2aFl6THNKSUhaMjBZYzVEd3xBQ3Jtc0tsRHhfU0RhNnlNZGtGNk5BYko2SHBZOHRMa1Y3bTdRa3ZhTVVpNVZEVVgtSW0tTEJ0M3VMelhiVVZkTVV2azJUM1k2cXA4NTNnc2xJYm5rVmpTTFNEVWd6WERfOEJqb1lXNDBPTjNvSHNIMDNSZHlFVQ&q=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F1vDT11ec_nY6P0o--NHq9col5XEE4tHBw%2Fedit%3Fusp%3Dsharing%26ouid%3D115046073158939078465%26rtpof%3Dtrue%26sd%3Dtrue&v=e0aKI2GGZNg)
+### 2.2 预训练的帮助
+
+
+
+### 2.3 参考
+[PPT - ChatGPT 原理剖析 (2/3) — 預訓練 (Pre-train)](https://drive.google.com/file/d/1Ue4J-Kk4ScFTq-UIs8hW9E2h5BAbu-oo/view)
+[video - ChatGPT (可能)是怎麼煉成的 - GPT 社會化的過程](https://www.youtube.com/watch?v=e0aKI2GGZNg)
+[PPT - ChatGPT (可能)是怎麼煉成的 - GPT 社會化的過程](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDJHYmFYX3JFUmx2aFl6THNKSUhaMjBZYzVEd3xBQ3Jtc0tsRHhfU0RhNnlNZGtGNk5BYko2SHBZOHRMa1Y3bTdRa3ZhTVVpNVZEVVgtSW0tTEJ0M3VMelhiVVZkTVV2azJUM1k2cXA4NTNnc2xJYm5rVmpTTFNEVWd6WERfOEJqb1lXNDBPTjNvSHNIMDNSZHlFVQ&q=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F1vDT11ec_nY6P0o--NHq9col5XEE4tHBw%2Fedit%3Fusp%3Dsharing%26ouid%3D115046073158939078465%26rtpof%3Dtrue%26sd%3Dtrue&v=e0aKI2GGZNg)
