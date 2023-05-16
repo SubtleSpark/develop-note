@@ -11,11 +11,13 @@
 ![[attachments/Pasted image 20230516215335.png | 550]]
 
 ## 2 ChatGPT是怎样炼成的
-ChatGPT 没有直接的论文参考，但根据[官方文档](https://openai.com/blog/chatgpt/)摘要中可以知道: ChatGPT is a sibling model to [InstructGPT](https://openai.com/blog/instruction-following/)。它们论文中的图片
+ChatGPT 没有直接的论文参考，但根据[官方文档](https://openai.com/blog/chatgpt/)摘要中可以知道: *ChatGPT is a sibling model to [InstructGPT](https://openai.com/blog/instruction-following/)*。它们论文中的图片
 ### 2.1 训练的几个阶段
 1: 学习文字接龙
-学习了文字接龙后，GPT 可以完成补充句子的任务，但对它提问可能不会产生让人期待的结果（产生没用的输出）。比如：
-提问它：台湾最高的山是哪座山
+学习了文字接龙后，GPT 可以完成补充句子的任务，但对它提问可能不会产生让人期待的结果（产生没用的输出）。比如，在同样的输入的情况下，GPT可能输出下面三个结果，
+> 输出1：台湾最高的山是哪座山 *玉山*
+> 输出2:  台湾最高的山是哪座山  *，谁来告诉我？*
+> 输出3:  台湾最高的山是哪座山  *A 玉山，B 雪山*
 
 
 2: 学
