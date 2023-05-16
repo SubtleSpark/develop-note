@@ -37,7 +37,7 @@ ChatGPT 没有直接的论文参考，但根据[官方文档](https://openai.com
 
 ### 2.2 预训练的帮助
 
- 
+
 
 ### 2.3 参考
 [PPT - ChatGPT 原理剖析 (2/3) — 預訓練 (Pre-train)](https://drive.google.com/file/d/1Ue4J-Kk4ScFTq-UIs8hW9E2h5BAbu-oo/view)
