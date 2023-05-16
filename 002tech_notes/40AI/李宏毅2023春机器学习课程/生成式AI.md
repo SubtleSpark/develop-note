@@ -11,9 +11,16 @@
 ![[attachments/Pasted image 20230516215335.png | 550]]
 
 ## 2 ChatGPT是怎样炼成的
-ChatGPT 没有直接的论文参考，但根据[官方文档](https://openai.com/blog/chatgpt/)摘要中可以知道: ChatGPT is a sibling model to [InstructGPT](https://openai.com/blog/instruction-following/)。
+ChatGPT 没有直接的论文参考，但根据[官方文档](https://openai.com/blog/chatgpt/)摘要中可以知道: ChatGPT is a sibling model to [InstructGPT](https://openai.com/blog/instruction-following/)。它们论文中的图片
+### 2.1 训练的几个阶段
+1: 学习文字接龙
+学习了文字接龙后，GPT 可以完成补充句子的任务，但对它提问可能不会产生让人期待的结果（产生没用的输出）。比如：
+提问它：台湾最高的山是哪座山
 
-### 2.1 参考
 
-https://www.youtube.com/watch?v=e0aKI2GGZNg
+2: 学
+
+
+### 2.2 参考
+[ChatGPT (可能)是怎麼煉成的 - GPT 社會化的過程视频](https://www.youtube.com/watch?v=e0aKI2GGZNg)
 [ChatGPT (可能)是怎麼煉成的 - GPT 社會化的過程PPT](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDJHYmFYX3JFUmx2aFl6THNKSUhaMjBZYzVEd3xBQ3Jtc0tsRHhfU0RhNnlNZGtGNk5BYko2SHBZOHRMa1Y3bTdRa3ZhTVVpNVZEVVgtSW0tTEJ0M3VMelhiVVZkTVV2azJUM1k2cXA4NTNnc2xJYm5rVmpTTFNEVWd6WERfOEJqb1lXNDBPTjNvSHNIMDNSZHlFVQ&q=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F1vDT11ec_nY6P0o--NHq9col5XEE4tHBw%2Fedit%3Fusp%3Dsharing%26ouid%3D115046073158939078465%26rtpof%3Dtrue%26sd%3Dtrue&v=e0aKI2GGZNg)
