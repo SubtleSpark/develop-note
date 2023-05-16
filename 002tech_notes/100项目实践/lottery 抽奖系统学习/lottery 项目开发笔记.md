@@ -73,7 +73,7 @@ chore:    不修改src或者test的其余修改，例如构建过程或辅助工
 -   lottery-interfaces，接口层，引用：`application`、`rpc`
 -   lottery-rpc，RPC接口定义层，引用：`common`
 
-![[002tech_notes/lottery 抽奖系统学习/lottery模块依赖关系.svg]]
+![[002tech_notes/100项目实践/lottery 抽奖系统学习/lottery模块依赖关系.svg]]
 ### 3.2 对 Dubbo 的初步理解
 1. 服务的提供者和调用者引入同一个接口，想当于定义了一个接口的方法名、参数、返回值。
 2. 提供者实现该接口，并在实现类中添加注解`org.apache.dubbo.config.annotation.Service`。
@@ -157,7 +157,7 @@ public class ApiTest {
 [活动领域的配置与状态](https://gitcode.net/KnowledgePlanet/Lottery/-/wikis/%E7%AC%AC-2-%E9%83%A8%E5%88%86-%E9%A2%86%E5%9F%9F%E5%BC%80%E5%8F%91//%E7%AC%AC08%E8%8A%82%EF%BC%9A%E6%B4%BB%E5%8A%A8%E9%A2%86%E5%9F%9F%E7%9A%84%E9%85%8D%E7%BD%AE%E4%B8%8E%E7%8A%B6%E6%80%81)
 ### 8.1 调整模块依赖关系
 主要调整了domain 和 infrastructure 的依赖关系。domain中定义Repository 的接口方法。infrastructure 中负责实现该方法。
-![[002tech_notes/lottery 抽奖系统学习/调整后的依赖关系.svg]]
+![[002tech_notes/100项目实践/lottery 抽奖系统学习/调整后的依赖关系.svg]]
 
 
 
