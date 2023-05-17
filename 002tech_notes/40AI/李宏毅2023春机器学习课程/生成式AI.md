@@ -43,3 +43,15 @@ ChatGPT 没有直接的论文参考，但根据[官方文档](https://openai.com
 [PPT - ChatGPT 原理剖析 (2/3) — 預訓練 (Pre-train)](https://drive.google.com/file/d/1Ue4J-Kk4ScFTq-UIs8hW9E2h5BAbu-oo/view)
 [video - ChatGPT (可能)是怎麼煉成的 - GPT 社會化的過程](https://www.youtube.com/watch?v=e0aKI2GGZNg)
 [PPT - ChatGPT (可能)是怎麼煉成的 - GPT 社會化的過程](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDJHYmFYX3JFUmx2aFl6THNKSUhaMjBZYzVEd3xBQ3Jtc0tsRHhfU0RhNnlNZGtGNk5BYko2SHBZOHRMa1Y3bTdRa3ZhTVVpNVZEVVgtSW0tTEJ0M3VMelhiVVZkTVV2azJUM1k2cXA4NTNnc2xJYm5rVmpTTFNEVWd6WERfOEJqb1lXNDBPTjNvSHNIMDNSZHlFVQ&q=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F1vDT11ec_nY6P0o--NHq9col5XEE4tHBw%2Fedit%3Fusp%3Dsharing%26ouid%3D115046073158939078465%26rtpof%3Dtrue%26sd%3Dtrue&v=e0aKI2GGZNg)
+
+
+## 3 生成式学习策略
+
+### 3.1 各个击破
+
+
+
+### 3.2 一步到位
+
+
+
