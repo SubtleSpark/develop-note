@@ -49,7 +49,7 @@ docker run -d -p 16379:6379 --privileged=true
 ```
 
 - privileged 表明root用户是否有真正的root权限
-  ==redis.conf 中要设置 daemonize no==。不要以后台方式运行。会导致容器运行后，因为没有前台进程而停止。[[002tech_notes/12docker/001 docker 基本命令#启动守护式容器|启动守护式容器]]
+  ==redis.conf 中要设置 daemonize no==。不要以后台方式运行。会导致容器运行后，因为没有前台进程而停止。[[002tech_notes/15云原生/12docker/001 docker 基本命令#启动守护式容器|启动守护式容器]]
 
 
 ## 4 zookeeper

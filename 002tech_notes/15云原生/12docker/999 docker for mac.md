@@ -33,7 +33,7 @@ docker run -it --name docker_vm --privileged --pid=host debian nsenter -t 1 -m -
 
 1. 停止容器
 2. 停止docker服务(systemctl stop docker)
-3. 修改这个容器的hostconfig.json文件中的端口（原帖有人提到，如果config.v2.json里面也记录了端口，也要修改）。如果无法找到这个文件夹。则需要[[002tech_notes/12docker/999 docker for mac#1 mac 进入 docker 虚拟层|进入docker虚拟层]]
+3. 修改这个容器的hostconfig.json文件中的端口（原帖有人提到，如果config.v2.json里面也记录了端口，也要修改）。如果无法找到这个文件夹。则需要[[002tech_notes/15云原生/12docker/999 docker for mac#1 mac 进入 docker 虚拟层|进入docker虚拟层]]
 ```shell
 cd /var/lib/docker/3b6ef264a040* #这里是CONTAINER ID
 vi hostconfig.json
