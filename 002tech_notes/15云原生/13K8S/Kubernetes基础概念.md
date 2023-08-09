@@ -29,6 +29,12 @@ sudo sysctl --system
 ```
 
 ### 1.2 安装kubelet、kubeadm、kubectl
+安装这三个工具时要注意版本，版本偏差太多会造成不可预期的错误。参考官方[支持的版本偏差](https://kubernetes.io/zh-cn/releases/version-skew-policy/)
+
+>  `kubeadm`：用来初始化集群的指令。
+>  `kubelet`：在集群中的每个节点上用来启动 Pod 和容器等。
+>  `kubectl`：用来与集群通信的命令行工具。
+
 ```bash
 # 配置阿里镜像
 cat <<EOF | sudo tee /etc/yum.repos.d/kubernetes.repo
