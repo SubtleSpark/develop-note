@@ -1,4 +1,7 @@
 ## 1 安装
+官方文档
+https://kubernetes.io/zh-cn/docs/tasks/tools/install-kubectl-linux/#install-using-native-package-management
+
 ### 1.1 基础环境
 ```bash
 #各个机器设置自己的域名
@@ -24,4 +27,28 @@ net.bridge.bridge-nf-call-iptables = 1
 EOF
 sudo sysctl --system
 ```
+
+### 1.2 安装kubelet、kubeadm、kubectl
+```bash
+# 配置阿里镜像
+cat <<EOF | sudo tee /etc/yum.repos.d/kubernetes.repo
+[kubernetes]
+name=Kubernetes
+baseurl=http://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64
+enabled=1
+gpgcheck=0
+repo_gpgcheck=0
+gpgkey=http://mirrors.aliyun.com/kubernetes/yum/doc/yum-key.gpg
+   http://mirrors.aliyun.com/kubernetes/yum/doc/rpm-package-key.gpg
+exclude=kubelet kubeadm kubectl
+EOF
+
+
+sudo yum install -y kubelet-1.20.9 kubeadm-1.20.9 kubectl-1.20.9 --disableexcludes=kubernetes
+
+sudo systemctl enable --now kubelet
+```
+
+
+
 
