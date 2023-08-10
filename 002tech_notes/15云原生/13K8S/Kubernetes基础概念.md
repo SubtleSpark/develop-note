@@ -50,7 +50,7 @@ exclude=kubelet kubeadm kubectl
 EOF
 
 
-sudo yum install -y kubelet-1.26.1 kubeadm-1.26.1 kubectl-1.26.1 --disableexcludes=kubernetes
+sudo yum install -y kubelet-1.22.6 kubeadm-1.22.6 kubectl-1.22.6 --disableexcludes=kubernetes
 
 sudo systemctl enable --now kubelet
 ```
