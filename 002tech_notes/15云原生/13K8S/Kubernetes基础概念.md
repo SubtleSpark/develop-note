@@ -55,6 +55,23 @@ sudo yum install -y kubelet-1.22.6 kubeadm-1.22.6 kubectl-1.22.6 --disableexclud
 sudo systemctl enable --now kubelet
 ```
 
+### 1.3 使用kubeadm引导集群
+#### 1.3.1 下载镜像
+使用阿里镜像代理仓库下载镜像
+registry.aliyuncs.com/google_containers是定时同步kubernetes的镜像到阿里镜像仓库服务的，但只是K8S组件的镜像，阿里云镜像仓库有谷歌和RedHat的镜像，但是不全。
 
+当我们下载k8s.gcr.io，gcr.io镜像和quay.io镜像，可以把k8s.gcr.io，gcr.io， quay.io镜像换成阿里云镜像下载
 
+```shell
+% kubeadm config images list --image-repository registry.aliyuncs.com/google_containers
+
+I0810 22:38:00.233864   13354 version.go:255] remote version is much newer: v1.27.4; falling back to: stable-1.22
+registry.aliyuncs.com/google_containers/kube-apiserver:v1.22.17
+registry.aliyuncs.com/google_containers/kube-controller-manager:v1.22.17
+registry.aliyuncs.com/google_containers/kube-scheduler:v1.22.17
+registry.aliyuncs.com/google_containers/kube-proxy:v1.22.17
+registry.aliyuncs.com/google_containers/pause:3.5
+registry.aliyuncs.com/google_containers/etcd:3.5.0-0
+registry.aliyuncs.com/google_containers/coredns:v1.8.4
+```
 
