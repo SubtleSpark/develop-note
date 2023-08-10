@@ -57,12 +57,11 @@ sudo systemctl enable --now kubelet
 
 ### 1.3 使用kubeadm引导集群
 #### 1.3.1 下载镜像
-使用阿里镜像代理仓库下载镜像
-registry.aliyuncs.com/google_containers是定时同步kubernetes的镜像到阿里镜像仓库服务的，但只是K8S组件的镜像，阿里云镜像仓库有谷歌和RedHat的镜像，但是不全。
-
+`registry.aliyuncs.com/google_containers` 是定时同步kubernetes的镜像到阿里镜像仓库服务的，但只是K8S组件的镜像，阿里云镜像仓库有谷歌和RedHat的镜像，但是不全。
 当我们下载k8s.gcr.io，gcr.io镜像和quay.io镜像，可以把k8s.gcr.io，gcr.io， quay.io镜像换成阿里云镜像下载
 
-```shell
+```bash
+# 默认仓库可能连不上，查看阿里镜像
 % kubeadm config images list --image-repository registry.aliyuncs.com/google_containers
 
 I0810 22:38:00.233864   13354 version.go:255] remote version is much newer: v1.27.4; falling back to: stable-1.22
@@ -73,5 +72,24 @@ registry.aliyuncs.com/google_containers/kube-proxy:v1.22.17
 registry.aliyuncs.com/google_containers/pause:3.5
 registry.aliyuncs.com/google_containers/etcd:3.5.0-0
 registry.aliyuncs.com/google_containers/coredns:v1.8.4
+
+# 可以直接使用docker下载也可以用下面命令下载
+% kubeadm config images pull --image-repository registry.aliyuncs.com/google_containers
+
+```
+
+### 1.4 初始化主节点
+```bash
+#所有机器添加master域名映射，以下需要修改为自己的
+echo "172.31.0.4  cluster-endpoint" >> /etc/hosts
+
+#主节点初始化
+kubeadm init \
+--apiserver-advertise-address=172.31.0.4 \
+--control-plane-endpoint=cluster-endpoint \
+--image-repository registry.cn-hangzhou.aliyuncs.com/lfy_k8s_images \
+--kubernetes-version v1.20.9 \
+--service-cidr=10.96.0.0/16 \
+--pod-network-cidr=192.168.0.0/16
 ```
 
