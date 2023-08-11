@@ -139,11 +139,14 @@ kubeadm join cluster-endpoint:6443 --token 7v4i30.lhx0egt9js4n32bz \
         --discovery-token-ca-cert-hash sha256:a1ea82cc82f3e7531ef5ae3d8961fb2362c800e70ae2c20f363ec8ecf2d0df5b 
 ```
 
-### 1.5 安装
+### 1.5 安装 calico 网络插件
+- 下载 manifest
 ``` bash
-# 下载 manifest
 curl https://raw.githubusercontent.com/projectcalico/calico/v3.26.1/manifests/calico.yaml -O
 ```
-修改qi
-
+- 修改其中的 CALICO_IPV4POOL_CIDR 属性，和 init 时 pod-network-cidr 设置成一样。
+- 使用 kubectl 安装
+```bash
+kubectl apply -f calico.yaml
+```
 
