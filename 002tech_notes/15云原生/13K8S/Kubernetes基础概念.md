@@ -93,8 +93,15 @@ kubeadm init \
 --pod-network-cidr=192.168.128.0/16
 
 ```
-需要注意的点：
+**需要注意的点：**
 - apiserver-advertise-address 是本机ip，且要保证集群中的节点都可以访问这个ip。
 - control-plane-endpoint、apiserver-advertise-address 对应 hosts 中的配置
 - service-cidr、pod-network-cidr 不可以重叠。apiserver-advertise-address 也不能在这两个网段中。*实测在 pod-network-cidr 网段中也可以成功初始化，但是教程说不行，这样可能会有坑。*
-- 设置网段注意几个常用网段
+- 设置网段注意几个常用网段：
+| 网段           | 备注                     |
+| -------------- | ------------------------ |
+| 10.0.0.0/8     | 内网                     |
+| 172.16.0.0/12  | 内网  16二进制 0001,0000 |
+| 192.168.0.0/16 | 内网                     |
+| 172.17.0.1/16  | 默认 docker0 占用        |
+|                |                          |
