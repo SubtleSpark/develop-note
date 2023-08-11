@@ -104,3 +104,37 @@ kubeadm init \
 | 172.16.0.0/12  | 内网  16二进制 0001,0000 |
 | 192.168.0.0/16 | 内网                     |
 | 172.17.0.0/16  | 默认 docker0 占用，尽量避免       |
+执行成功后会有下面提示：
+```txt
+[addons] Applied essential addon: CoreDNS
+[addons] Applied essential addon: kube-proxy
+
+Your Kubernetes control-plane has initialized successfully!
+
+To start using your cluster, you need to run the following as a regular user:
+
+  mkdir -p $HOME/.kube
+  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+Alternatively, if you are the root user, you can run:
+
+  export KUBECONFIG=/etc/kubernetes/admin.conf
+
+You should now deploy a pod network to the cluster.
+Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
+  https://kubernetes.io/docs/concepts/cluster-administration/addons/
+
+You can now join any number of control-plane nodes by copying certificate authorities
+and service account keys on each node and then running the following as root:
+
+  kubeadm join cluster-endpoint:6443 --token 7v4i30.lhx0egt9js4n32bz \
+        --discovery-token-ca-cert-hash sha256:a1ea82cc82f3e7531ef5ae3d8961fb2362c800e70ae2c20f363ec8ecf2d0df5b \
+        --control-plane 
+
+Then you can join any number of worker nodes by running the following on each as root:
+
+kubeadm join cluster-endpoint:6443 --token 7v4i30.lhx0egt9js4n32bz \
+        --discovery-token-ca-cert-hash sha256:a1ea82cc82f3e7531ef5ae3d8961fb2362c800e70ae2c20f363ec8ecf2d0df5b 
+```
+
