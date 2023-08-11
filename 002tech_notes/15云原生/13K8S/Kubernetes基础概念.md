@@ -81,7 +81,7 @@ registry.aliyuncs.com/google_containers/coredns:v1.8.4
 ### 1.4 初始化主节点
 ```bash
 #所有机器添加master域名映射，以下需要修改为自己的
-echo "172.31.0.4  cluster-endpoint" >> /etc/hosts
+echo "192.168.31.31  cluster-endpoint" >> /etc/hosts
 
 #主节点初始化
 kubeadm init \
