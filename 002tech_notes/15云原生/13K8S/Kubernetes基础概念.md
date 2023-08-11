@@ -94,4 +94,5 @@ kubeadm init \
 
 
 ```
-
+需要注意的点：
+- apiserver-advertise-address 是本机地址，
