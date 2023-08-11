@@ -90,7 +90,7 @@ kubeadm init \
 --image-repository registry.aliyuncs.com/google_containers \
 --kubernetes-version v1.22.17 \
 --service-cidr=10.96.0.0/16 \
---pod-network-cidr=192.168.128.0/16
+--pod-network-cidr=172.25.0.0/16
 
 ```
 **需要注意的点：**
