@@ -90,9 +90,11 @@ kubeadm init \
 --image-repository registry.aliyuncs.com/google_containers \
 --kubernetes-version v1.22.17 \
 --service-cidr=10.96.0.0/16 \
---pod-network-cidr=192.168.0.0/16
-
+--pod-network-cidr=192.168.128.0/16
 
 ```
 需要注意的点：
-- apiserver-advertise-address 是本机地址，
+- apiserver-advertise-address 是本机ip，且要保证集群中的节点都可以访问这个ip。
+- control-plane-endpoint、apiserver-advertise-address 对应 hosts 中的配置
+- service-cidr、pod-network-cidr 不可以重叠。apiserver-advertise-address 也不能在这两个网段中。*实测在 pod-network-cidr 网段中也可以成功初始化，但是教程说不行，这样可能会有坑。*
+- 设置网段注意几个常用网段
