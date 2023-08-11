@@ -85,7 +85,7 @@ echo "172.31.0.4  cluster-endpoint" >> /etc/hosts
 
 #主节点初始化
 kubeadm init \
---apiserver-advertise-address=172.31.0.4 \
+--apiserver-advertise-address=192.168.31.31 \
 --control-plane-endpoint=cluster-endpoint \
 --image-repository registry.aliyuncs.com/google_containers \
 --kubernetes-version v1.22.17 \
