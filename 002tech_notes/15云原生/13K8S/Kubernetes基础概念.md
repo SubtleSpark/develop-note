@@ -140,6 +140,8 @@ kubeadm join cluster-endpoint:6443 --token 7v4i30.lhx0egt9js4n32bz \
 ```
 
 ### 1.5 安装 calico 网络插件
+[官方安装指南](https://docs.tigera.io/calico/latest/getting-started/kubernetes/self-managed-onprem/onpremises#install-calico)
+
 - 下载 manifest
 ``` bash
 curl https://raw.githubusercontent.com/projectcalico/calico/v3.26.1/manifests/calico.yaml -O
