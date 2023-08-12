@@ -191,7 +191,7 @@ mount -t nfs 192.168.31.31:/nfs/data /nfs/data
 echo "hello nfs server" > /nfs/data/test.txt
 ```
 
-#### 2.1.4 原生方式数据挂载示例
+### 2.2 原生方式数据挂载示例
 ```yml
 apiVersion: apps/v1
 kind: Deployment
@@ -228,10 +228,41 @@ server 注意要配置为 nfs 服务端的 ip
 - pod 删除后，无法自动清理
 - 没有限制最大使用的空间
 
+### 2.3 PV&PVC
 
+> *PV：持久卷（**Persistent Volume**），将应用需要持久化的数据保存到指定位置*
+> *PVC：持久卷申明（**Persistent Volume Claim**），申明需要使用的持久卷规格*
 
-
-
+#### 创建
+```yml
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv01-10m
+spec:
+  capacity:
+    storage: 10M
+  accessModes:
+    - ReadWriteMany
+  storageClassName: nfs
+  nfs:
+    path: /nfs/data/01
+    server: 172.31.0.4
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv02-1gi
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteMany
+  storageClassName: nfs
+  nfs:
+    path: /nfs/data/02
+    server: 172.31.0.4
+```
 
 
 
