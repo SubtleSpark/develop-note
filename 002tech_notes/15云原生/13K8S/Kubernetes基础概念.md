@@ -233,7 +233,7 @@ server 注意要配置为 nfs 服务端的 ip
 > *PV：持久卷（**Persistent Volume**），将应用需要持久化的数据保存到指定位置*
 > *PVC：持久卷申明（**Persistent Volume Claim**），申明需要使用的持久卷规格*
 
-#### 创建
+#### 2.3.1 创建 PV 池
 ```yml
 apiVersion: v1
 kind: PersistentVolume
@@ -264,6 +264,8 @@ spec:
     server: 172.31.0.4
 ```
 
+`---` 代表分隔两个资源的配置，等效于将资源配置写到两个文件中分别 apply。
+storageClassName 可以自己指定，但要和
 
 
 
