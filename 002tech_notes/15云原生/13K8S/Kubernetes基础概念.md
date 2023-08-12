@@ -178,7 +178,7 @@ exportfs -r
 ```
 
 #### 2.1.3 从节点
-
+注意下面出现 ip 的地方是 nfs server 端的 ip
 ```shell
 # 查看有哪些文件夹可以挂载
 showmount -e 192.168.31.31
@@ -218,6 +218,23 @@ spec:
       volumes:      # 定义数据卷的挂载方式
         - name: html
           nfs:      # 除了 nfs，还支持其他的挂载方式
-            server: 192.168.31.31
+            server: 192.168.31.31 # 这里设置nfs的主机
             path: /nfs/data/nginx-pv
 ```
+server 注意要配置为 nfs 服务端的 ip
+
+
+### 2.2 上面存储方式的缺点
+- 挂载的文件夹要自己创建
+- pod 删除后，无法自动清理
+- 没有限制空间
+
+
+
+
+
+
+
+
+
+
