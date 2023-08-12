@@ -106,7 +106,7 @@ kubeadm init \
 | 172.17.0.0/16  | 默认 docker0 占用，尽量避免       |
 
 执行成功后会有下面提示：
-```txt
+```bash
 [addons] Applied essential addon: CoreDNS
 [addons] Applied essential addon: kube-proxy
 
@@ -154,4 +154,40 @@ kubectl apply -f calico.yaml
 
 ## 2 存储抽象
 
+### 2.1 环境准备
+
+#### 2.1.1 1、所有节点
+
+```shell
+#所有机器安装
+yum install -y nfs-utils
+```
+
+#### 2.1.2 2、主节点
+
+```shell
+# nfs主节点配置
+echo "/nfs/data/ *(insecure,rw,sync,no_root_squash)" > /etc/exports
+
+mkdir -p /nfs/data
+systemctl enable rpcbind --now
+systemctl enable nfs-server --now
+
+# 使配置生效
+exportfs -r
+```
+
+#### 2.1.3 3、从节点
+
+```shell
+# 查看有哪些文件夹可以挂载
+showmount -e 192.168.31.31
+
+#执行以下命令挂载 nfs 服务器上的共享目录到本机路径 /root/nfsmount
+mkdir -p /nfs/data
+mount -t nfs 192.168.31.31:/nfs/data /nfs/data
+
+# 写入一个测试文件
+echo "hello nfs server" > /nfs/data/test.txt
+```
 
