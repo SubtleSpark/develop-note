@@ -265,7 +265,7 @@ spec:
 ```
 
 `---` 代表分隔两个资源的配置，等效于将资源配置写到两个文件中分别 apply。
-storageClassName 可以自己指定，但要和
+storageClassName 可以自己指定，但要和后面 PVC 的配置相对应
 
 
 
