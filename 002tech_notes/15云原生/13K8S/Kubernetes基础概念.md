@@ -1,4 +1,4 @@
-## 1 安装
+## 1 安装 k8s
 官方文档
 https://kubernetes.io/zh-cn/docs/tasks/tools/install-kubectl-linux/#install-using-native-package-management
 
@@ -156,14 +156,14 @@ kubectl apply -f calico.yaml
 
 ### 2.1 环境准备
 
-#### 2.1.1 1、所有节点
+#### 2.1.1 所有节点
 
 ```shell
 #所有机器安装
 yum install -y nfs-utils
 ```
 
-#### 2.1.2 2、主节点
+#### 2.1.2 主节点
 
 ```shell
 # nfs主节点配置
@@ -177,7 +177,7 @@ systemctl enable nfs-server --now
 exportfs -r
 ```
 
-#### 2.1.3 3、从节点
+#### 2.1.3 从节点
 
 ```shell
 # 查看有哪些文件夹可以挂载
@@ -191,3 +191,33 @@ mount -t nfs 192.168.31.31:/nfs/data /nfs/data
 echo "hello nfs server" > /nfs/data/test.txt
 ```
 
+#### 2.1.4 mount 示例
+```yml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: nginx-pv-demo
+  name: nginx-pv-demo
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: nginx-pv-demo
+  template:
+    metadata:
+      labels:
+        app: nginx-pv-demo
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+        volumeMounts:
+        - name: html
+          mountPath: /usr/share/nginx/html
+      volumes:      # 定义数据卷的挂载方式
+        - name: html
+          nfs:      # 除了 nfs，还支持其他的挂载方式
+            server: 192.168.31.31
+            path: /nfs/data/nginx-pv
+```
