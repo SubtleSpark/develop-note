@@ -191,7 +191,7 @@ mount -t nfs 192.168.31.31:/nfs/data /nfs/data
 echo "hello nfs server" > /nfs/data/test.txt
 ```
 
-#### 2.1.4 mount 示例
+#### 2.1.4 原生方式数据挂载示例
 ```yml
 apiVersion: apps/v1
 kind: Deployment
@@ -223,11 +223,10 @@ spec:
 ```
 server 注意要配置为 nfs 服务端的 ip
 
-
-### 2.2 上面存储方式的缺点
+**原生数据挂载方式的缺点**
 - 挂载的文件夹要自己创建
 - pod 删除后，无法自动清理
-- 没有限制空间
+- 没有限制最大使用的空间
 
 
 
