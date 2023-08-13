@@ -291,4 +291,11 @@ spec:
 # 创建了一个叫做 nginx-pvc 的 PVC，需要 200M 使用 nfs（创建PV时使用的 storageClassName）
 ```
 
+## 3 调度
+为一个节点去除污点
+```shell
+# $node 为一个节点的 hostname，可以通过 kubectl get nodes -A 查看
 
+kubectl taint nodes $node node-role.kubernetes.io/master:NoSchedule-
+
+```
