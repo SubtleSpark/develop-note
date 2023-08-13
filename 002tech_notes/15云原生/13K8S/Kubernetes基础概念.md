@@ -234,7 +234,7 @@ server 注意要配置为 nfs 服务端的 ip
 > *PVC：持久卷申明（**Persistent Volume Claim**），申明需要使用的持久卷规格*
 
 #### 2.3.1 创建 PV 池（静态供应）
-下面的 yaml 创建了两个静态 PV。第一个叫 pv01-10m
+下面的 yaml 创建了两个静态 PV。第一个叫 pv01-10m，最大 10M，`ReadWriteMany`表示可同时被多个节点读写。
 
 
 ```yml
