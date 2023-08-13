@@ -234,6 +234,9 @@ server 注意要配置为 nfs 服务端的 ip
 > *PVC：持久卷申明（**Persistent Volume Claim**），申明需要使用的持久卷规格*
 
 #### 2.3.1 创建 PV 池（静态供应）
+下面的 yaml 创建了两个静态 PV。第一个叫 pv01-10m
+
+
 ```yml
 apiVersion: v1
 kind: PersistentVolume
@@ -247,7 +250,7 @@ spec:
   storageClassName: nfs
   nfs:
     path: /nfs/data/01
-    server: 172.31.0.4
+    server: 192.168.31.31
 ---
 apiVersion: v1
 kind: PersistentVolume
@@ -261,12 +264,31 @@ spec:
   storageClassName: nfs
   nfs:
     path: /nfs/data/02
-    server: 172.31.0.4
+    server: 192.168.31.31
 ```
 
 `---` 代表分隔两个 yaml 配置，等效于将资源配置写到两个文件中分别 apply。
-storageClassName 可以自己指定，但要和后面 PVC 的配置相对应
+storageClassName 可以自己指定，但要和后面 PVC 的配置相匹配。
+```shell
+# 查看创建的 PV 池
+kubectl get pv -A
+```
 
 
+#### 2.3.2 创建PVC
+```yaml
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: nginx-pvc
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 200Mi
+  storageClassName: nfs
+# 创建了一个 PVC 
+```
 
 
