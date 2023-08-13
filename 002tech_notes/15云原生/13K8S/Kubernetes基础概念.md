@@ -291,7 +291,58 @@ spec:
 # 创建了一个叫做 nginx-pvc 的 PVC，需要 200M 使用 nfs（创建PV时使用的 storageClassName）
 ```
 
-## 3 安装
+## 3 部署 dashboard
+```shell
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.6.1/aio/deploy/recommended.yaml
+```
+#### 3.1.1 设置访问端口
+
+```shell
+kubectl edit svc kubernetes-dashboard -n kubernetes-dashboard
+```
+
+type: ClusterIP 改为 type: NodePort
+
+```shell
+kubectl get svc -A |grep kubernetes-dashboard
+## 找到端口，在安全组放行
+```
+
+
+#### 3.1.2 创建访问账号
+
+```yaml
+#创建访问账号，准备一个yaml文件； vi dash.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: admin-user
+  namespace: kubernetes-dashboard
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: admin-user
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: cluster-admin
+subjects:
+- kind: ServiceAccount
+  name: admin-user
+  namespace: kubernetes-dashboard
+```
+
+```
+kubectl apply -f dash.yaml
+```
+
+#### 3.1.3 令牌访问
+```shell
+#获取访问令牌
+
+kubectl -n kubernetes-dashboard get secret $(kubectl -n kubernetes-dashboard get sa/admin-user -o jsonpath="{.secrets[0].name}") -o go-template="{{.data.token | base64decode}}"
+```
 
 ## 4 调度
 为一个节点去除污点
