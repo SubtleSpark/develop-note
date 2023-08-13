@@ -233,7 +233,7 @@ server 注意要配置为 nfs 服务端的 ip
 > *PV：持久卷（**Persistent Volume**），将应用需要持久化的数据保存到指定位置*
 > *PVC：持久卷申明（**Persistent Volume Claim**），申明需要使用的持久卷规格*
 
-#### 2.3.1 创建 PV 池
+#### 2.3.1 创建 PV 池（静态供应）
 ```yml
 apiVersion: v1
 kind: PersistentVolume
