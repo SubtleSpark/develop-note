@@ -288,7 +288,7 @@ spec:
     requests:
       storage: 200Mi
   storageClassName: nfs
-# 创建了一个 PVC 
+# 创建了一个叫做 nginx-pvc 的 PVC 需要 200M 使用 nfs（创建PV时使用的 storageClassName）
 ```
 
 
