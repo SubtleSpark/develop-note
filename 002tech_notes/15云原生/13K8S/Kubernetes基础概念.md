@@ -57,8 +57,8 @@ sudo systemctl enable --now kubelet
 
 ### 1.3 使用kubeadm引导集群
 #### 1.3.1 下载镜像
-`registry.aliyuncs.com/google_containers` 是定时同步kubernetes的镜像到阿里镜像仓库服务的，但只是K8S组件的镜像，阿里云镜像仓库有谷歌和RedHat的镜像，但是不全。
-当我们下载k8s.gcr.io，gcr.io镜像和quay.io镜像，可以把k8s.gcr.io，gcr.io， quay.io镜像换成阿里云镜像下载
+`registry.aliyuncs.com/google_containers` 是定时同步kubernetes 的镜像到阿里镜像仓库服务的，但只是K8S组件的镜像，阿里云镜像仓库有谷歌和RedHat的镜像，但是不全。
+当我们下载 k8s.gcr.io，gcr.io镜像和quay.io镜像，可以把k8s.gcr.io，gcr.io， quay.io 镜像换成阿里云镜像下载
 
 ```bash
 # 默认仓库可能连不上，查看阿里镜像
