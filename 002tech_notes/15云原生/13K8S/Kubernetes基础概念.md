@@ -350,5 +350,4 @@ kubectl -n kubernetes-dashboard get secret $(kubectl -n kubernetes-dashboard get
 # $node 为一个节点的 hostname，可以通过 kubectl get nodes -A 查看
 
 kubectl taint nodes $node node-role.kubernetes.io/master:NoSchedule-
-
 ```
