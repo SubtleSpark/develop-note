@@ -26,7 +26,7 @@ docker run -d -p 13306:3306 --privileged=true \
 -v /Users/jun/container/mysql/data:/var/lib/mysql \
 -v /Users/jun/container/mysql/conf:/etc/mysql/conf.d \
 -e MYSQL_ROOT_PASSWORD=123456 \
---name mysql arm64v8/mysql:8.0.28-oracle \
+--name mysql mysql:8.0.34 \
 --binlog-format=ROW
 ```
 - 好处：
