@@ -12,7 +12,7 @@ FrameworkServlet 实现了所有的 doGet、doPost、doDelete 等方法。这些
 3. 在`doService()`方法中，调用了`doDispatch()`。该方法是请求映射的核心。
 4. `DispatcherServlet`中的`handlerMappings`属性保存了所有的HandlerMapping。遍历所有的 HandlerMapping 获取可以处理该请求的 Handler。
 	1. 其中有一个RequestMappingHandlerMapping。RequestMappingHandlerMapping会根据@RequestMapping 注解标注的内容，将请求url -> 具体执行方法的映射保存在一个 Map 中。
-![[002tech_notes/04spring/springMVC/Untitled Diagram.svg]]
+![[002tech_notes/04spring/springMVC/请求调用链路.svg]]
 
 
 ## 2 参数处理源码

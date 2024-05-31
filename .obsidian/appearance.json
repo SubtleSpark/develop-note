@@ -3,5 +3,6 @@
   "translucency": true,
   "cssTheme": "Blue Topaz",
   "baseFontSize": 15,
-  "accentColor": ""
+  "accentColor": "",
+  "monospaceFontFamily": "Andale Mono"
 }
