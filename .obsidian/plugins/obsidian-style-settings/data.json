@@ -1,3 +1,9 @@
 {
-  "minimal-advanced@@cursor": "default"
+  "minimal-advanced@@cursor": "default",
+  "blue-topaz-theme@@hide-vault-name": false,
+  "blue-topaz-theme@@background-settings-workplace-background-image": true,
+  "blue-topaz-theme@@background-settings-workplace-theme-dark": "background-settings-workplace-theme-dark-night-sky",
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-default",
+  "blue-topaz-theme@@blur-depth": 15,
+  "blue-topaz-theme@@background-settings-workplace-theme-light": "background-settings-workplace-theme-light-leaf"
 }
