@@ -15,7 +15,7 @@ https://dev.mysql.com/doc/dev/mysql-server/latest/classmysql_1_1binlog_1_1event_
 
 > The buffer layout for fixed data part is as follows:
 > +-----------------------------------+
-> | table_id | Reserved for future use |
+> | table_id | Reserved for future use |> +-----------------------------------+
 > +-----------------------------------+
 > 
 > The buffer layout for variable data part is as follows:
@@ -23,6 +23,7 @@ https://dev.mysql.com/doc/dev/mysql-server/latest/classmysql_1_1binlog_1_1event_
 > | db len| db name | table len| table name | no of cols | array of col types| metadata len | metadata block | m_null_bits |
 > +----------------------------------------------------------------------------------------------------------------------+
 
+table map event 分为固定长度部分和变长部分
 
 #### 2.1.1 table map 中 metadata 部分字段只有在 binlog_row_matadata=FULL 时才有值。
 ![[attachments/Pasted image 20240721183235.png]]
