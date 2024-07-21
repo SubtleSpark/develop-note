@@ -13,7 +13,11 @@
 ### 2.1 table map event
 https://dev.mysql.com/doc/dev/mysql-server/latest/classmysql_1_1binlog_1_1event_1_1Table__map__event.html
 
-根据文档中 Detailed Description 。
+根据文档中 Detailed Description 作出如下示意图。固定长度部分  8 字节，剩下字节如图所示。
+
+m_null_bits 四舍五入到最接近的整数字节数，例如 13 个字段时，占用 2 byte ，但只有前 13 bit 有效
+TVL format
+
 ```
 The buffer layout for fixed data part is as follows:
 +-----------------------------------+
@@ -29,11 +33,11 @@ The buffer layout for variable data part is as follows:
 |   1B  |  db len |    1B    | table len  | packed integer |     1B * cols     |
 +------------------------------------------------------------------------------+
 
-+--------------------------------------------------------------------------+
-| metadata len   | metadata block | m_null_bits | optional metadata fields |
-+--------------------------------------------------------------------------+
-| packed integer | metadata len   | m_null_bits |
-+--------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------+
+| metadata len   | metadata block | m_null_bits                  | optional metadata fields |
++-------------------------------------------------------------------------------------------+
+| packed integer | metadata len   | (1b * cols) round up to byte |     TLV format           |
++-------------------------------------------------------------------------------------------+
 ```
 
 
