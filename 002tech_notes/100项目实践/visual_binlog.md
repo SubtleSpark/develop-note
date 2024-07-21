@@ -13,27 +13,29 @@
 ### 2.1 table map event
 https://dev.mysql.com/doc/dev/mysql-server/latest/classmysql_1_1binlog_1_1event_1_1Table__map__event.html
 
-
+根据文档中 Detailed Description 。
 ```
 The buffer layout for fixed data part is as follows:
 +-----------------------------------+
 | table_id | Reserved for future use|
 +-----------------------------------+
-|     6    |          2             |
+|   6B     |          2B            |
 +-----------------------------------+
 
 The buffer layout for variable data part is as follows:
 +------------------------------------------------------------------------------+
 | db len| db name | table len| table name | no of cols     | array of col types|
 +------------------------------------------------------------------------------+
-|   1   |  db len |    1     | table len  | packed integer | 1B  |
+|   1B  |  db len |    1B    | table len  | packed integer |     1B * cols     |
 +------------------------------------------------------------------------------+
 
-+---------------------------------------------+
-| metadata len | metadata block | m_null_bits |
-+---------------------------------------------+
++--------------------------------------------------------------------------+
+| metadata len   | metadata block | m_null_bits | optional metadata fields |
++--------------------------------------------------------------------------+
+| packed integer | metadata len   | m_null_bits |
++--------------------------------------------------------------------------+
 ```
-table map event 分为固定长度部分和变长部分
+
 
 #### 2.1.1 table map 中 metadata 部分字段只有在 binlog_row_matadata=FULL 时才有值。
 ![[attachments/Pasted image 20240721183235.png]]
