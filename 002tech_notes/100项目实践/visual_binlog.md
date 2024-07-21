@@ -15,8 +15,10 @@ https://dev.mysql.com/doc/dev/mysql-server/latest/classmysql_1_1binlog_1_1event_
 
 > The buffer layout for fixed data part is as follows:
 > +-----------------------------------+
-> | table_id | Reserved for future use |> +-----------------------------------+
+> | table_id | Reserved for future use |
 > +-----------------------------------+
+> |               |                                          |
+> +-----------------------------------+ 
 > 
 > The buffer layout for variable data part is as follows:
 > +----------------------------------------------------------------------------------------------------------------------+
