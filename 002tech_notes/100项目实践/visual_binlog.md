@@ -9,6 +9,6 @@ https://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&mid=2651747096&idx=1&sn=e561ce
 
 
 https://dev.mysql.com/doc/refman/8.0/en/mysqlbinlog.html
-
+https://dev.mysql.com/doc/refman/8.4/en/mysqlbinlog-row-events.html
 
 https://www.cnblogs.com/softidea/p/12624778.html
