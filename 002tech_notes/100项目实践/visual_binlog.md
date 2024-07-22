@@ -45,6 +45,7 @@ The buffer layout for variable data part is as follows:
 #### 2.1.1 table map 中 metadata 部分字段只有在 binlog_row_matadata=FULL 时才有值。
 ![[attachments/Pasted image 20240721183235.png]]
 
+### 2.2 zheng'
 
 
 ## 3 other
