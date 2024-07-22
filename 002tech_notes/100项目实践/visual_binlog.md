@@ -37,7 +37,7 @@ The buffer layout for variable data part is as follows:
 +-------------------------------------------------------------------------------------------+
 | metadata len   | metadata block | m_null_bits                  | optional metadata fields |
 +-------------------------------------------------------------------------------------------+
-| packed integer | metadata len   | (1b * cols) round up to byte |     TLV format           |
+| packed integer | metadata len   | (1b * cols) round up to byte |        TLV format        |
 +-------------------------------------------------------------------------------------------+
 ```
 
@@ -59,4 +59,5 @@ https://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&mid=2651747096&idx=1&sn=e561ce
 大小端处理后:    0x 59ad 9485
 转换10进制:       1504547973
 对应时间:           2017-9-5  01:59:33
+
 
