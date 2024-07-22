@@ -15,9 +15,9 @@ https://dev.mysql.com/doc/dev/mysql-server/latest/classmysql_1_1binlog_1_1event_
 
 根据文档中 Detailed Description 作出如下示意图。固定长度部分  8 字节，剩下字节如图所示。
 
-m_null_bits 四舍五入到最接近的整数字节数，例如 13 个字段时，占用 2 byte ，但只有前 13 bit 有效
-
-TVL format：
+m_null_bits:  四舍五入到最接近的整数字节数，例如 13 个字段时，占用 2 byte ，但只有前 13 bit 有效
+TVL format: Type, Length, Value(TLV) format. Type 占用 1 个字节。Length 是 packed integer。Value 占用 Length 字节。
+packed integer: [packed integer 描述](https://dev.mysql.com/doc/dev/mysql-server/latest/classmysql_1_1binlog_1_1event_1_1Binary__log__event.html#packed_integer)
 
 ```
 The buffer layout for fixed data part is as follows:
