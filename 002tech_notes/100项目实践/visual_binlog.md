@@ -1,13 +1,15 @@
 ## 1 参考资料
 
-| 来源方           | 文档地址                                                                                          | 备注  |     |
-| ------------- | --------------------------------------------------------------------------------------------- | --- | --- |
-| mysql develop | https://dev.mysql.com/doc/dev/mysql-server/latest/page_protocol_replication_binlog_event.html |     |     |
-|               |                                                                                               |     |     |
-| mysql server  | https://dev.mysql.com/doc/refman/8.0/en/mysqlbinlog.html                                      |     |     |
-| mysql server  | https://dev.mysql.com/doc/refman/8.4/en/mysqlbinlog-row-events.html                           |     |     |
-|               |                                                                                               |     |     |
-| 第三方           | https://www.cnblogs.com/softidea/p/12624778.html                                              |     |     |
+| 来源方           | 文档地址                                                                                          | 备注              |
+| ------------- | --------------------------------------------------------------------------------------------- | :-------------- |
+| mysql develop | https://dev.mysql.com/doc/dev/mysql-server/latest/page_protocol_replication_binlog_event.html |                 |
+|               |                                                                                               |                 |
+| mysql server  | https://dev.mysql.com/doc/refman/8.0/en/mysqlbinlog.html                                      |                 |
+| mysql server  | https://dev.mysql.com/doc/refman/8.4/en/mysqlbinlog-row-events.html                           |                 |
+| mysql server  | https://dev.mysql.com/doc/refman/8.0/en/show-binlog-events.html                               | show event 语句用法 |
+|               |                                                                                               |                 |
+| 第三方           | https://www.cnblogs.com/softidea/p/12624778.html                                              |                 |
+|               |                                                                                               |                 |
 
 ## 2 部分字段说明
 ### 2.1 table map event
