@@ -51,6 +51,17 @@ The buffer layout for variable data part is as follows:
 参考 :  https://dev.mysql.com/doc/dev/mysql-server/latest/classmysql_1_1binlog_1_1event_1_1Rows__event.html
 
 
+### 2.3 GTID
+有 GTID binlog
+![[attachments/Pasted image 20240731215757.png]]
+
+无 GTID binlog
+![[attachments/Pasted image 20240731215702.png]]
+
+
+
+
+
 
 
 
