@@ -51,14 +51,23 @@ The buffer layout for variable data part is as follows:
 参考 :  https://dev.mysql.com/doc/dev/mysql-server/latest/classmysql_1_1binlog_1_1event_1_1Rows__event.html
 
 
-### 2.3 GTID
+### 2.3 GTID 对 binlog 影响
+#### 2.3.1 格式
 有 GTID binlog
 ![[attachments/Pasted image 20240731215757.png]]
 
 无 GTID binlog
 ![[attachments/Pasted image 20240731215702.png]]
 
-
+#### 2.3.2 GTID 与 ANONYMOUS_GTID 的区别
+GTID：  
+全局事务标识符，用于唯一标识一个事务。
+由 server_uuid 和 transaction_id 组成，例如 3E11FA47-71CA-11E1-9E33-C80AA9429562:23。
+用于主从复制，确保每个事务在主库和从库中都有唯一的标识。
+ANONYMOUS_GTID：  
+匿名 GTID，用于在不启用 GTID 模式的情况下标识事务。
+当 gtid_mode 设置为 OFF 或 OFF_PERMISSIVE 时使用。
+不能用于主从复制，因为不具备全局唯一性。
 
 
 
