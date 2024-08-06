@@ -1,8 +1,3 @@
-# 使用docker 搭建 InnoDB Cluster
-
-这篇文章详细讲述了使用 docker 搭建 InnoDB Cluster 的步骤。文章提到要先搭建一组 mysql 组复制镜像。
-> https://github.com/wagnerjfr/mysql-group-replication-docker
-> https://github.com/wagnerjfr/mysql-innodb-cluster
 
 
 ## 1 MySQL Group Replication with Docker MySQL Images
