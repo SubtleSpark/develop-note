@@ -6,6 +6,27 @@ Page 是 MySQL 处理数据的基本单位
 - 只有mysql 初始化时可以修改，之后就再也不能改了
 
 ## InnoDB 行格式
+```sql
+CREATE TABLE t (
+    c1 VARCHAR(10),
+    c2 VARCHAR(10) NOT NULL,
+    c3 CHAR(10),
+    c4 VARCHAR(10)
+) CHARSET=ascii ROW_FORMAT=COMPACT;
+
+/*
+插入数据
+
++------+-----+------+------+
+| c1   | c2  | c3   | c4   |
++------+-----+------+------+
+| aaaa | bbb | cc   | d    |
+| eeee | fff | NULL | NULL |
++------+-----+------+------+
+
+*/
+```
+
 ### COMOACT 行格式
 #### 变长字段列表
 类似 `varchar(512)`、`TEXT`、`BLOB` 这种变长类型。对应的字段存储的字节数是不固定的。存储时，需要将这些字段占用的字节数也存起来，也就是说变长字段占用的存储空间分为两个部分
