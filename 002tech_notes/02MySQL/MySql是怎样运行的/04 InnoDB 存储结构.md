@@ -6,6 +6,7 @@ Page 是 MySQL 处理数据的基本单位
 - 只有mysql 初始化时可以修改，之后就再也不能改了
 
 ## InnoDB 行格式
+### record_format_demo 数据定义
 ```sql
 CREATE TABLE t (
     c1 VARCHAR(10),

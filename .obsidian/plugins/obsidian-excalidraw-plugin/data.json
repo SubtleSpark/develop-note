@@ -112,7 +112,7 @@
       }
     }
   },
-  "defaultTrayMode": false,
+  "defaultTrayMode": true,
   "previousRelease": "2.3.0",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
