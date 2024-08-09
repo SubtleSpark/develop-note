@@ -3,7 +3,7 @@
 Page 是 MySQL 处理数据的基本单位
 - 系统变量 innodb_page_size 设置了一个 page 的大小
 - 默认 16284 即 16KB
-- 只有mysql 初始化时可以修改，之后就再也不能改了
+- 只有mysql 初始化时可以修改，之后就再也不能改了 ^pKnXOtQH
 
 ## 2 InnoDB 行格式
 ### 2.1 record_format_demo 数据定义
