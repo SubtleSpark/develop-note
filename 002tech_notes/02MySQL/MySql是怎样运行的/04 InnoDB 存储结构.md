@@ -32,8 +32,16 @@ CREATE TABLE t (
 #### 2.2.1 变长字段列表
 类似 `varchar(512)`、`TEXT`、`BLOB` 这种变长类型。对应的字段存储的字节数是不固定的。存储时，需要将这些字段占用的字节数也存起来。
 COMOACT 行格式中，各变长字段的字节数存储在头部，形成一个变长字段长度列表，并且按照列的顺序**逆序存放**。
-> 每个长度的存储格式类似 [packed_integer](https://dev.mysql.com/doc/dev/mysql-server/latest/classmysql_1_1binlog_1_1event_1_1Binary__log__event.html#packed_integer) ，也是变长，但具体规则不同。
-> 当字段的最大可能的长度（如C1：`10 * 2 = 20`）
+
+每个长度的存储格式类似 [packed_integer](https://dev.mysql.com/doc/dev/mysql-server/latest/classmysql_1_1binlog_1_1event_1_1Binary__log__event.html#packed_integer) ，也是变长，但具体规则不同。
+
+
+
+
+- 当字段的最大可能的长度（如C1：`10 * 1(ascii一个字符的字节数) = 10`）<= 255 时，只需要一个字节存储
+- 当字段的最大可能的长度 > 255 时，需要两个字节存储
+  - 如果L <= 127，则用1个字节来表示真正字符串占用的字节数。
+  - 如果L > 127，则用2个字节来表示真正字符串占用的字节数。
 
 #### NULL 值列表
 
