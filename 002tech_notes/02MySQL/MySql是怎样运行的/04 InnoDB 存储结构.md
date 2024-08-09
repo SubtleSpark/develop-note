@@ -34,7 +34,7 @@ CREATE TABLE t (
 - 真正的数据
 - 数据占用的字节数
 COMOACT 行格式中，各变长字段的字节数存储在头部，形成一个变长字段长度列表，并且按照列的顺序**逆序存放**。
-> 推测每个长度使用 [packed_integer](https://dev.mysql.com/doc/dev/mysql-server/latest/classmysql_1_1binlog_1_1event_1_1Binary__log__event.html#packed_integer) 格式存储，暂时没有找到文档出处。
+> 每个长度的存储格式类似 [packed_integer](https://dev.mysql.com/doc/dev/mysql-server/latest/classmysql_1_1binlog_1_1event_1_1Binary__log__event.html#packed_integer) ，也是变长，但具体规则不同。
 
 
 
