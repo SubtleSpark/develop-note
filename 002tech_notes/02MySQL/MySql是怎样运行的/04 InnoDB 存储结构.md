@@ -89,7 +89,11 @@ MySQL 会将每一列的真实数据按照正序存放在记录头信息之后�
 2. 选取一个不允许为 NULL 的 UNIQUE 键为主键，联合索引时每个字段都不允许为 NULL
 3. 没有合适的键，InnoDB 会自动生成一个隐藏的主键 row_id
 
-### DYNAMIC 行格式
+##### 示例数据说明
+![[Excalidraw/InnoDB存储结构 2024-08-08 22.52.11.excalidraw.md#^group=jdmRMVhuAJIJOAI3IisFA|COMPACT 格式示例数据]]
 
+![[Excalidraw/InnoDB存储结构 2024-08-08 22.52.11.excalidraw.md#^area=jdmRMVhuAJIJOAI3IisFA]]
+
+### DYNAMIC 行格式
 
 
