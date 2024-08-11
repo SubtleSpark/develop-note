@@ -75,7 +75,7 @@ CREATE TABLE t (
 | next_record  |      16 | 表示下一条记录的相对位置                                                               |
 
 #### 真实数据
-
+MySQL 会将每一列的真实数据
 
 
 
