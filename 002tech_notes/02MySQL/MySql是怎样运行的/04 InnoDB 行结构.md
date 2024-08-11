@@ -88,7 +88,7 @@ MySQL 会将每一列的真实数据按照正序存放在记录头信息之后�
 
 ##### 示例数据说明
 [[002tech_notes/02MySQL/MySql是怎样运行的/04 InnoDB 行结构#record_format_demo 数据定义|示例数据]]
-![[Excalidraw/InnoDB存储结构 2024-08-08 22.52.11.excalidraw.md#^group=jdmRMVhuAJIJOAI3IisFA|COMPACT 格式示例数据|1000]]
+![[Excalidraw/InnoDB行结构.excalidraw#^group=jdmRMVhuAJIJOAI3IisFA|COMPACT 格式示例数据|1000]]
 
 - ascii 字符集 'a'=0x61, 'b'=0x62 ....，空格=0x20。
 - 第一行记录，C3 列为 `CHAR(10)`，不足 10 个字符，后面用空格填充。
