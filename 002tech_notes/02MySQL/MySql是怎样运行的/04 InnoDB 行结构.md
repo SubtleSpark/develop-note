@@ -87,7 +87,7 @@ MySQL 会将每一列的真实数据按照正序存放在记录头信息之后�
 3. 没有合适的键，InnoDB 会自动生成一个隐藏的主键 row_id
 
 ##### 示例数据说明
-[[002tech_notes/02MySQL/MySql是怎样运行的/04 InnoDB 存储结构#record_format_demo 数据定义|示例数据]]
+[[002tech_notes/02MySQL/MySql是怎样运行的/04 InnoDB 行结构#record_format_demo 数据定义|示例数据]]
 ![[Excalidraw/InnoDB存储结构 2024-08-08 22.52.11.excalidraw.md#^group=jdmRMVhuAJIJOAI3IisFA|COMPACT 格式示例数据|1000]]
 
 - ascii 字符集 'a'=0x61, 'b'=0x62 ....，空格=0x20。
@@ -106,7 +106,3 @@ MySQL 默认的格式。与 COMPACT 格式很像，只有溢出列的存储方�
 ### COMPRESSED 行格式
 相比 DYNAMIC 行格式，COMPRESSED 行格式会对数据进行压缩存储，减少存储空间。但是由于压缩算法的存在，会导致读取数据时需要解压，会增加 CPU 的消耗。
 
-
-## 总结
-| 行格式     | DYNAMIC                 | COMPRESSED                        |
-| :------- | :------------------- | :-------------------------- |
