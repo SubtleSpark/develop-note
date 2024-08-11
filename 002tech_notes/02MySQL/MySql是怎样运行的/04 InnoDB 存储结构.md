@@ -1,11 +1,10 @@
-![[Excalidraw/InnoDB存储结构 2024-08-08 22.52.11.excalidraw|InnoDB存储结构 2024-08-08 22.52.11.excalidraw]]
 ## 基本认识
 Page 是 MySQL 处理数据的基本单位
 - 系统变量 innodb_page_size 设置了一个 page 的大小
 - 默认 16284 即 16KB
 - 只有mysql 初始化时可以修改，之后就再也不能改了
 
-##  InnoDB 行格式
+## InnoDB 行格式
 ### record_format_demo 数据定义
 ```sql
 CREATE TABLE t (
@@ -104,7 +103,10 @@ MySQL 默认的格式。与 COMPACT 格式很像，只有溢出列的存储方�
 - COMPACT 格式中，溢出列的数据有 768 字节存储在记录中，剩余的存储在溢出页中。
 - DYNAMIC 格式中，溢出列的数据都存储在溢出页中，记录中只存储 20 字节的溢出指针。
 
+### COMPRESSED 行格式
+相比 DYNAMIC 行格式，COMPRESSED 行格式会对数据进行压缩存储，减少存储空间。但是由于压缩算法的存在，会导致读取数据时需要解压，会增加 CPU 的消耗。
 
 
-
-
+## 总结
+| 行格式     | DYNAMIC                 | COMPRESSED                        |
+| :------- | :------------------- | :-------------------------- |
