@@ -86,6 +86,8 @@ MySQL 会将每一列的真实数据按照正序存放在记录头信息之后�
 2. 选取一个不允许为 NULL 的 UNIQUE 键为主键，联合索引时每个字段都不允许为 NULL
 3. 没有合适的键，InnoDB 会自动生成一个隐藏的主键 row_id
 
+如果 1 2 两步可以找到主键，那么 这些列会被提前至 row_id 的地方，即 trx_id 前面。
+
 ##### 示例数据说明
 [[002tech_notes/02MySQL/MySql是怎样运行的/04 InnoDB 行结构#record_format_demo 数据定义|示例数据]]
 ![[Excalidraw/InnoDB行结构.excalidraw#^group=jdmRMVhuAJIJOAI3IisFA|COMPACT 格式示例数据|1000]]
