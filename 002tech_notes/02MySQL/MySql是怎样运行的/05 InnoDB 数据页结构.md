@@ -25,6 +25,9 @@ VALUES (1, 100, 'aaaa'),
        (2, 200, 'bbbb'),
        (3, 300, 'cccc'),
        (4, 400, 'dddd');
+
+DELETE FROM page_demo WHERE c1 = 2;
+
 ```
 
 
