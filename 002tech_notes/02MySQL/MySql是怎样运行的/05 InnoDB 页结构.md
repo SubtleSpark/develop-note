@@ -79,5 +79,29 @@ Page Directory 和 用户记录组成了一个跳表。遵循以下的规则，�
 
 ## File Header（文件头部）
 
+| 名称                                 | 占用空间大小 | 描述                                          |
+| :--------------------------------- | :----: | :------------------------------------------ |
+| `FIL_PAGE_SPACE_OR_CHKSUM`         | `4`字节  | 页的校验和（checksum值）                            |
+| `FIL_PAGE_OFFSET`                  | `4`字节  | 页号。`InnoDB`通过页号来可以唯一定位一个`页`。                |
+| `FIL_PAGE_PREV`                    | `4`字节  | 上一个页的页号                                     |
+| `FIL_PAGE_NEXT`                    | `4`字节  | 下一个页的页号                                     |
+| `FIL_PAGE_LSN`                     | `8`字节  | 页面被最后修改时对应的日志序列位置（英文名是：Log Sequence Number） |
+| `FIL_PAGE_TYPE`                    | `2`字节  | 该页的类型                                       |
+| `FIL_PAGE_FILE_FLUSH_LSN`          | `8`字节  | 仅在系统表空间的一个页中定义，代表文件至少被刷新到了对应的LSN值           |
+| `FIL_PAGE_ARCH_LOG_NO_OR_SPACE_ID` | `4`字节  | 页属于哪个表空间                                    |
 
+### FIL_PAGE_TYPE 枚举
 
+| 类型名称                      |  十六进制  | 描述                |
+| :------------------------ | :----: | :---------------- |
+| `FIL_PAGE_TYPE_ALLOCATED` | 0x0000 | 最新分配，还没使用         |
+| `FIL_PAGE_UNDO_LOG`       | 0x0002 | Undo日志页           |
+| `FIL_PAGE_INODE`          | 0x0003 | 段信息节点             |
+| `FIL_PAGE_IBUF_FREE_LIST` | 0x0004 | Insert Buffer空闲列表 |
+| `FIL_PAGE_IBUF_BITMAP`    | 0x0005 | Insert Buffer位图   |
+| `FIL_PAGE_TYPE_SYS`       | 0x0006 | 系统页               |
+| `FIL_PAGE_TYPE_TRX_SYS`   | 0x0007 | 事务系统数据            |
+| `FIL_PAGE_TYPE_FSP_HDR`   | 0x0008 | 表空间头部信息           |
+| `FIL_PAGE_TYPE_XDES`      | 0x0009 | 扩展描述页             |
+| `FIL_PAGE_TYPE_BLOB`      | 0x000A | BLOB页             |
+| `FIL_PAGE_INDEX`          | 0x45BF | 索引页，也就是我们所说的`数据页` |
