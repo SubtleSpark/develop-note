@@ -70,14 +70,14 @@ Page Directory 和 用户记录组成了一个跳表。遵循以下的规则，�
 | `PAGE_BTR_SEG_LEAF` | `10`字节 | B+树叶子段的头部信息，仅在B+树的Root页定义                                          |
 | `PAGE_BTR_SEG_TOP`  | `10`字节 | B+树非叶子段的头部信息，仅在B+树的Root页定义                                         |
 
-`PAGE_N_DIR_SLOTS`到`PAGE_LAST_INSERT`以及`PAGE_N_RECS`的意思大家一定是清
-
 **PAGE_DIRECTION**
 假如新插入的一条记录的主键值比上一条记录的主键值大，我们说这条记录的插入方向是右边，反之则是左边。用来表示最后一条记录插入方向的状态就是`PAGE_DIRECTION`
 
 **PAGE_N_DIRECTION**
 假设连续几次插入新记录的方向都是一致的，`InnoDB`会把沿着同一个方向插入记录的条数记下来，这个条数就用`PAGE_N_DIRECTION`这个状态表示。当然，如果最后一条记录的插入方向改变了的话，这个状态的值会被清零重新统计。
 
+
+## ## File Header（文件头部）
 
 
 
