@@ -32,7 +32,9 @@ DELETE FROM page_demo WHERE c1 = 2;
 
 ## Infimum、 Supremum、 User Records
 - Infimum、 Supremum 是 innodb 自动添加的伪记录
-- 
+- next record 串联的链表会跳过被删除的记录
+- 被删除的记录会被标记为删除，但是不会立即释放空间，而是等到整个页的空间不够用时才会进行整理
+- 删除的数据
 
 
 ## Page Directory（页目录）
