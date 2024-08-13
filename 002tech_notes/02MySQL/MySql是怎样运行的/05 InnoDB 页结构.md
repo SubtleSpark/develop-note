@@ -27,14 +27,13 @@ VALUES (1, 100, 'aaaa'),
        (4, 400, 'dddd');
 
 DELETE FROM page_demo WHERE c1 = 2;
-
 ```
 
 ## Infimum、 Supremum、 User Records
-- Infimum、 Supremum 是 innodb 自动添加的伪记录
-- next record 串联的链表会跳过被删除的记录
-- 被删除的记录会被标记为删除，但是不会立即释放空间，而是等到整个页的空间不够用时才会进行整理
-- 删除的数据
+- Infimum、 Supremum 是 innodb 自动添加的伪记录。
+- next record 串联的链表会跳过被删除的记录。
+- 被删除的记录会被标记为删除，但是不会立即释放空间。
+- 所有被删除掉的记录都会组成一个所谓的垃圾链表，在这个链表中的记录占用的空间称之为所谓的可重用空间，之后如果有新记录插入到表中的话，可能把这些被删除的记录占用的存储空间覆盖掉。
 
 
 ## Page Directory（页目录）
