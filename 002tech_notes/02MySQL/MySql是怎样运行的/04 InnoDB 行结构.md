@@ -32,7 +32,10 @@ CREATE TABLE t (
 ```
 
 ### COMPACT 行格式
-![[Excalidraw/InnoDB行结构.excalidraw#area=COMPACT行格式|2000]]
+#### 官方文档
+https://dev.mysql.com/doc/refman/8.4/en/innodb-row-format.html#innodb-row-format-compact
+
+![[Excalidraw/InnoDB存储结构.excalidraw#area=COMPACT行格式|2000]]
 ####  变长字段列表
 类似 `varchar(512)`、`TEXT`、`BLOB` 这种变长类型。对应的字段存储的字节数是不固定的。存储时，需要将这些字段占用的字节数也存起来。COMOACT 行格式中，各变长字段的字节数存储在头部，形成一个变长字段长度列表，并且按照列的顺序**逆序存放**。
 
@@ -98,7 +101,7 @@ MySQL 会将每一列的真实数据按照正序存放在记录头信息之后�
 
 ##### 示例数据说明
 [[002tech_notes/02MySQL/MySql是怎样运行的/04 InnoDB 行结构#record_format_demo 数据定义|示例数据]]
-![[Excalidraw/InnoDB行结构.excalidraw#^group=jdmRMVhuAJIJOAI3IisFA|COMPACT 格式示例数据|1000]]
+![[Excalidraw/InnoDB存储结构.excalidraw#^group=jdmRMVhuAJIJOAI3IisFA|COMPACT 格式示例数据|1000]]
 
 - ascii 字符集 'a'=0x61, 'b'=0x62 ....，空格=0x20。
 - 第一行记录，C3 列为 `CHAR(10)`，不足 10 个字符，后面用空格填充。
