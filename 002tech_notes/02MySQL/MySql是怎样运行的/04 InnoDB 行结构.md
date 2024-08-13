@@ -32,7 +32,7 @@ CREATE TABLE t (
 ```
 
 ### COMPACT 行格式
-![[Excalidraw/InnoDB行结构.excalidraw#group=COMPACT行格式|2000]]
+![[Excalidraw/InnoDB行结构.excalidraw#area=COMPACT行格式|2000]]
 ####  变长字段列表
 类似 `varchar(512)`、`TEXT`、`BLOB` 这种变长类型。对应的字段存储的字节数是不固定的。存储时，需要将这些字段占用的字节数也存起来。COMOACT 行格式中，各变长字段的字节数存储在头部，形成一个变长字段长度列表，并且按照列的顺序**逆序存放**。
 
