@@ -51,5 +51,5 @@ Page Directory 和 用户记录组成了一个跳表。遵循以下的规则，�
 
 
 ## Page Header
-![[Excalidraw/InnoDB行结构.excalidraw#group=COMPACT行格式|2000]]
+
 
