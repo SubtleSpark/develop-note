@@ -100,7 +100,7 @@ MySQL 会将每一列的真实数据按照正序存放在记录头信息之后�
 如果 1 2 两步可以找到主键，那么这些列会被提前至 row_id 的地方，即 trx_id 前面。
 
 ##### 示例数据说明
-[[002tech_notes/02MySQL/MySql是怎样运行的/04 InnoDB 行结构#record_format_demo 数据定义|示例数据]]
+[[002tech_notes/02MySQL/MySql是怎样运行的/04 InnoDB 行结构#record_format_demo 数据定义|示例数据参照上方的定义]]
 
 ![[Excalidraw/InnoDB存储结构.excalidraw#area=COMPACT行格式记录示例|2000]]
 
