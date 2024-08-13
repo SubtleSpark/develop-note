@@ -1,3 +1,7 @@
+---
+tags:
+  - "#mysql"
+---
 ## 基本认识
 Page 是 MySQL 处理数据的基本单位
 - 系统变量 innodb_page_size 设置了一个 page 的大小
