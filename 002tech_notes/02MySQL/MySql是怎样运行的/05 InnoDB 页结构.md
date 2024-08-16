@@ -106,3 +106,8 @@ Page Directory 和 用户记录组成了一个跳表。遵循以下的规则，�
 | `FIL_PAGE_TYPE_XDES`      | 0x0009 | 扩展描述页             |
 | `FIL_PAGE_TYPE_BLOB`      | 0x000A | BLOB页             |
 | `FIL_PAGE_INDEX`          | 0x45BF | 索引页，也就是我们所说的`数据页` |
+
+
+
+
+
