@@ -77,7 +77,7 @@ Page Directory 和 用户记录组成了一个跳表。遵循以下的规则，�
 假设连续几次插入新记录的方向都是一致的，`InnoDB`会把沿着同一个方向插入记录的条数记下来，这个条数就用`PAGE_N_DIRECTION`这个状态表示。当然，如果最后一条记录的插入方向改变了的话，这个状态的值会被清零重新统计。
 
 
-## File Header（文件头部）
+## File Header（通用属性）
 ###  File Header 所有字段
 
 | 名称                                 | 占用空间大小 | 描述                                          |
@@ -93,22 +93,26 @@ Page Directory 和 用户记录组成了一个跳表。遵循以下的规则，�
 
 ### FIL_PAGE_TYPE 枚举
 
-| 类型名称                      |  十六进制  | 描述                |
-| :------------------------ | :----: | :---------------- |
-| `FIL_PAGE_TYPE_ALLOCATED` | 0x0000 | 最新分配，还没使用         |
-| `FIL_PAGE_UNDO_LOG`       | 0x0002 | Undo日志页           |
-| `FIL_PAGE_INODE`          | 0x0003 | 段信息节点             |
-| `FIL_PAGE_IBUF_FREE_LIST` | 0x0004 | Insert Buffer空闲列表 |
-| `FIL_PAGE_IBUF_BITMAP`    | 0x0005 | Insert Buffer位图   |
-| `FIL_PAGE_TYPE_SYS`       | 0x0006 | 系统页               |
-| `FIL_PAGE_TYPE_TRX_SYS`   | 0x0007 | 事务系统数据            |
-| `FIL_PAGE_TYPE_FSP_HDR`   | 0x0008 | 表空间头部信息           |
-| `FIL_PAGE_TYPE_XDES`      | 0x0009 | 扩展描述页             |
-| `FIL_PAGE_TYPE_BLOB`      | 0x000A | BLOB页             |
-| `FIL_PAGE_INDEX`          | 0x45BF | 索引页，也就是我们所说的`数据页` |
+| 类型名称                      |  十六进制  | 描述                  |
+| :------------------------ | :----: | :------------------ |
+| `FIL_PAGE_TYPE_ALLOCATED` | 0x0000 | 最新分配，还没使用           |
+| `FIL_PAGE_UNDO_LOG`       | 0x0002 | Undo日志页             |
+| `FIL_PAGE_INODE`          | 0x0003 | 段信息节点               |
+| `FIL_PAGE_IBUF_FREE_LIST` | 0x0004 | Insert Buffer空闲列表   |
+| `FIL_PAGE_IBUF_BITMAP`    | 0x0005 | Insert Buffer位图     |
+| `FIL_PAGE_TYPE_SYS`       | 0x0006 | 系统页                 |
+| `FIL_PAGE_TYPE_TRX_SYS`   | 0x0007 | 事务系统数据              |
+| `FIL_PAGE_TYPE_FSP_HDR`   | 0x0008 | 表空间头部信息             |
+| `FIL_PAGE_TYPE_XDES`      | 0x0009 | 扩展描述页               |
+| `FIL_PAGE_TYPE_BLOB`      | 0x000A | BLOB页 （溢出页）         |
+| `FIL_PAGE_INDEX`          | 0x45BF | 索引页，也就是我们所说的**数据页** |
 
-## File Trailer
-用于校验页的完整性
+## File Trailer（通用属性）
+用于校验页的完整性，总共 8 字节
 
 - 前4个字节代表页的校验和
+- 后4个字节表示页面最后修改时对应 LSN 的后 4 字节，正常情况下与 Header 的 `FIL_PAGE_LSN` 属性相同
+
+
+
 
