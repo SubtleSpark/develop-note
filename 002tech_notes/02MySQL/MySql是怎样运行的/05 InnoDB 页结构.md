@@ -80,16 +80,16 @@ Page Directory 和 用户记录组成了一个跳表。遵循以下的规则，�
 ## File Header（文件头部）
 ###  File Header 所有字段
 
-| 名称                                 | 占用空间大小 | 描述                                          |
-| :--------------------------------- | :----: | :------------------------------------------ |
-| `FIL_PAGE_SPACE_OR_CHKSUM`         | `4`字节  | 页的校验和（checksum值）                            |
-| `FIL_PAGE_OFFSET`                  | `4`字节  | 页号。`InnoDB`通过页号来可以唯一定位一个`页`。                |
-| `FIL_PAGE_PREV`                    | `4`字节  | 上一个页的页号                                     |
-| `FIL_PAGE_NEXT`                    | `4`字节  | 下一个页的页号                                     |
-| `FIL_PAGE_LSN`                     | `8`字节  | 页面被最后修改时对应的日志序列位置（英文名是：Log Sequence Number） |
-| `FIL_PAGE_TYPE`                    | `2`字节  | 该页的类型                                       |
-| `FIL_PAGE_FILE_FLUSH_LSN`          | `8`字节  | 仅在系统表空间的一个页中定义，代表文件至少被刷新到了对应的LSN值           |
-| `FIL_PAGE_ARCH_LOG_NO_OR_SPACE_ID` | `4`字节  | 页属于哪个表空间                                    |
+| 名称                                 | 占用空间大小 | 描述                                          | 重点部分 |
+| :--------------------------------- | :----: | :------------------------------------------ | :--- |
+| `FIL_PAGE_SPACE_OR_CHKSUM`         | `4`字节  | 页的校验和（checksum值）                            |      |
+| `FIL_PAGE_OFFSET`                  | `4`字节  | 页号。`InnoDB`通过页号来可以唯一定位一个`页`。                |      |
+| `FIL_PAGE_PREV`                    | `4`字节  | 上一个页的页号                                     | Y    |
+| `FIL_PAGE_NEXT`                    | `4`字节  | 下一个页的页号                                     | Y    |
+| `FIL_PAGE_LSN`                     | `8`字节  | 页面被最后修改时对应的日志序列位置（英文名是：Log Sequence Number） |      |
+| `FIL_PAGE_TYPE`                    | `2`字节  | 该页的类型                                       |      |
+| `FIL_PAGE_FILE_FLUSH_LSN`          | `8`字节  | 仅在系统表空间的一个页中定义，代表文件至少被刷新到了对应的LSN值           |      |
+| `FIL_PAGE_ARCH_LOG_NO_OR_SPACE_ID` | `4`字节  | 页属于哪个表空间                                    |      |
 
 ### FIL_PAGE_TYPE 枚举
 
