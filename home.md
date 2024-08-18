@@ -5,6 +5,6 @@ from "002tech_notes"
 sort file.mtime desc limit 10
 ```
 ## 2 todo
-em 典范，浏览器插件，刷新碰到指定关键词，立即下单
-visualbinlogj 可视化 MySQL binlog
+- [x] em 典范，浏览器插件，刷新碰到指定关键词，立即下单
+- [ ] visualbinlogj 可视化 MySQL binlog
 
