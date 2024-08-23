@@ -47,6 +47,6 @@
 
 ### 一个页面最少存储2条记录
 [一个页面最少存储2条记录](https://github.com/Relph1119/mysql-learning-notes/blob/master/docs/mysql/06-%E5%BF%AB%E9%80%9F%E6%9F%A5%E8%AF%A2%E7%9A%84%E7%A7%98%E7%B1%8D-B%2B%E6%A0%91%E7%B4%A2%E5%BC%95.md#%E4%B8%80%E4%B8%AA%E9%A1%B5%E9%9D%A2%E6%9C%80%E5%B0%91%E5%AD%98%E5%82%A82%E6%9D%A1%E8%AE%B0%E5%BD%95)
-
+如果可以只存储1条记录，最差的情况可能导致整个B+树无限深，使查询效率裂化
 
 
