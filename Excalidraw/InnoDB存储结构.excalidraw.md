@@ -2093,6 +2093,14 @@ K2 ^b8ygm2IG
 获取到某个主键后，
 再根据主键去聚簇索引中获取数据 ^URoamZVY
 
+。。。 ^KTAYffEt
+
+。。。 ^pKBPSGe1
+
+。。。 ^w1kRGQqh
+
+。。。 ^YCVHuLr0
+
 ## Element Links
 ryoCfcEo: [[002tech_notes/02MySQL/MySql是怎样运行的/04 InnoDB 行结构# record_format_demo 数据定义]]
 0CI0qGdi: [[002tech_notes/02MySQL/MySql是怎样运行的/04 InnoDB 行结构#记录字段说明]]
@@ -2111,8 +2119,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 	"elements": [
 		{
 			"type": "rectangle",
-			"version": 998,
-			"versionNonce": 1794207323,
+			"version": 1027,
+			"versionNonce": 1749769461,
 			"index": "bFE",
 			"isDeleted": false,
 			"id": "4uaDw5luUQiYRMTV-GD0v",
@@ -2140,14 +2148,14 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 					"id": "diaP3AfR"
 				}
 			],
-			"updated": 1724393087155,
+			"updated": 1724393944223,
 			"link": null,
-			"locked": false
+			"locked": true
 		},
 		{
 			"type": "text",
-			"version": 764,
-			"versionNonce": 84470523,
+			"version": 793,
+			"versionNonce": 442292443,
 			"index": "bFF",
 			"isDeleted": false,
 			"id": "diaP3AfR",
@@ -2168,9 +2176,9 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1724393087155,
+			"updated": 1724393944223,
 			"link": null,
-			"locked": false,
+			"locked": true,
 			"fontSize": 36,
 			"fontFamily": 6,
 			"text": "# 二级索引结构",
@@ -82101,8 +82109,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		},
 		{
 			"type": "rectangle",
-			"version": 1443,
-			"versionNonce": 1410701467,
+			"version": 1445,
+			"versionNonce": 259297173,
 			"index": "c1IO",
 			"isDeleted": false,
 			"id": "OUv1VLVvLQAuAUnXTVWTN",
@@ -82132,9 +82140,17 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				{
 					"id": "j6_0a57Ytc7hCQdHtFioS",
 					"type": "arrow"
+				},
+				{
+					"id": "s7AeQhIHAsp_kJ7yXOa-e",
+					"type": "arrow"
+				},
+				{
+					"id": "pal60M-GZM91Ptaz1piFA",
+					"type": "arrow"
 				}
 			],
-			"updated": 1724393087160,
+			"updated": 1724393871547,
 			"link": null,
 			"locked": false
 		},
@@ -82555,8 +82571,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		},
 		{
 			"type": "rectangle",
-			"version": 1625,
-			"versionNonce": 797715643,
+			"version": 1629,
+			"versionNonce": 1477592117,
 			"index": "c1Ia",
 			"isDeleted": false,
 			"id": "fbhVfFpETVk-sBETsVqWn",
@@ -82582,24 +82598,16 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				{
 					"id": "HKojWac6",
 					"type": "text"
-				},
-				{
-					"id": "ahGHpLQHFzS-DzHdB98vA",
-					"type": "arrow"
-				},
-				{
-					"id": "PwesKgmiAr_O0sMYKAJCD",
-					"type": "arrow"
 				}
 			],
-			"updated": 1724393087160,
+			"updated": 1724393939680,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1517,
-			"versionNonce": 947707227,
+			"version": 1520,
+			"versionNonce": 474678683,
 			"index": "c1Ib",
 			"isDeleted": false,
 			"id": "HKojWac6",
@@ -82610,7 +82618,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 			"opacity": 100,
 			"angle": 0,
 			"x": -13114.5479824543,
-			"y": -4134.300000000001,
+			"y": -4134.3,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#ffc9c9",
 			"width": 129.09596490859985,
@@ -82622,7 +82630,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 			"frameId": null,
 			"roundness": null,
 			"boundElements": null,
-			"updated": 1724393087160,
+			"updated": 1724393939680,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -82743,8 +82751,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		},
 		{
 			"type": "arrow",
-			"version": 5131,
-			"versionNonce": 231386517,
+			"version": 5135,
+			"versionNonce": 1194893333,
 			"index": "c1If",
 			"isDeleted": false,
 			"id": "w4c8s_iVNJWhtIYS4wjrn",
@@ -82769,7 +82777,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				"type": 2
 			},
 			"boundElements": null,
-			"updated": 1724393088293,
+			"updated": 1724393853293,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -82801,8 +82809,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		},
 		{
 			"type": "arrow",
-			"version": 5054,
-			"versionNonce": 707923029,
+			"version": 5058,
+			"versionNonce": 161832661,
 			"index": "c1Ig",
 			"isDeleted": false,
 			"id": "tYsqPN0tJHfBNKhBQXYDe",
@@ -82827,7 +82835,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				"type": 2
 			},
 			"boundElements": null,
-			"updated": 1724393088295,
+			"updated": 1724393853293,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -82859,8 +82867,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		},
 		{
 			"type": "arrow",
-			"version": 5087,
-			"versionNonce": 1373682453,
+			"version": 5091,
+			"versionNonce": 1568763285,
 			"index": "c1Ih",
 			"isDeleted": false,
 			"id": "0lAgZeYW_K_L259Cgx8zj",
@@ -82885,7 +82893,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				"type": 2
 			},
 			"boundElements": null,
-			"updated": 1724393088295,
+			"updated": 1724393853294,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -82917,8 +82925,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		},
 		{
 			"type": "arrow",
-			"version": 4999,
-			"versionNonce": 927119829,
+			"version": 5003,
+			"versionNonce": 188271701,
 			"index": "c1Ii",
 			"isDeleted": false,
 			"id": "-IyL4oellKBctgj-0_Tnr",
@@ -82943,7 +82951,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				"type": 2
 			},
 			"boundElements": null,
-			"updated": 1724393088296,
+			"updated": 1724393853294,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -82975,8 +82983,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		},
 		{
 			"type": "arrow",
-			"version": 4957,
-			"versionNonce": 1640237205,
+			"version": 4961,
+			"versionNonce": 808942357,
 			"index": "c1Ij",
 			"isDeleted": false,
 			"id": "id6czQivqsz_buqwBYppu",
@@ -83001,7 +83009,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				"type": 2
 			},
 			"boundElements": null,
-			"updated": 1724393088297,
+			"updated": 1724393853295,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -83274,8 +83282,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		},
 		{
 			"type": "arrow",
-			"version": 5222,
-			"versionNonce": 1842390869,
+			"version": 5226,
+			"versionNonce": 2129230293,
 			"index": "c1Iq",
 			"isDeleted": false,
 			"id": "9T5PSx55nk8vJlTOXNJAL",
@@ -83300,7 +83308,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				"type": 2
 			},
 			"boundElements": null,
-			"updated": 1724393088298,
+			"updated": 1724393853295,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -83332,8 +83340,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		},
 		{
 			"type": "arrow",
-			"version": 5628,
-			"versionNonce": 1289000469,
+			"version": 5632,
+			"versionNonce": 2126170261,
 			"index": "c1Ir",
 			"isDeleted": false,
 			"id": "5463PNq709I5bYMLc_FiI",
@@ -83358,7 +83366,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				"type": 2
 			},
 			"boundElements": null,
-			"updated": 1724393088299,
+			"updated": 1724393853296,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -87213,8 +87221,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		},
 		{
 			"type": "rectangle",
-			"version": 1732,
-			"versionNonce": 1375827067,
+			"version": 1734,
+			"versionNonce": 244908245,
 			"index": "c1Ki",
 			"isDeleted": false,
 			"id": "D6ncp5QdjIkpjbr1GuFHI",
@@ -87248,9 +87256,17 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				{
 					"id": "PwesKgmiAr_O0sMYKAJCD",
 					"type": "arrow"
+				},
+				{
+					"id": "s7AeQhIHAsp_kJ7yXOa-e",
+					"type": "arrow"
+				},
+				{
+					"id": "pal60M-GZM91Ptaz1piFA",
+					"type": "arrow"
 				}
 			],
-			"updated": 1724393087166,
+			"updated": 1724393871546,
 			"link": null,
 			"locked": false
 		},
@@ -91561,8 +91577,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		},
 		{
 			"type": "arrow",
-			"version": 1760,
-			"versionNonce": 1863125717,
+			"version": 1761,
+			"versionNonce": 73715835,
 			"index": "c1O4",
 			"isDeleted": false,
 			"id": "j6_0a57Ytc7hCQdHtFioS",
@@ -91576,8 +91592,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 			"y": -5440,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#ffc9c9",
-			"width": 499,
-			"height": 359.28000000000065,
+			"width": 498.9999999999982,
+			"height": 359.27999999999975,
 			"seed": 458434843,
 			"groupIds": [],
 			"frameId": null,
@@ -91585,7 +91601,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1724393088304,
+			"updated": 1724393853227,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -91609,8 +91625,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 					0
 				],
 				[
-					499,
-					359.28000000000065
+					498.9999999999982,
+					359.27999999999975
 				]
 			],
 			"elbowed": false
@@ -92087,8 +92103,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		},
 		{
 			"type": "rectangle",
-			"version": 1800,
-			"versionNonce": 2047862619,
+			"version": 1802,
+			"versionNonce": 1988988789,
 			"index": "c1O4D",
 			"isDeleted": false,
 			"id": "lL0w0y2J3-r45JabHeBVX",
@@ -92122,9 +92138,17 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				{
 					"id": "PwesKgmiAr_O0sMYKAJCD",
 					"type": "arrow"
+				},
+				{
+					"id": "WZlG8-fQnE2B_egcjoh6_",
+					"type": "arrow"
+				},
+				{
+					"id": "8jByi1WYuVH3eSQWqq1uo",
+					"type": "arrow"
 				}
 			],
-			"updated": 1724393087171,
+			"updated": 1724393892664,
 			"link": null,
 			"locked": false
 		},
@@ -95568,8 +95592,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		},
 		{
 			"type": "rectangle",
-			"version": 3621,
-			"versionNonce": 1603821019,
+			"version": 3622,
+			"versionNonce": 750677243,
 			"index": "c1O6h",
 			"isDeleted": false,
 			"id": "_KYxZpgdZBNZGQ54w3SGh",
@@ -95599,9 +95623,13 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				{
 					"id": "WG5REx8LEZT7asyg0DSfs",
 					"type": "arrow"
+				},
+				{
+					"id": "cei1WU0AOeYjFNeyiBexE",
+					"type": "arrow"
 				}
 			],
-			"updated": 1724393087174,
+			"updated": 1724393416400,
 			"link": null,
 			"locked": false
 		},
@@ -96283,8 +96311,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		},
 		{
 			"type": "rectangle",
-			"version": 1660,
-			"versionNonce": 1623163483,
+			"version": 1662,
+			"versionNonce": 390985269,
 			"index": "c1Py",
 			"isDeleted": false,
 			"id": "dQdXxr6G6QK5AsGGNoluB",
@@ -96318,9 +96346,17 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				{
 					"id": "rNJfJ_eotXL8De6USWX_O",
 					"type": "arrow"
+				},
+				{
+					"id": "WZlG8-fQnE2B_egcjoh6_",
+					"type": "arrow"
+				},
+				{
+					"id": "8jByi1WYuVH3eSQWqq1uo",
+					"type": "arrow"
 				}
 			],
-			"updated": 1724393087175,
+			"updated": 1724393892665,
 			"link": null,
 			"locked": false
 		},
@@ -96749,8 +96785,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		},
 		{
 			"type": "rectangle",
-			"version": 1841,
-			"versionNonce": 1708015227,
+			"version": 1843,
+			"versionNonce": 858364277,
 			"index": "c1QA",
 			"isDeleted": false,
 			"id": "2ig3QR_cCMGYyL2V7tH1I",
@@ -96784,9 +96820,17 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				{
 					"id": "PwesKgmiAr_O0sMYKAJCD",
 					"type": "arrow"
+				},
+				{
+					"id": "JfHCEYg9XSGls5heWiLL9",
+					"type": "arrow"
+				},
+				{
+					"id": "69TQVKhqyZGGmOhpc1-G8",
+					"type": "arrow"
 				}
 			],
-			"updated": 1724393087176,
+			"updated": 1724393887863,
 			"link": null,
 			"locked": false
 		},
@@ -100945,8 +100989,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		},
 		{
 			"type": "rectangle",
-			"version": 1703,
-			"versionNonce": 1101855099,
+			"version": 1705,
+			"versionNonce": 804225077,
 			"index": "c1Rq",
 			"isDeleted": false,
 			"id": "u7IwdpX081DMO_ylunm43",
@@ -100980,9 +101024,17 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				{
 					"id": "UcjYWyx8eHjkYzdREJ7WR",
 					"type": "arrow"
+				},
+				{
+					"id": "JfHCEYg9XSGls5heWiLL9",
+					"type": "arrow"
+				},
+				{
+					"id": "69TQVKhqyZGGmOhpc1-G8",
+					"type": "arrow"
 				}
 			],
-			"updated": 1724393087180,
+			"updated": 1724393887863,
 			"link": null,
 			"locked": false
 		},
@@ -104883,8 +104935,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		},
 		{
 			"type": "rectangle",
-			"version": 3700,
-			"versionNonce": 1831397307,
+			"version": 3701,
+			"versionNonce": 1977167765,
 			"index": "c1TS",
 			"isDeleted": false,
 			"id": "mYFxK274i2kj-aubSXkS6",
@@ -104914,13 +104966,9 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				{
 					"id": "Vl-LvA_6X5xe2WqgMV1jF",
 					"type": "arrow"
-				},
-				{
-					"id": "cei1WU0AOeYjFNeyiBexE",
-					"type": "arrow"
 				}
 			],
-			"updated": 1724393108760,
+			"updated": 1724393412654,
 			"link": null,
 			"locked": false
 		},
@@ -105644,10 +105692,10 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		{
 			"id": "UcjYWyx8eHjkYzdREJ7WR",
 			"type": "arrow",
-			"x": -12700,
-			"y": -4680,
-			"width": 500,
-			"height": 220,
+			"x": -12699.000000000002,
+			"y": -4679.56,
+			"width": 499.0000000000018,
+			"height": 219.5600000000004,
 			"angle": 0,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#40c057",
@@ -105663,11 +105711,11 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				"type": 2
 			},
 			"seed": 1549741019,
-			"version": 451,
-			"versionNonce": 863546581,
+			"version": 452,
+			"versionNonce": 973262139,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1724393088311,
+			"updated": 1724393853228,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -105676,8 +105724,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 					0
 				],
 				[
-					500,
-					220
+					499.0000000000018,
+					219.5600000000004
 				]
 			],
 			"lastCommittedPoint": null,
@@ -105701,9 +105749,9 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 			"id": "cei1WU0AOeYjFNeyiBexE",
 			"type": "arrow",
 			"x": -11400,
-			"y": -4040,
+			"y": -6480,
 			"width": 800,
-			"height": 40,
+			"height": 180,
 			"angle": 0,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "#40c057",
@@ -105719,8 +105767,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				"type": 2
 			},
 			"seed": 1834909717,
-			"version": 491,
-			"versionNonce": 579072603,
+			"version": 691,
+			"versionNonce": 1008079099,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -105728,7 +105776,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 					"id": "URoamZVY"
 				}
 			],
-			"updated": 1724393210413,
+			"updated": 1724393438147,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -105738,13 +105786,13 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				],
 				[
 					800,
-					-40
+					180
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
-				"elementId": "mYFxK274i2kj-aubSXkS6",
-				"focus": 0.09090909090909093,
+				"elementId": "_KYxZpgdZBNZGQ54w3SGh",
+				"focus": -0.310344827586207,
 				"gap": 1,
 				"fixedPoint": null
 			},
@@ -105788,6 +105836,514 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 			"verticalAlign": "middle",
 			"containerId": "cei1WU0AOeYjFNeyiBexE",
 			"originalText": "获取到某个主键后，\n再根据主键去聚簇索引中获取数据",
+			"autoResize": true,
+			"lineHeight": 1.35
+		},
+		{
+			"id": "s7AeQhIHAsp_kJ7yXOa-e",
+			"type": "arrow",
+			"x": -13300,
+			"y": -5100,
+			"width": 0,
+			"height": 280,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "#40c057",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "c1To",
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1105128949,
+			"version": 21,
+			"versionNonce": 242469589,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1724393865803,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0,
+					-280
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "OUv1VLVvLQAuAUnXTVWTN",
+				"focus": -0.5555555555555555,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"endBinding": {
+				"elementId": "D6ncp5QdjIkpjbr1GuFHI",
+				"focus": 0.5555555555555555,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"startArrowhead": "dot",
+			"endArrowhead": "arrow",
+			"elbowed": false
+		},
+		{
+			"id": "pal60M-GZM91Ptaz1piFA",
+			"type": "arrow",
+			"x": -12800,
+			"y": -5380,
+			"width": 0,
+			"height": 280,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "#40c057",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "c1Tp",
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1874700341,
+			"version": 17,
+			"versionNonce": 1640767029,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1724393871547,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0,
+					280
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "D6ncp5QdjIkpjbr1GuFHI",
+				"focus": -0.5555555555555555,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"endBinding": {
+				"elementId": "OUv1VLVvLQAuAUnXTVWTN",
+				"focus": 0.5555555555555555,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"startArrowhead": "dot",
+			"endArrowhead": "arrow",
+			"elbowed": false
+		},
+		{
+			"id": "WZlG8-fQnE2B_egcjoh6_",
+			"type": "arrow",
+			"x": -12000,
+			"y": -5700,
+			"width": 0,
+			"height": 180,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "#40c057",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "c1Tq",
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1170724085,
+			"version": 15,
+			"versionNonce": 502709723,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "KTAYffEt"
+				}
+			],
+			"updated": 1724393908851,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0,
+					-180
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "dQdXxr6G6QK5AsGGNoluB",
+				"focus": -0.5555555555555555,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"endBinding": {
+				"elementId": "lL0w0y2J3-r45JabHeBVX",
+				"focus": 0.5555555555555555,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"startArrowhead": "dot",
+			"endArrowhead": "arrow",
+			"elbowed": false
+		},
+		{
+			"id": "KTAYffEt",
+			"type": "text",
+			"x": -12030,
+			"y": -5803.5,
+			"width": 60,
+			"height": 27,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "#40c057",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "c1TqV",
+			"roundness": null,
+			"seed": 1683181083,
+			"version": 6,
+			"versionNonce": 1883300181,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1724393908852,
+			"link": null,
+			"locked": false,
+			"text": "。。。",
+			"rawText": "。。。",
+			"fontSize": 20,
+			"fontFamily": 6,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "WZlG8-fQnE2B_egcjoh6_",
+			"originalText": "。。。",
+			"autoResize": true,
+			"lineHeight": 1.35
+		},
+		{
+			"id": "JfHCEYg9XSGls5heWiLL9",
+			"type": "arrow",
+			"x": -12000,
+			"y": -4500,
+			"width": 0,
+			"height": 180,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "#40c057",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "c1Tr",
+			"roundness": {
+				"type": 2
+			},
+			"seed": 758027317,
+			"version": 17,
+			"versionNonce": 400311509,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "w1kRGQqh"
+				}
+			],
+			"updated": 1724393914782,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0,
+					-180
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "u7IwdpX081DMO_ylunm43",
+				"focus": -0.5555555555555555,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"endBinding": {
+				"elementId": "2ig3QR_cCMGYyL2V7tH1I",
+				"focus": 0.5555555555555555,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"startArrowhead": "dot",
+			"endArrowhead": "arrow",
+			"elbowed": false
+		},
+		{
+			"id": "w1kRGQqh",
+			"type": "text",
+			"x": -12030,
+			"y": -4603.5,
+			"width": 60,
+			"height": 27,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "#40c057",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "c1TrV",
+			"roundness": null,
+			"seed": 175667349,
+			"version": 6,
+			"versionNonce": 378986235,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1724393914783,
+			"link": null,
+			"locked": false,
+			"text": "。。。",
+			"rawText": "。。。",
+			"fontSize": 20,
+			"fontFamily": 6,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "JfHCEYg9XSGls5heWiLL9",
+			"originalText": "。。。",
+			"autoResize": true,
+			"lineHeight": 1.35
+		},
+		{
+			"id": "69TQVKhqyZGGmOhpc1-G8",
+			"type": "arrow",
+			"x": -11498.608024369552,
+			"y": -4682.344342679903,
+			"width": 0,
+			"height": 180,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "#40c057",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "c1Ts",
+			"roundness": {
+				"type": 2
+			},
+			"seed": 702876213,
+			"version": 21,
+			"versionNonce": 1843744085,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "YCVHuLr0"
+				}
+			],
+			"updated": 1724393921554,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0,
+					180
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "2ig3QR_cCMGYyL2V7tH1I",
+				"focus": -0.558648834734328,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"endBinding": {
+				"elementId": "u7IwdpX081DMO_ylunm43",
+				"focus": 0.5586488347343279,
+				"gap": 2.344342679903093,
+				"fixedPoint": null
+			},
+			"startArrowhead": "dot",
+			"endArrowhead": "arrow",
+			"elbowed": false
+		},
+		{
+			"id": "YCVHuLr0",
+			"type": "text",
+			"x": -11528.608024369552,
+			"y": -4605.844342679903,
+			"width": 60,
+			"height": 27,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "#40c057",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "c1TsV",
+			"roundness": null,
+			"seed": 495575317,
+			"version": 6,
+			"versionNonce": 1205902971,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1724393921554,
+			"link": null,
+			"locked": false,
+			"text": "。。。",
+			"rawText": "。。。",
+			"fontSize": 20,
+			"fontFamily": 6,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "69TQVKhqyZGGmOhpc1-G8",
+			"originalText": "。。。",
+			"autoResize": true,
+			"lineHeight": 1.35
+		},
+		{
+			"id": "8jByi1WYuVH3eSQWqq1uo",
+			"type": "arrow",
+			"x": -11498.01305201712,
+			"y": -5880.604649574682,
+			"width": 0,
+			"height": 180,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "#40c057",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "c1Tt",
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1188802965,
+			"version": 20,
+			"versionNonce": 417672539,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "pKBPSGe1"
+				}
+			],
+			"updated": 1724393911837,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0,
+					180
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "lL0w0y2J3-r45JabHeBVX",
+				"focus": -0.5599709955175097,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"endBinding": {
+				"elementId": "dQdXxr6G6QK5AsGGNoluB",
+				"focus": 0.5599709955175097,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"startArrowhead": "dot",
+			"endArrowhead": "arrow",
+			"elbowed": false
+		},
+		{
+			"id": "pKBPSGe1",
+			"type": "text",
+			"x": -11528.01305201712,
+			"y": -5804.104649574682,
+			"width": 60,
+			"height": 27,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "#40c057",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "c1Tu",
+			"roundness": null,
+			"seed": 397630875,
+			"version": 6,
+			"versionNonce": 894642645,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1724393911837,
+			"link": null,
+			"locked": false,
+			"text": "。。。",
+			"rawText": "。。。",
+			"fontSize": 20,
+			"fontFamily": 6,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "8jByi1WYuVH3eSQWqq1uo",
+			"originalText": "。。。",
 			"autoResize": true,
 			"lineHeight": 1.35
 		},
@@ -116075,12 +116631,281 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 			"originalText": "",
 			"autoResize": true,
 			"lineHeight": 1.35
+		},
+		{
+			"id": "FD4ZdRbtDGLvCF-27_RZx",
+			"type": "arrow",
+			"x": -13300,
+			"y": -4080,
+			"width": 0,
+			"height": 300,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "#40c057",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "c1Tv",
+			"roundness": {
+				"type": 2
+			},
+			"seed": 285309883,
+			"version": 14,
+			"versionNonce": 30724027,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1724393939680,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0,
+					300
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "fbhVfFpETVk-sBETsVqWn",
+				"focus": 0.5555555555555556,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"endBinding": null,
+			"startArrowhead": "dot",
+			"endArrowhead": "arrow",
+			"elbowed": false
+		},
+		{
+			"id": "vGlee9kdSQjnKRvsfq99q",
+			"type": "arrow",
+			"x": -12800,
+			"y": -3395,
+			"width": 250.10000000000036,
+			"height": 42,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "#40c057",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "c1Tw",
+			"roundness": null,
+			"seed": 1120730075,
+			"version": 8,
+			"versionNonce": 405991483,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1724393934046,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0,
+					42
+				],
+				[
+					-250.10000000000036,
+					42
+				],
+				[
+					-250.10000000000036,
+					0
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "4uaDw5luUQiYRMTV-GD0v",
+				"focus": -0.13513513513513514,
+				"gap": 5,
+				"fixedPoint": [
+					0.5675675675675675,
+					1.0013888888888889
+				]
+			},
+			"endBinding": {
+				"elementId": "4uaDw5luUQiYRMTV-GD0v",
+				"focus": 0.0000540540540542507,
+				"gap": 5,
+				"fixedPoint": [
+					0.4999729729729729,
+					1.0013888888888889
+				]
+			},
+			"startArrowhead": "dot",
+			"endArrowhead": "arrow",
+			"elbowed": true
+		},
+		{
+			"id": "kITuazM_6X_qzE_5S28kA",
+			"type": "arrow",
+			"x": -13050.1,
+			"y": -3395,
+			"width": 0,
+			"height": 42,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "#40c057",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "c1Tx",
+			"roundness": null,
+			"seed": 381717429,
+			"version": 8,
+			"versionNonce": 47823189,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1724393938950,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0,
+					42
+				],
+				[
+					0,
+					0
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "4uaDw5luUQiYRMTV-GD0v",
+				"focus": 0.0000540540540542507,
+				"gap": 5,
+				"fixedPoint": [
+					0.4999729729729729,
+					1.0013888888888889
+				]
+			},
+			"endBinding": {
+				"elementId": "4uaDw5luUQiYRMTV-GD0v",
+				"focus": 0.0000540540540542507,
+				"gap": 5,
+				"fixedPoint": [
+					0.4999729729729729,
+					1.0013888888888889
+				]
+			},
+			"startArrowhead": "dot",
+			"endArrowhead": "arrow",
+			"elbowed": true
+		},
+		{
+			"id": "JMQbZPDOVHJi96pDkdg6p",
+			"type": "arrow",
+			"x": -13200,
+			"y": -3820,
+			"width": 556.2879994426839,
+			"height": 170.4771962355976,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "#40c057",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "c1Ty",
+			"roundness": null,
+			"seed": 950207867,
+			"version": 14,
+			"versionNonce": 224664629,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1724393950712,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-556.2879994426839,
+					0
+				],
+				[
+					-556.2879994426839,
+					-170.4771962355976
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": "dot",
+			"endArrowhead": "arrow",
+			"elbowed": true
+		},
+		{
+			"id": "NyDiahlL",
+			"type": "text",
+			"x": -13281.551124222697,
+			"y": -3912.9448425936907,
+			"width": 5.2199859619140625,
+			"height": 27,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "#40c057",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "c1Tz",
+			"roundness": null,
+			"seed": 234377973,
+			"version": 3,
+			"versionNonce": 1719523765,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1724393954612,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 20,
+			"fontFamily": 6,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "",
+			"autoResize": true,
+			"lineHeight": 1.35
 		}
 	],
 	"appState": {
 		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#2f9e44",
+		"currentItemStrokeColor": "#f08c00",
 		"currentItemBackgroundColor": "#40c057",
 		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 4,
@@ -116092,10 +116917,10 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": "dot",
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 12570.281999706098,
-		"scrollY": 4913.9565662603845,
+		"scrollX": 14813.994827052795,
+		"scrollY": 6250.593613840656,
 		"zoom": {
-			"value": 0.5201934093236923
+			"value": 0.27896620228886604
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
