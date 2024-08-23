@@ -77422,65 +77422,9 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 			"lineHeight": 1.35
 		},
 		{
-			"type": "arrow",
-			"version": 1830,
-			"versionNonce": 362168187,
-			"index": "c1O3",
-			"isDeleted": false,
-			"id": "cLKVEF6BxziIBknNo1u5K",
-			"fillStyle": "solid",
-			"strokeWidth": 4,
-			"strokeStyle": "dashed",
-			"roughness": 2,
-			"opacity": 100,
-			"angle": 0,
-			"x": -13959,
-			"y": -5480.573004781259,
-			"strokeColor": "#e03131",
-			"backgroundColor": "#ffc9c9",
-			"width": 458,
-			"height": 899.4895695949326,
-			"seed": 46980507,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 2
-			},
-			"boundElements": [],
-			"updated": 1724396342346,
-			"link": null,
-			"locked": false,
-			"startBinding": {
-				"elementId": "-BtxUc5rx3MC9nopn1Bkz",
-				"focus": 0.8111868543170873,
-				"gap": 1,
-				"fixedPoint": null
-			},
-			"endBinding": {
-				"elementId": "QFehiWoBTbiDGo4llZVTQ",
-				"focus": 0.9821509778938653,
-				"gap": 1,
-				"fixedPoint": null
-			},
-			"lastCommittedPoint": null,
-			"startArrowhead": "dot",
-			"endArrowhead": "arrow",
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					458,
-					-899.4895695949326
-				]
-			],
-			"elbowed": false
-		},
-		{
 			"type": "rectangle",
-			"version": 1619,
-			"versionNonce": 2109282107,
+			"version": 1621,
+			"versionNonce": 1220356443,
 			"index": "c1O41",
 			"isDeleted": false,
 			"id": "kjOeF8ovCU6D8kW6vF9O7",
@@ -77516,7 +77460,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 					"type": "arrow"
 				}
 			],
-			"updated": 1724393087170,
+			"updated": 1724401483886,
 			"link": null,
 			"locked": false
 		},
@@ -91022,174 +90966,6 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 			"lineHeight": 1.35
 		},
 		{
-			"id": "5vCoqXVDqS7fCptN-NaLd",
-			"type": "arrow",
-			"x": -12659,
-			"y": -5983.213071008553,
-			"width": 458,
-			"height": 893.2265493754785,
-			"angle": 0,
-			"strokeColor": "#e03131",
-			"backgroundColor": "#40c057",
-			"fillStyle": "solid",
-			"strokeWidth": 4,
-			"strokeStyle": "dashed",
-			"roughness": 2,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"index": "c1Ti",
-			"roundness": {
-				"type": 2
-			},
-			"seed": 1328577083,
-			"version": 494,
-			"versionNonce": 812339029,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1724396282491,
-			"link": null,
-			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					458,
-					-893.2265493754785
-				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": {
-				"elementId": "g9RMIjYih07d6xgb1LLa0",
-				"focus": 0.7826086956522025,
-				"gap": 1,
-				"fixedPoint": null
-			},
-			"endBinding": {
-				"elementId": "kjOeF8ovCU6D8kW6vF9O7",
-				"focus": 0.976190476190476,
-				"gap": 1,
-				"fixedPoint": null
-			},
-			"startArrowhead": "dot",
-			"endArrowhead": "arrow",
-			"elbowed": false
-		},
-		{
-			"id": "rNJfJ_eotXL8De6USWX_O",
-			"type": "arrow",
-			"x": -12659.000000000002,
-			"y": -5738.419739006029,
-			"width": 458.0000000000018,
-			"height": 50.22221954433826,
-			"angle": 0,
-			"strokeColor": "#e03131",
-			"backgroundColor": "#40c057",
-			"fillStyle": "solid",
-			"strokeWidth": 4,
-			"strokeStyle": "dashed",
-			"roughness": 2,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"index": "c1Tj",
-			"roundness": {
-				"type": 2
-			},
-			"seed": 279094395,
-			"version": 456,
-			"versionNonce": 1374658907,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1724396608881,
-			"link": null,
-			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					458.0000000000018,
-					50.22221954433826
-				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": {
-				"elementId": "EiF2jy5aVNDiS7IymX_Gr",
-				"focus": -0.137931034482846,
-				"gap": 1,
-				"fixedPoint": null
-			},
-			"endBinding": {
-				"elementId": "dQdXxr6G6QK5AsGGNoluB",
-				"focus": -0.3939393939394094,
-				"gap": 1,
-				"fixedPoint": null
-			},
-			"startArrowhead": "dot",
-			"endArrowhead": "arrow",
-			"elbowed": false
-		},
-		{
-			"id": "UcjYWyx8eHjkYzdREJ7WR",
-			"type": "arrow",
-			"x": -12659.000000000002,
-			"y": -4678.807385677915,
-			"width": 458.0000000000018,
-			"height": 216.99352043669296,
-			"angle": 0,
-			"strokeColor": "#e03131",
-			"backgroundColor": "#40c057",
-			"fillStyle": "solid",
-			"strokeWidth": 4,
-			"strokeStyle": "dashed",
-			"roughness": 2,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"index": "c1Tk",
-			"roundness": {
-				"type": 2
-			},
-			"seed": 1549741019,
-			"version": 469,
-			"versionNonce": 183927573,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1724401170396,
-			"link": null,
-			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					458.0000000000018,
-					216.99352043669296
-				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": {
-				"elementId": "kVV8aw3yA_FWNcEddfElD",
-				"focus": -0.4680851063829788,
-				"gap": 1,
-				"fixedPoint": null
-			},
-			"endBinding": {
-				"elementId": "u7IwdpX081DMO_ylunm43",
-				"focus": -0.9122807017543857,
-				"gap": 1,
-				"fixedPoint": null
-			},
-			"startArrowhead": "dot",
-			"endArrowhead": "arrow",
-			"elbowed": false
-		},
-		{
 			"id": "cei1WU0AOeYjFNeyiBexE",
 			"type": "arrow",
 			"x": -11399,
@@ -98042,8 +97818,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		},
 		{
 			"type": "arrow",
-			"version": 6534,
-			"versionNonce": 490472635,
+			"version": 6535,
+			"versionNonce": 201911765,
 			"index": "c1UGR",
 			"isDeleted": false,
 			"id": "ek4IhKOWL6jAFbXvnkot2",
@@ -98068,7 +97844,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				"type": 2
 			},
 			"boundElements": null,
-			"updated": 1724396633518,
+			"updated": 1724401483887,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -101010,8 +100786,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		},
 		{
 			"type": "rectangle",
-			"version": 3562,
-			"versionNonce": 1333348533,
+			"version": 3564,
+			"versionNonce": 790578293,
 			"index": "c1UI4",
 			"isDeleted": false,
 			"id": "g9RMIjYih07d6xgb1LLa0",
@@ -101047,7 +100823,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 					"type": "arrow"
 				}
 			],
-			"updated": 1724396633518,
+			"updated": 1724401483885,
 			"link": null,
 			"locked": false
 		},
@@ -108523,6 +108299,230 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 			"originalText": "400",
 			"autoResize": true,
 			"lineHeight": 1.35
+		},
+		{
+			"type": "arrow",
+			"version": 1831,
+			"versionNonce": 1687753749,
+			"index": "c1ek",
+			"isDeleted": false,
+			"id": "cLKVEF6BxziIBknNo1u5K",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"angle": 0,
+			"x": -13959,
+			"y": -5480.573004781259,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#ffc9c9",
+			"width": 458,
+			"height": 899.4895695949326,
+			"seed": 46980507,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1724401472500,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "-BtxUc5rx3MC9nopn1Bkz",
+				"focus": 0.8111868543170873,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"endBinding": {
+				"elementId": "QFehiWoBTbiDGo4llZVTQ",
+				"focus": 0.9821509778938653,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": "dot",
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					458,
+					-899.4895695949326
+				]
+			],
+			"elbowed": false
+		},
+		{
+			"id": "rNJfJ_eotXL8De6USWX_O",
+			"type": "arrow",
+			"x": -12659.000000000002,
+			"y": -5738.419739006029,
+			"width": 458.0000000000018,
+			"height": 50.22221954433826,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#40c057",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "c1el",
+			"roundness": {
+				"type": 2
+			},
+			"seed": 279094395,
+			"version": 457,
+			"versionNonce": 2021184213,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1724401478658,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					458.0000000000018,
+					50.22221954433826
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "EiF2jy5aVNDiS7IymX_Gr",
+				"focus": -0.137931034482846,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"endBinding": {
+				"elementId": "dQdXxr6G6QK5AsGGNoluB",
+				"focus": -0.3939393939394094,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"startArrowhead": "dot",
+			"endArrowhead": "arrow",
+			"elbowed": false
+		},
+		{
+			"id": "5vCoqXVDqS7fCptN-NaLd",
+			"type": "arrow",
+			"x": -12659,
+			"y": -5983.2561155847925,
+			"width": 458,
+			"height": 893.1845782953624,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#40c057",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "c1em",
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1328577083,
+			"version": 501,
+			"versionNonce": 1648550389,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1724401486545,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					458,
+					-893.1845782953624
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "g9RMIjYih07d6xgb1LLa0",
+				"focus": 0.7826086956522025,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"endBinding": {
+				"elementId": "kjOeF8ovCU6D8kW6vF9O7",
+				"focus": 0.976190476190476,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"startArrowhead": "dot",
+			"endArrowhead": "arrow",
+			"elbowed": false
+		},
+		{
+			"id": "UcjYWyx8eHjkYzdREJ7WR",
+			"type": "arrow",
+			"x": -12659.000000000002,
+			"y": -4678.807385677915,
+			"width": 458.0000000000018,
+			"height": 216.99352043669296,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#40c057",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "c1en",
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1549741019,
+			"version": 470,
+			"versionNonce": 2022910235,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1724401492624,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					458.0000000000018,
+					216.99352043669296
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "kVV8aw3yA_FWNcEddfElD",
+				"focus": -0.4680851063829788,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"endBinding": {
+				"elementId": "u7IwdpX081DMO_ylunm43",
+				"focus": -0.9122807017543857,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"startArrowhead": "dot",
+			"endArrowhead": "arrow",
+			"elbowed": false
 		},
 		{
 			"type": "rectangle",
@@ -120631,8 +120631,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": "dot",
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 17739.007790950815,
-		"scrollY": 9890.431615891073,
+		"scrollX": 17462.82560782852,
+		"scrollY": 8260.553975920628,
 		"zoom": {
 			"value": 0.1
 		},
