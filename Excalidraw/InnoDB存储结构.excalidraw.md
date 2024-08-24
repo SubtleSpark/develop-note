@@ -91060,124 +91060,12 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 			"lineHeight": 1.35
 		},
 		{
-			"id": "s7AeQhIHAsp_kJ7yXOa-e",
-			"type": "arrow",
-			"x": -13300,
-			"y": -5101,
-			"width": 0,
-			"height": 278,
-			"angle": 0,
-			"strokeColor": "#f08c00",
-			"backgroundColor": "#40c057",
-			"fillStyle": "solid",
-			"strokeWidth": 4,
-			"strokeStyle": "dashed",
-			"roughness": 2,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"index": "c1To",
-			"roundness": {
-				"type": 2
-			},
-			"seed": 1105128949,
-			"version": 27,
-			"versionNonce": 1435329141,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1724401170396,
-			"link": null,
-			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					0,
-					-278
-				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": {
-				"elementId": "OUv1VLVvLQAuAUnXTVWTN",
-				"focus": -0.5555555555555555,
-				"gap": 1,
-				"fixedPoint": null
-			},
-			"endBinding": {
-				"elementId": "D6ncp5QdjIkpjbr1GuFHI",
-				"focus": 0.5555555555555555,
-				"gap": 1,
-				"fixedPoint": null
-			},
-			"startArrowhead": "dot",
-			"endArrowhead": "arrow",
-			"elbowed": false
-		},
-		{
-			"id": "pal60M-GZM91Ptaz1piFA",
-			"type": "arrow",
-			"x": -12800,
-			"y": -5379,
-			"width": 0,
-			"height": 278,
-			"angle": 0,
-			"strokeColor": "#f08c00",
-			"backgroundColor": "#40c057",
-			"fillStyle": "solid",
-			"strokeWidth": 4,
-			"strokeStyle": "dashed",
-			"roughness": 2,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"index": "c1Tp",
-			"roundness": {
-				"type": 2
-			},
-			"seed": 1874700341,
-			"version": 23,
-			"versionNonce": 990071765,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1724401170396,
-			"link": null,
-			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					0,
-					278
-				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": {
-				"elementId": "D6ncp5QdjIkpjbr1GuFHI",
-				"focus": -0.5555555555555555,
-				"gap": 1,
-				"fixedPoint": null
-			},
-			"endBinding": {
-				"elementId": "OUv1VLVvLQAuAUnXTVWTN",
-				"focus": 0.5555555555555555,
-				"gap": 1,
-				"fixedPoint": null
-			},
-			"startArrowhead": "dot",
-			"endArrowhead": "arrow",
-			"elbowed": false
-		},
-		{
 			"id": "WZlG8-fQnE2B_egcjoh6_",
 			"type": "arrow",
-			"x": -12000,
-			"y": -5701,
+			"x": -11500,
+			"y": -5700,
 			"width": 0,
-			"height": 178,
+			"height": 180,
 			"angle": 0,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "#40c057",
@@ -91193,8 +91081,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				"type": 2
 			},
 			"seed": 1170724085,
-			"version": 21,
-			"versionNonce": 1942535675,
+			"version": 104,
+			"versionNonce": 2023792667,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -91202,7 +91090,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 					"id": "KTAYffEt"
 				}
 			],
-			"updated": 1724396608881,
+			"updated": 1724466969372,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -91212,19 +91100,19 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				],
 				[
 					0,
-					-178
+					-180
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "dQdXxr6G6QK5AsGGNoluB",
-				"focus": -0.5555555555555555,
+				"focus": 0.5555555555555555,
 				"gap": 1,
 				"fixedPoint": null
 			},
 			"endBinding": {
 				"elementId": "lL0w0y2J3-r45JabHeBVX",
-				"focus": 0.5555555555555555,
+				"focus": -0.5555555555555555,
 				"gap": 1,
 				"fixedPoint": null
 			},
@@ -91235,7 +91123,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		{
 			"id": "KTAYffEt",
 			"type": "text",
-			"x": -12030,
+			"x": -11530,
 			"y": -5803.5,
 			"width": 60,
 			"height": 27,
@@ -91252,11 +91140,11 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 			"index": "c1TqV",
 			"roundness": null,
 			"seed": 1683181083,
-			"version": 6,
-			"versionNonce": 1883300181,
+			"version": 43,
+			"versionNonce": 1420948053,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1724393908852,
+			"updated": 1724466942805,
 			"link": null,
 			"locked": false,
 			"text": "。。。",
@@ -91273,10 +91161,10 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		{
 			"id": "JfHCEYg9XSGls5heWiLL9",
 			"type": "arrow",
-			"x": -12000,
-			"y": -4501,
+			"x": -11500,
+			"y": -4500,
 			"width": 0,
-			"height": 178,
+			"height": 180,
 			"angle": 0,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "#40c057",
@@ -91292,8 +91180,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				"type": 2
 			},
 			"seed": 758027317,
-			"version": 25,
-			"versionNonce": 1613067893,
+			"version": 110,
+			"versionNonce": 1563120437,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -91301,7 +91189,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 					"id": "w1kRGQqh"
 				}
 			],
-			"updated": 1724401169875,
+			"updated": 1724466955225,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -91311,19 +91199,19 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				],
 				[
 					0,
-					-178
+					-180
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "u7IwdpX081DMO_ylunm43",
-				"focus": -0.5555555555555555,
+				"focus": 0.5555555555555555,
 				"gap": 1,
 				"fixedPoint": null
 			},
 			"endBinding": {
 				"elementId": "2ig3QR_cCMGYyL2V7tH1I",
-				"focus": 0.5555555555555555,
+				"focus": -0.5555555555555555,
 				"gap": 1,
 				"fixedPoint": null
 			},
@@ -91334,7 +91222,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		{
 			"id": "w1kRGQqh",
 			"type": "text",
-			"x": -12030,
+			"x": -11530,
 			"y": -4603.5,
 			"width": 60,
 			"height": 27,
@@ -91351,11 +91239,11 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 			"index": "c1TrV",
 			"roundness": null,
 			"seed": 175667349,
-			"version": 6,
-			"versionNonce": 378986235,
+			"version": 43,
+			"versionNonce": 505356565,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1724393914783,
+			"updated": 1724466942805,
 			"link": null,
 			"locked": false,
 			"text": "。。。",
@@ -91372,10 +91260,10 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		{
 			"id": "69TQVKhqyZGGmOhpc1-G8",
 			"type": "arrow",
-			"x": -11498.608024369552,
-			"y": -4679,
+			"x": -12000,
+			"y": -4680,
 			"width": 0,
-			"height": 176.6556573200969,
+			"height": 180,
 			"angle": 0,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "#40c057",
@@ -91391,8 +91279,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				"type": 2
 			},
 			"seed": 702876213,
-			"version": 29,
-			"versionNonce": 1635311573,
+			"version": 72,
+			"versionNonce": 1761855797,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -91400,7 +91288,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 					"id": "YCVHuLr0"
 				}
 			],
-			"updated": 1724401169876,
+			"updated": 1724466964007,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -91410,20 +91298,20 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				],
 				[
 					0,
-					176.6556573200969
+					180
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "2ig3QR_cCMGYyL2V7tH1I",
-				"focus": -0.558648834734328,
+				"focus": 0.5555555555555555,
 				"gap": 1,
 				"fixedPoint": null
 			},
 			"endBinding": {
 				"elementId": "u7IwdpX081DMO_ylunm43",
-				"focus": 0.5586488347343279,
-				"gap": 2.344342679903093,
+				"focus": -0.5555555555555555,
+				"gap": 1,
 				"fixedPoint": null
 			},
 			"startArrowhead": "dot",
@@ -91433,7 +91321,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		{
 			"id": "YCVHuLr0",
 			"type": "text",
-			"x": -11528.608024369552,
+			"x": -12028.608024369552,
 			"y": -4605.844342679903,
 			"width": 60,
 			"height": 27,
@@ -91450,11 +91338,11 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 			"index": "c1TsV",
 			"roundness": null,
 			"seed": 495575317,
-			"version": 6,
-			"versionNonce": 1205902971,
+			"version": 31,
+			"versionNonce": 266619771,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1724393921554,
+			"updated": 1724466938045,
 			"link": null,
 			"locked": false,
 			"text": "。。。",
@@ -91471,10 +91359,10 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		{
 			"id": "8jByi1WYuVH3eSQWqq1uo",
 			"type": "arrow",
-			"x": -11498.01305201712,
-			"y": -5879,
+			"x": -12000,
+			"y": -5880,
 			"width": 0,
-			"height": 178,
+			"height": 180,
 			"angle": 0,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "#40c057",
@@ -91490,8 +91378,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				"type": 2
 			},
 			"seed": 1188802965,
-			"version": 26,
-			"versionNonce": 26560155,
+			"version": 69,
+			"versionNonce": 1154451995,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -91499,7 +91387,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 					"id": "pKBPSGe1"
 				}
 			],
-			"updated": 1724396608881,
+			"updated": 1724466979326,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -91509,19 +91397,19 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 				],
 				[
 					0,
-					178
+					180
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "lL0w0y2J3-r45JabHeBVX",
-				"focus": -0.5599709955175097,
+				"focus": 0.5555555555555555,
 				"gap": 1,
 				"fixedPoint": null
 			},
 			"endBinding": {
 				"elementId": "dQdXxr6G6QK5AsGGNoluB",
-				"focus": 0.5599709955175097,
+				"focus": -0.5555555555555555,
 				"gap": 1,
 				"fixedPoint": null
 			},
@@ -91532,7 +91420,7 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		{
 			"id": "pKBPSGe1",
 			"type": "text",
-			"x": -11528.01305201712,
+			"x": -12028.01305201712,
 			"y": -5804.104649574682,
 			"width": 60,
 			"height": 27,
@@ -91549,11 +91437,11 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 			"index": "c1Tu",
 			"roundness": null,
 			"seed": 397630875,
-			"version": 6,
-			"versionNonce": 894642645,
+			"version": 31,
+			"versionNonce": 1136519355,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1724393911837,
+			"updated": 1724466938045,
 			"link": null,
 			"locked": false,
 			"text": "。。。",
@@ -108525,6 +108413,118 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 			"elbowed": false
 		},
 		{
+			"id": "pal60M-GZM91Ptaz1piFA",
+			"type": "arrow",
+			"x": -13300,
+			"y": -5380,
+			"width": 0,
+			"height": 280,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "#40c057",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "c1eo",
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1874700341,
+			"version": 62,
+			"versionNonce": 385853173,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1724466987443,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0,
+					280
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "D6ncp5QdjIkpjbr1GuFHI",
+				"focus": 0.5555555555555555,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"endBinding": {
+				"elementId": "OUv1VLVvLQAuAUnXTVWTN",
+				"focus": -0.5555555555555555,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"startArrowhead": "dot",
+			"endArrowhead": "arrow",
+			"elbowed": false
+		},
+		{
+			"id": "s7AeQhIHAsp_kJ7yXOa-e",
+			"type": "arrow",
+			"x": -12800,
+			"y": -5100,
+			"width": 0,
+			"height": 280,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "#40c057",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "c1ep",
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1105128949,
+			"version": 80,
+			"versionNonce": 1710155317,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1724466995690,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0,
+					-280
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "OUv1VLVvLQAuAUnXTVWTN",
+				"focus": 0.5555555555555555,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"endBinding": {
+				"elementId": "D6ncp5QdjIkpjbr1GuFHI",
+				"focus": -0.5555555555555555,
+				"gap": 1,
+				"fixedPoint": null
+			},
+			"startArrowhead": "dot",
+			"endArrowhead": "arrow",
+			"elbowed": false
+		},
+		{
 			"type": "rectangle",
 			"version": 3514,
 			"versionNonce": 754173429,
@@ -120631,8 +120631,8 @@ hvh2Ujo6: [[002tech_notes/02MySQL/MySql是怎样运行的/06 InnoDB 索引结构
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": "dot",
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 17462.82560782852,
-		"scrollY": 8260.553975920628,
+		"scrollX": 18632.57224934933,
+		"scrollY": 11875.874257887204,
 		"zoom": {
 			"value": 0.1
 		},
