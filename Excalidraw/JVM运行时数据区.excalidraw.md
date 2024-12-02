@@ -30,6 +30,8 @@ Heap ^MrMgNOpB
 
 。。。。。。 ^CrhJf0Bh
 
+Method Area ^LA5GXR6y
+
 %%
 ## Drawing
 ```json
@@ -404,7 +406,7 @@ Heap ^MrMgNOpB
 		{
 			"id": "AGy8lnAhgTMBPZ3JkSiZ8",
 			"type": "rectangle",
-			"x": 180,
+			"x": 200,
 			"y": -1100,
 			"width": 300,
 			"height": 100,
@@ -423,8 +425,8 @@ Heap ^MrMgNOpB
 				"type": 3
 			},
 			"seed": 307716474,
-			"version": 128,
-			"versionNonce": 445931386,
+			"version": 142,
+			"versionNonce": 664914790,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -432,14 +434,14 @@ Heap ^MrMgNOpB
 					"id": "MrMgNOpB"
 				}
 			],
-			"updated": 1733154573980,
+			"updated": 1733156569088,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "MrMgNOpB",
 			"type": "text",
-			"x": 307.65001517534256,
+			"x": 327.65001517534256,
 			"y": -1062.5,
 			"width": 44.69996964931488,
 			"height": 25,
@@ -456,11 +458,11 @@ Heap ^MrMgNOpB
 			"index": "aF",
 			"roundness": null,
 			"seed": 580985402,
-			"version": 122,
-			"versionNonce": 1661134630,
+			"version": 136,
+			"versionNonce": 1566535334,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1733154578994,
+			"updated": 1733156569088,
 			"link": null,
 			"locked": false,
 			"text": "Heap",
@@ -471,6 +473,79 @@ Heap ^MrMgNOpB
 			"verticalAlign": "middle",
 			"containerId": "AGy8lnAhgTMBPZ3JkSiZ8",
 			"originalText": "Heap",
+			"autoResize": true,
+			"lineHeight": 1.25
+		},
+		{
+			"id": "Uy_LUVB-WENXuUa5d-KRT",
+			"type": "rectangle",
+			"x": 600,
+			"y": -1100,
+			"width": 300,
+			"height": 100,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "aFG",
+			"roundness": {
+				"type": 3
+			},
+			"seed": 1850164346,
+			"version": 161,
+			"versionNonce": 316783142,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "LA5GXR6y",
+					"type": "text"
+				}
+			],
+			"updated": 1733156571173,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "LA5GXR6y",
+			"type": "text",
+			"x": 687.8900268673897,
+			"y": -1062.5,
+			"width": 124.21994626522064,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "aFV",
+			"roundness": null,
+			"seed": 1880676390,
+			"version": 156,
+			"versionNonce": 2014668198,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1733156578964,
+			"link": null,
+			"locked": false,
+			"text": "Method Area",
+			"rawText": "Method Area",
+			"fontSize": 20,
+			"fontFamily": 5,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "Uy_LUVB-WENXuUa5d-KRT",
+			"originalText": "Method Area",
 			"autoResize": true,
 			"lineHeight": 1.25
 		},
@@ -765,6 +840,44 @@ Heap ^MrMgNOpB
 			"originalText": "。。。。。。",
 			"autoResize": true,
 			"lineHeight": 1.25
+		},
+		{
+			"id": "XTSeYVgm",
+			"type": "text",
+			"x": 954.5424342956237,
+			"y": -787.4087174740284,
+			"width": 8,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#846358",
+			"backgroundColor": "#eaddd7",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 60,
+			"groupIds": [],
+			"frameId": null,
+			"index": "aO",
+			"roundness": null,
+			"seed": 1983028090,
+			"version": 3,
+			"versionNonce": 726238458,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1733156601693,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 20,
+			"fontFamily": 5,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "",
+			"autoResize": true,
+			"lineHeight": 1.25
 		}
 	],
 	"appState": {
@@ -783,10 +896,10 @@ Heap ^MrMgNOpB
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 704.2806960322931,
-		"scrollY": 1766.949960627942,
+		"scrollX": 801.8893479261899,
+		"scrollY": 1562.9732977932829,
 		"zoom": {
-			"value": 0.475531
+			"value": 0.413338
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": 20,
