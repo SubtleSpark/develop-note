@@ -34,6 +34,8 @@ Method Area ^LA5GXR6y
 
 Stack Frame ^Tn7XQeoJ
 
+int a ^ZpYGphzS
+
 %%
 ## Drawing
 ```json
@@ -863,8 +865,8 @@ Stack Frame ^Tn7XQeoJ
 			"index": "aO",
 			"roundness": null,
 			"seed": 416308986,
-			"version": 400,
-			"versionNonce": 383209894,
+			"version": 402,
+			"versionNonce": 973886906,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -872,7 +874,7 @@ Stack Frame ^Tn7XQeoJ
 					"id": "Tn7XQeoJ"
 				}
 			],
-			"updated": 1733389240934,
+			"updated": 1733390306534,
 			"link": null,
 			"locked": false
 		},
@@ -896,11 +898,11 @@ Stack Frame ^Tn7XQeoJ
 			"index": "aP",
 			"roundness": null,
 			"seed": 1551674534,
-			"version": 273,
-			"versionNonce": 1364963898,
+			"version": 275,
+			"versionNonce": 674074234,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1733389215830,
+			"updated": 1733390306534,
 			"link": null,
 			"locked": false,
 			"text": "Stack Frame",
@@ -919,8 +921,8 @@ Stack Frame ^Tn7XQeoJ
 			"type": "rectangle",
 			"x": -1100,
 			"y": -200,
-			"width": 200,
-			"height": 100,
+			"width": 400.00000000000006,
+			"height": 800,
 			"angle": 0,
 			"strokeColor": "#846358",
 			"backgroundColor": "#eaddd7",
@@ -934,20 +936,91 @@ Stack Frame ^Tn7XQeoJ
 			"index": "aQ",
 			"roundness": null,
 			"seed": 2093371046,
-			"version": 56,
-			"versionNonce": 1049777914,
+			"version": 150,
+			"versionNonce": 1920676710,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1733389360404,
+			"updated": 1733390314435,
 			"link": null,
 			"locked": false
+		},
+		{
+			"id": "S_ZlioDrAnC17lf_9fvca",
+			"type": "rectangle",
+			"x": -1100,
+			"y": 0,
+			"width": 400.00000000000006,
+			"height": 100,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "#fab005",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 60,
+			"groupIds": [],
+			"frameId": null,
+			"index": "aR",
+			"roundness": null,
+			"seed": 921233274,
+			"version": 192,
+			"versionNonce": 1505866426,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "ZpYGphzS"
+				}
+			],
+			"updated": 1733390348415,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "ZpYGphzS",
+			"type": "text",
+			"x": -922.9899826049805,
+			"y": 37.5,
+			"width": 45.97996520996094,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "#fab005",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 60,
+			"groupIds": [],
+			"frameId": null,
+			"index": "aS",
+			"roundness": null,
+			"seed": 890548902,
+			"version": 22,
+			"versionNonce": 251654694,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1733390380277,
+			"link": null,
+			"locked": false,
+			"text": "int a",
+			"rawText": "int a",
+			"fontSize": 20,
+			"fontFamily": 5,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "S_ZlioDrAnC17lf_9fvca",
+			"originalText": "int a",
+			"autoResize": true,
+			"lineHeight": 1.25
 		}
 	],
 	"appState": {
 		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#846358",
-		"currentItemBackgroundColor": "#eaddd7",
+		"currentItemStrokeColor": "#f08c00",
+		"currentItemBackgroundColor": "#fab005",
 		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 1,
 		"currentItemStrokeStyle": "solid",
