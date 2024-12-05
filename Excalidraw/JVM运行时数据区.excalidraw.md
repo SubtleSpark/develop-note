@@ -32,6 +32,9 @@ Heap ^MrMgNOpB
 
 Method Area ^LA5GXR6y
 
+JVM Stacks
+（虚拟机栈） ^Tn7XQeoJ
+
 %%
 ## Drawing
 ```json
@@ -60,8 +63,8 @@ Method Area ^LA5GXR6y
 			"index": "Zy",
 			"roundness": null,
 			"seed": 2118322598,
-			"version": 170,
-			"versionNonce": 1084006822,
+			"version": 171,
+			"versionNonce": 437635962,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -69,9 +72,9 @@ Method Area ^LA5GXR6y
 					"id": "GI7MBnEA"
 				}
 			],
-			"updated": 1733154841313,
+			"updated": 1733389139184,
 			"link": null,
-			"locked": false
+			"locked": true
 		},
 		{
 			"id": "GI7MBnEA",
@@ -93,13 +96,13 @@ Method Area ^LA5GXR6y
 			"index": "Zz",
 			"roundness": null,
 			"seed": 1733408998,
-			"version": 50,
-			"versionNonce": 1027713766,
+			"version": 51,
+			"versionNonce": 328876326,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1733154770548,
+			"updated": 1733389139184,
 			"link": null,
-			"locked": false,
+			"locked": true,
 			"text": "线程1",
 			"rawText": "线程1",
 			"fontSize": 36,
@@ -842,40 +845,75 @@ Method Area ^LA5GXR6y
 			"lineHeight": 1.25
 		},
 		{
-			"id": "XTSeYVgm",
-			"type": "text",
-			"x": 954.5424342956237,
-			"y": -787.4087174740284,
-			"width": 8,
-			"height": 25,
+			"id": "a8Y7vp-BqW6kQTZOwTPFM",
+			"type": "rectangle",
+			"x": -1300,
+			"y": -300,
+			"width": 800,
+			"height": 600,
 			"angle": 0,
-			"strokeColor": "#846358",
-			"backgroundColor": "#eaddd7",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
 			"fillStyle": "solid",
-			"strokeWidth": 1,
+			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 2,
-			"opacity": 60,
+			"opacity": 100,
 			"groupIds": [],
 			"frameId": null,
 			"index": "aO",
+			"roundness": {
+				"type": 3
+			},
+			"seed": 554617190,
+			"version": 339,
+			"versionNonce": 378179450,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "Tn7XQeoJ"
+				}
+			],
+			"updated": 1733389170377,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "Tn7XQeoJ",
+			"type": "text",
+			"x": -1295,
+			"y": -295,
+			"width": 168,
+			"height": 70,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "aP",
 			"roundness": null,
-			"seed": 1983028090,
-			"version": 3,
-			"versionNonce": 726238458,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1733156601693,
+			"seed": 1551674534,
+			"version": 226,
+			"versionNonce": 1413386298,
+			"isDeleted": false,
+			"boundElements": [],
+			"updated": 1733389170377,
 			"link": null,
 			"locked": false,
-			"text": "",
-			"rawText": "",
-			"fontSize": 20,
+			"text": "JVM Stacks\n（虚拟机栈）",
+			"rawText": "JVM Stacks\n（虚拟机栈）",
+			"fontSize": 28,
 			"fontFamily": 5,
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"containerId": null,
-			"originalText": "",
+			"containerId": "a8Y7vp-BqW6kQTZOwTPFM",
+			"originalText": "JVM Stacks\n（虚拟机栈）",
 			"autoResize": true,
 			"lineHeight": 1.25
 		}
@@ -896,10 +934,10 @@ Method Area ^LA5GXR6y
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 801.8893479261899,
-		"scrollY": 1562.9732977932829,
+		"scrollX": 1706.9825860764945,
+		"scrollY": 683.0901231695384,
 		"zoom": {
-			"value": 0.413338
+			"value": 1.072594
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": 20,
