@@ -32,8 +32,7 @@ Heap ^MrMgNOpB
 
 Method Area ^LA5GXR6y
 
-JVM Stacks
-（虚拟机栈） ^Tn7XQeoJ
+Stack Frame ^Tn7XQeoJ
 
 %%
 ## Drawing
@@ -847,27 +846,25 @@ JVM Stacks
 		{
 			"id": "a8Y7vp-BqW6kQTZOwTPFM",
 			"type": "rectangle",
-			"x": -1300,
+			"x": -1200,
 			"y": -300,
-			"width": 800,
-			"height": 600,
+			"width": 900,
+			"height": 1000,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
-			"roughness": 2,
+			"roughness": 0,
 			"opacity": 100,
 			"groupIds": [],
 			"frameId": null,
 			"index": "aO",
-			"roundness": {
-				"type": 3
-			},
-			"seed": 554617190,
-			"version": 339,
-			"versionNonce": 378179450,
+			"roundness": null,
+			"seed": 416308986,
+			"version": 400,
+			"versionNonce": 383209894,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -875,17 +872,17 @@ JVM Stacks
 					"id": "Tn7XQeoJ"
 				}
 			],
-			"updated": 1733389170377,
+			"updated": 1733389240934,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "Tn7XQeoJ",
 			"type": "text",
-			"x": -1295,
+			"x": -1195,
 			"y": -295,
-			"width": 168,
-			"height": 70,
+			"width": 167.91595458984375,
+			"height": 35,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -899,23 +896,51 @@ JVM Stacks
 			"index": "aP",
 			"roundness": null,
 			"seed": 1551674534,
-			"version": 226,
-			"versionNonce": 1413386298,
+			"version": 273,
+			"versionNonce": 1364963898,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1733389170377,
+			"updated": 1733389215830,
 			"link": null,
 			"locked": false,
-			"text": "JVM Stacks\n（虚拟机栈）",
-			"rawText": "JVM Stacks\n（虚拟机栈）",
+			"text": "Stack Frame",
+			"rawText": "Stack Frame",
 			"fontSize": 28,
 			"fontFamily": 5,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": "a8Y7vp-BqW6kQTZOwTPFM",
-			"originalText": "JVM Stacks\n（虚拟机栈）",
+			"originalText": "Stack Frame",
 			"autoResize": true,
 			"lineHeight": 1.25
+		},
+		{
+			"id": "8ZkV1-gYaMzAxJ1jBJw4T",
+			"type": "rectangle",
+			"x": -1100,
+			"y": -200,
+			"width": 200,
+			"height": 100,
+			"angle": 0,
+			"strokeColor": "#846358",
+			"backgroundColor": "#eaddd7",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 60,
+			"groupIds": [],
+			"frameId": null,
+			"index": "aQ",
+			"roundness": null,
+			"seed": 2093371046,
+			"version": 56,
+			"versionNonce": 1049777914,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1733389360404,
+			"link": null,
+			"locked": false
 		}
 	],
 	"appState": {
@@ -926,7 +951,7 @@ JVM Stacks
 		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 1,
 		"currentItemStrokeStyle": "solid",
-		"currentItemRoughness": 2,
+		"currentItemRoughness": 0,
 		"currentItemOpacity": 60,
 		"currentItemFontFamily": 5,
 		"currentItemFontSize": 20,
@@ -934,10 +959,10 @@ JVM Stacks
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 1706.9825860764945,
-		"scrollY": 683.0901231695384,
+		"scrollX": 1338.6871263656483,
+		"scrollY": 965.7769971076106,
 		"zoom": {
-			"value": 1.072594
+			"value": 0.86383
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": 20,
