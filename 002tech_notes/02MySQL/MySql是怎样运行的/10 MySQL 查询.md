@@ -4,13 +4,17 @@
 
 | 访问方法  | 描述 |
 | ----- | ---- | 
-| const | 通过 **主键** or **唯一索引** 与常数等值比较，如 select 1 from table where primary_key=1 |
-| ref | 通过 **非唯一索引** 与常数等值比较，形成单点扫描区间，如 select 1 from table where key=1 |
+| const | 1. 通过 **主键** or **唯一索引** 与常数等值比较，如 `... where primary_key=1` 。<br/> 2. `... where unq_key is null` 这种查询 null zhi|
+| ref | 通过 **非唯一索引** 与常数等值比较，形成单点扫描区间，如 `... where key=1` |
 
 
 
 
-在没有开启 MRR （Multi-Range Read）的情况下，
+在没有开启 MRR （Multi-Range Read）的情况下，在非聚簇索引上每扫描到一条记录都会回表一次，而不是获取到所有的 id 后再回表。会发生大量随机 IO，降低性能。
+
+开启 MRR 后，会一次读取一批 id，排序好后再回表，由于按照 id 排序，所以会减少随机 IO，提高性能。
+
+
 
 ## 连接查询
 
