@@ -1,4 +1,4 @@
-![[Excalidraw/InnoDB表空间.excalidraw]]
+![[Excalidraw/InnoDB表空间.excalidraw|1200]]
 
 ## MySQL 管理存储的几个概念
 
