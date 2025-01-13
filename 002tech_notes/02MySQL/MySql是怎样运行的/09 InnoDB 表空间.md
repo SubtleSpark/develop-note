@@ -8,4 +8,5 @@
 段 segment 一些零散页面和一些完整的区的集合， 
 
 
-
+## 复习 File Header
+![[002tech_notes/02MySQL/MySql是怎样运行的/05 InnoDB 页结构#File Header（通用属性）]]
