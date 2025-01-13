@@ -1,3 +1,5 @@
+![[Excalidraw/InnoDB表空间.excalidraw]]
+
 ## MySQL 管理存储的几个概念
 
 1 页 = 16KB
