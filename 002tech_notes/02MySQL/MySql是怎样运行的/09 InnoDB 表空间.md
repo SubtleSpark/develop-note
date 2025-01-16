@@ -9,7 +9,7 @@
 
 
 ## 复习 File Header
-![[002tech_notes/02MySQL/MySql是怎样运行的/05 InnoDB 页结构#File Header（通用属性）]]
+[[002tech_notes/02MySQL/MySql是怎样运行的/05 InnoDB 页结构#File Header（通用属性）| file header 相关属性]]
 
 
 ## 
