@@ -1,0 +1,7 @@
+{
+  "deleteOption": ".trash",
+  "logsModal": true,
+  "excludedFolders": "Excalidraw/Scripts/Downloaded",
+  "ribbonIcon": false,
+  "excludeSubfolders": false
+}
