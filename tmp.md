@@ -157,3 +157,50 @@ graph TD
     
     style B fill:#f96,stroke:#333,stroke-width:2px
 ```
+
+
+```mermaid
+classDiagram
+    class 对象头锁状态 {
+        +25bit 复合字段
+        +4bit 分代年龄
+        +1bit 是否偏向锁
+        +2bit 锁标志位
+    }
+
+    class 无锁 {
+        +23bit HashCode
+        +2bit Epoch
+        +4bit 分代年龄
+        +1bit 是否偏向锁(0)
+        +2bit 锁标志位(01)
+    }
+
+    class 偏向锁 {
+        +23bit 线程ID
+        +2bit Epoch
+        +4bit 分代年龄
+        +1bit 是否偏向锁(1)
+        +2bit 锁标志位(01)
+    }
+
+    class 轻量级锁 {
+        +指向栈中锁记录的指针
+        +2bit 锁标志位(00)
+    }
+
+    class 重量级锁 {
+        +指向重量级锁的指针
+        +2bit 锁标志位(10)
+    }
+
+    class GC标记 {
+        +空
+        +2bit 锁标志位(11)
+    }
+```
+
+
+
+
+
