@@ -1,0 +1,76 @@
+<svg width="1000" height="400" xmlns="http://www.w3.org/2000/svg">
+    <!-- 表格背景 -->
+    <rect width="1000" height="400" fill="white"/>
+    
+    <!-- 定义列宽 -->
+    <!-- 锁状态: 120px -->
+    <!-- 25bit总计: 400px (23bit: 300px, 2bit: 100px) -->
+    <!-- 4bit: 120px -->
+    <!-- 1bit: 120px -->
+    <!-- 2bit: 120px -->
+    
+    <!-- 表格标题行背景 -->
+    <rect x="10" y="10" width="120" height="60" fill="#D3D3D3"/>    <!-- 锁状态 -->
+    <rect x="130" y="10" width="400" height="30" fill="#D3D3D3"/>   <!-- 25bit -->
+    <rect x="130" y="40" width="300" height="30" fill="#D3D3D3"/>   <!-- 23bit -->
+    <rect x="430" y="40" width="100" height="30" fill="#D3D3D3"/>   <!-- 2bit -->
+    <rect x="530" y="10" width="120" height="60" fill="#D3D3D3"/>   <!-- 4bit -->
+    <rect x="650" y="10" width="120" height="60" fill="#D3D3D3"/>   <!-- 1bit -->
+    <rect x="770" y="10" width="120" height="60" fill="#D3D3D3"/>   <!-- 2bit -->
+    
+    <!-- 表格列标题 -->
+    <text x="40" y="45" font-family="Arial" font-size="14" fill="black">锁状态</text>
+    
+    <!-- 25bit 标题及子列 -->
+    <text x="300" y="30" font-family="Arial" font-size="14" fill="black">25bit</text>
+    <text x="250" y="60" font-family="Arial" font-size="14" fill="black">23bit</text>
+    <text x="460" y="60" font-family="Arial" font-size="14" fill="black">2bit</text>
+    
+    <!-- 其他列标题 -->
+    <text x="570" y="45" font-family="Arial" font-size="14" fill="black">4bit</text>
+    <text x="690" y="30" font-family="Arial" font-size="14" fill="black">1bit</text>
+    <text x="680" y="60" font-family="Arial" font-size="14" fill="black">是否偏向锁</text>
+    <text x="810" y="30" font-family="Arial" font-size="14" fill="black">2bit</text>
+    <text x="800" y="60" font-family="Arial" font-size="14" fill="black">锁标志位</text>
+    
+    <!-- 表格内容行 -->
+    <g transform="translate(0,70)">
+        <!-- 无锁 -->
+        <rect x="10" y="0" width="880" height="30" fill="white" stroke="#D3D3D3"/>
+        <text x="40" y="20" font-family="Arial" font-size="14">无锁</text>
+        <text x="250" y="20" font-family="Arial" font-size="14">对象的HashCode</text>
+        <text x="570" y="20" font-family="Arial" font-size="14">分代年龄</text>
+        <text x="700" y="20" font-family="Arial" font-size="14">0</text>
+        <text x="820" y="20" font-family="Arial" font-size="14">01</text>
+        
+        <!-- 偏向锁 -->
+        <rect x="10" y="30" width="880" height="30" fill="white" stroke="#D3D3D3"/>
+        <text x="40" y="50" font-family="Arial" font-size="14">偏向锁</text>
+        <text x="250" y="50" font-family="Arial" font-size="14">线程ID</text>
+        <text x="460" y="50" font-family="Arial" font-size="14">Epoch</text>
+        <text x="570" y="50" font-family="Arial" font-size="14">分代年龄</text>
+        <text x="700" y="50" font-family="Arial" font-size="14">1</text>
+        <text x="820" y="50" font-family="Arial" font-size="14">01</text>
+        
+        <!-- 轻量级锁 -->
+        <rect x="10" y="60" width="880" height="30" fill="white" stroke="#D3D3D3"/>
+        <text x="40" y="80" font-family="Arial" font-size="14">轻量级锁</text>
+        <text x="250" y="80" font-family="Arial" font-size="14">指向栈中锁记录的指针</text>
+        <text x="820" y="80" font-family="Arial" font-size="14">00</text>
+        
+        <!-- 重量级锁 -->
+        <rect x="10" y="90" width="880" height="30" fill="white" stroke="#D3D3D3"/>
+        <text x="40" y="110" font-family="Arial" font-size="14">重量级锁</text>
+        <text x="250" y="110" font-family="Arial" font-size="14">指向重量级锁的指针</text>
+        <text x="820" y="110" font-family="Arial" font-size="14">10</text>
+        
+        <!-- GC标记 -->
+        <rect x="10" y="120" width="880" height="30" fill="white" stroke="#D3D3D3"/>
+        <text x="40" y="140" font-family="Arial" font-size="14">GC标记</text>
+        <text x="250" y="140" font-family="Arial" font-size="14">空</text>
+        <text x="820" y="140" font-family="Arial" font-size="14">11</text>
+    </g>
+    
+    <!-- 表格边框 -->
+    <rect x="10" y="10" width="880" height="270" fill="none" stroke="#D3D3D3"/>
+</svg>
