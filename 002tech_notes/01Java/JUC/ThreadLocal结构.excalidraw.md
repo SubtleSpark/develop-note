@@ -73,6 +73,14 @@ value（省略指向对象） ^wZxAXCUh
 
 “val2” ^7QBn4mGv
 
+Thread 2 的栈 ^FJnNI86u
+
+threadLocalRef ^kIJnNTiN
+
+threadLocal2Ref ^gBFVIwIW
+
+threadRef ^7ZDAGnlf
+
 %%
 ## Drawing
 ```json
@@ -162,7 +170,7 @@ value（省略指向对象） ^wZxAXCUh
 			"width": 700,
 			"height": 860,
 			"angle": 0,
-			"strokeColor": "#0c8599",
+			"strokeColor": "#99e9f2",
 			"backgroundColor": "#99e9f2",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -178,11 +186,11 @@ value（省略指向对象） ^wZxAXCUh
 				"type": 3
 			},
 			"seed": 1715732257,
-			"version": 80,
-			"versionNonce": 1584365647,
+			"version": 81,
+			"versionNonce": 711776047,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748190972287,
+			"updated": 1748191683239,
 			"link": null,
 			"locked": false
 		},
@@ -973,11 +981,11 @@ value（省略指向对象） ^wZxAXCUh
 				"type": 3
 			},
 			"seed": 270162625,
-			"version": 124,
-			"versionNonce": 143325953,
+			"version": 130,
+			"versionNonce": 1639346287,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191021570,
+			"updated": 1748191844304,
 			"link": null,
 			"locked": false
 		},
@@ -986,7 +994,7 @@ value（省略指向对象） ^wZxAXCUh
 			"type": "arrow",
 			"x": 969.8520590532751,
 			"y": 262.3688954559574,
-			"width": 0.06508380386770796,
+			"width": 0.0650838038677648,
 			"height": 132.6311045440426,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
@@ -1003,11 +1011,11 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "a78",
 			"roundness": null,
 			"seed": 1499360719,
-			"version": 5046,
-			"versionNonce": 1387665615,
+			"version": 5094,
+			"versionNonce": 1909532545,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191007466,
+			"updated": 1748191844310,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1016,7 +1024,7 @@ value（省略指向对象） ^wZxAXCUh
 					0
 				],
 				[
-					0.06508380386770796,
+					0.0650838038677648,
 					132.6311045440426
 				]
 			],
@@ -1071,16 +1079,20 @@ value（省略指向对象） ^wZxAXCUh
 				"type": 3
 			},
 			"seed": 1147361953,
-			"version": 730,
-			"versionNonce": 190800143,
+			"version": 741,
+			"versionNonce": 1891764193,
 			"isDeleted": false,
 			"boundElements": [
 				{
 					"type": "text",
 					"id": "fdPxzxw8"
+				},
+				{
+					"id": "QpSpYIN41Vw7C563nOesy",
+					"type": "arrow"
 				}
 			],
-			"updated": 1748191005966,
+			"updated": 1748191844305,
 			"link": null,
 			"locked": false
 		},
@@ -1107,11 +1119,11 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "a7O",
 			"roundness": null,
 			"seed": 705551343,
-			"version": 906,
-			"versionNonce": 1388159361,
+			"version": 912,
+			"versionNonce": 457337313,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191049596,
+			"updated": 1748191844304,
 			"link": null,
 			"locked": false,
 			"text": "Thread对象 2",
@@ -1148,8 +1160,8 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "a7V",
 			"roundness": null,
 			"seed": 725704321,
-			"version": 677,
-			"versionNonce": 1295493455,
+			"version": 685,
+			"versionNonce": 1015649359,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1157,7 +1169,7 @@ value（省略指向对象） ^wZxAXCUh
 					"type": "arrow"
 				}
 			],
-			"updated": 1748191005966,
+			"updated": 1748191844305,
 			"link": null,
 			"locked": false,
 			"text": "threadLocalMap",
@@ -1196,8 +1208,8 @@ value（省略指向对象） ^wZxAXCUh
 				"type": 3
 			},
 			"seed": 720012815,
-			"version": 484,
-			"versionNonce": 2001396111,
+			"version": 492,
+			"versionNonce": 1506008097,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1209,7 +1221,7 @@ value（省略指向对象） ^wZxAXCUh
 					"type": "arrow"
 				}
 			],
-			"updated": 1748191005966,
+			"updated": 1748191844305,
 			"link": null,
 			"locked": false
 		},
@@ -1236,11 +1248,11 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "a7d",
 			"roundness": null,
 			"seed": 863233633,
-			"version": 410,
-			"versionNonce": 28694447,
+			"version": 416,
+			"versionNonce": 1179153103,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191005966,
+			"updated": 1748191844304,
 			"link": null,
 			"locked": false,
 			"text": "ThreadLocalMap",
@@ -1278,8 +1290,8 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "a7l",
 			"roundness": null,
 			"seed": 1525476399,
-			"version": 465,
-			"versionNonce": 1377368047,
+			"version": 471,
+			"versionNonce": 1992828321,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1287,7 +1299,7 @@ value（省略指向对象） ^wZxAXCUh
 					"id": "cSOznOBz"
 				}
 			],
-			"updated": 1748191005966,
+			"updated": 1748191844304,
 			"link": null,
 			"locked": false
 		},
@@ -1315,11 +1327,11 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "a7t",
 			"roundness": null,
 			"seed": 1204449857,
-			"version": 497,
-			"versionNonce": 1530012175,
+			"version": 503,
+			"versionNonce": 1433354479,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191005966,
+			"updated": 1748191844304,
 			"link": null,
 			"locked": false,
 			"text": "key（threadLocal对象）",
@@ -1357,8 +1369,8 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "a8",
 			"roundness": null,
 			"seed": 1174244943,
-			"version": 483,
-			"versionNonce": 1474365487,
+			"version": 491,
+			"versionNonce": 1922921423,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1370,7 +1382,7 @@ value（省略指向对象） ^wZxAXCUh
 					"type": "arrow"
 				}
 			],
-			"updated": 1748191005966,
+			"updated": 1748191844305,
 			"link": null,
 			"locked": false
 		},
@@ -1398,11 +1410,11 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "a88",
 			"roundness": null,
 			"seed": 1294238241,
-			"version": 516,
-			"versionNonce": 1175333455,
+			"version": 522,
+			"versionNonce": 248990479,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191005966,
+			"updated": 1748191844304,
 			"link": null,
 			"locked": false,
 			"text": "tlObj",
@@ -1440,8 +1452,8 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "a8G",
 			"roundness": null,
 			"seed": 1727327343,
-			"version": 492,
-			"versionNonce": 2067079823,
+			"version": 500,
+			"versionNonce": 1486883855,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1453,7 +1465,7 @@ value（省略指向对象） ^wZxAXCUh
 					"type": "arrow"
 				}
 			],
-			"updated": 1748191005967,
+			"updated": 1748191844305,
 			"link": null,
 			"locked": false
 		},
@@ -1481,11 +1493,11 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "a8V",
 			"roundness": null,
 			"seed": 1618056705,
-			"version": 538,
-			"versionNonce": 1890580655,
+			"version": 544,
+			"versionNonce": 251203887,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191005967,
+			"updated": 1748191844304,
 			"link": null,
 			"locked": false,
 			"text": "threadLocal2",
@@ -1523,8 +1535,8 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "a8l",
 			"roundness": null,
 			"seed": 1234929295,
-			"version": 493,
-			"versionNonce": 264165615,
+			"version": 499,
+			"versionNonce": 1170152769,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1532,7 +1544,7 @@ value（省略指向对象） ^wZxAXCUh
 					"id": "wZxAXCUh"
 				}
 			],
-			"updated": 1748191005967,
+			"updated": 1748191844304,
 			"link": null,
 			"locked": false
 		},
@@ -1560,11 +1572,11 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "a9",
 			"roundness": null,
 			"seed": 1420897761,
-			"version": 580,
-			"versionNonce": 192144143,
+			"version": 586,
+			"versionNonce": 1329402703,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191005967,
+			"updated": 1748191844304,
 			"link": null,
 			"locked": false,
 			"text": "value（省略指向对\n象）",
@@ -1602,8 +1614,8 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "a9G",
 			"roundness": null,
 			"seed": 1823071407,
-			"version": 502,
-			"versionNonce": 2084743471,
+			"version": 508,
+			"versionNonce": 491506977,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1611,7 +1623,7 @@ value（省略指向对象） ^wZxAXCUh
 					"id": "u8l6ytVy"
 				}
 			],
-			"updated": 1748191005967,
+			"updated": 1748191844304,
 			"link": null,
 			"locked": false
 		},
@@ -1639,11 +1651,11 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "a9V",
 			"roundness": null,
 			"seed": 1894959553,
-			"version": 570,
-			"versionNonce": 261335887,
+			"version": 576,
+			"versionNonce": 133943663,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191005967,
+			"updated": 1748191844304,
 			"link": null,
 			"locked": false,
 			"text": "“val1”",
@@ -1681,8 +1693,8 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "aA",
 			"roundness": null,
 			"seed": 1674079951,
-			"version": 510,
-			"versionNonce": 834627951,
+			"version": 516,
+			"versionNonce": 1668776193,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1690,7 +1702,7 @@ value（省略指向对象） ^wZxAXCUh
 					"id": "7QBn4mGv"
 				}
 			],
-			"updated": 1748191005967,
+			"updated": 1748191844304,
 			"link": null,
 			"locked": false
 		},
@@ -1718,11 +1730,11 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "aB",
 			"roundness": null,
 			"seed": 1851124129,
-			"version": 588,
-			"versionNonce": 806249359,
+			"version": 594,
+			"versionNonce": 1383975823,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191005967,
+			"updated": 1748191844304,
 			"link": null,
 			"locked": false,
 			"text": "“val2”",
@@ -1796,8 +1808,8 @@ value（省略指向对象） ^wZxAXCUh
 				"type": 3
 			},
 			"seed": 1074366223,
-			"version": 493,
-			"versionNonce": 37098191,
+			"version": 495,
+			"versionNonce": 654292129,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1809,19 +1821,19 @@ value（省略指向对象） ^wZxAXCUh
 					"type": "arrow"
 				},
 				{
-					"id": "YYtBU9SEM5InR2QsqGwge",
-					"type": "arrow"
-				},
-				{
 					"id": "-6uWyZAawkTKUGlPBEnFj",
 					"type": "arrow"
 				},
 				{
 					"id": "mfHELO_8Z7AX3ZvCe_fNz",
 					"type": "arrow"
+				},
+				{
+					"id": "YYtBU9SEM5InR2QsqGwge",
+					"type": "arrow"
 				}
 			],
-			"updated": 1748190012062,
+			"updated": 1748191844305,
 			"link": null,
 			"locked": false
 		},
@@ -1885,8 +1897,8 @@ value（省略指向对象） ^wZxAXCUh
 				"type": 3
 			},
 			"seed": 1823666401,
-			"version": 458,
-			"versionNonce": 601680655,
+			"version": 460,
+			"versionNonce": 172081249,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1898,15 +1910,15 @@ value（省略指向对象） ^wZxAXCUh
 					"type": "arrow"
 				},
 				{
-					"id": "-Wl4WFfykmGcn8XlyUzbP",
+					"id": "H-F_Cfwv9IbEHvvnlAh0y",
 					"type": "arrow"
 				},
 				{
-					"id": "H-F_Cfwv9IbEHvvnlAh0y",
+					"id": "-Wl4WFfykmGcn8XlyUzbP",
 					"type": "arrow"
 				}
 			],
-			"updated": 1748190012062,
+			"updated": 1748191844305,
 			"link": null,
 			"locked": false
 		},
@@ -1968,8 +1980,8 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "aK",
 			"roundness": null,
 			"seed": 76695841,
-			"version": 2450,
-			"versionNonce": 1743354209,
+			"version": 2451,
+			"versionNonce": 994268897,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1977,7 +1989,7 @@ value（省略指向对象） ^wZxAXCUh
 					"id": "WOzGVfxk"
 				}
 			],
-			"updated": 1748190988689,
+			"updated": 1748191844313,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2082,8 +2094,8 @@ value（省略指向对象） ^wZxAXCUh
 			"width": 400,
 			"height": 620,
 			"angle": 0,
-			"strokeColor": "#3bc9db",
-			"backgroundColor": "#e3fafc",
+			"strokeColor": "#0c8599",
+			"backgroundColor": "transparent",
 			"fillStyle": "cross-hatch",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
@@ -2098,8 +2110,8 @@ value（省略指向对象） ^wZxAXCUh
 				"type": 3
 			},
 			"seed": 2042756321,
-			"version": 319,
-			"versionNonce": 1023575343,
+			"version": 324,
+			"versionNonce": 1547811375,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -2107,7 +2119,7 @@ value（省略指向对象） ^wZxAXCUh
 					"id": "s3sSKGKA"
 				}
 			],
-			"updated": 1748191144007,
+			"updated": 1748191701529,
 			"link": null,
 			"locked": false
 		},
@@ -2119,8 +2131,8 @@ value（省略指向对象） ^wZxAXCUh
 			"width": 228.41993713378906,
 			"height": 48.6,
 			"angle": 0,
-			"strokeColor": "#3bc9db",
-			"backgroundColor": "#ebfbee",
+			"strokeColor": "#0c8599",
+			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
@@ -2133,11 +2145,11 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "aLV",
 			"roundness": null,
 			"seed": 1112732111,
-			"version": 328,
-			"versionNonce": 1736815855,
+			"version": 333,
+			"versionNonce": 1299285057,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191136274,
+			"updated": 1748191701529,
 			"link": null,
 			"locked": false,
 			"text": "Thread 1 的栈",
@@ -2160,7 +2172,7 @@ value（省略指向对象） ^wZxAXCUh
 			"height": 100,
 			"angle": 0,
 			"strokeColor": "#f08c00",
-			"backgroundColor": "#ebfbee",
+			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
@@ -2175,8 +2187,8 @@ value（省略指向对象） ^wZxAXCUh
 				"type": 3
 			},
 			"seed": 1848107439,
-			"version": 304,
-			"versionNonce": 2070751471,
+			"version": 307,
+			"versionNonce": 1568248463,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -2188,7 +2200,7 @@ value（省略指向对象） ^wZxAXCUh
 					"type": "arrow"
 				}
 			],
-			"updated": 1748191069403,
+			"updated": 1748191693762,
 			"link": null,
 			"locked": false
 		},
@@ -2201,7 +2213,7 @@ value（省略指向对象） ^wZxAXCUh
 			"height": 37.800000000000004,
 			"angle": 0,
 			"strokeColor": "#f08c00",
-			"backgroundColor": "#ebfbee",
+			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
@@ -2214,11 +2226,11 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "aM",
 			"roundness": null,
 			"seed": 204920527,
-			"version": 302,
-			"versionNonce": 215495439,
+			"version": 305,
+			"versionNonce": 2122965473,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191069403,
+			"updated": 1748191693762,
 			"link": null,
 			"locked": false,
 			"text": "threadLocalRef",
@@ -2241,7 +2253,7 @@ value（省略指向对象） ^wZxAXCUh
 			"height": 100,
 			"angle": 0,
 			"strokeColor": "#e03131",
-			"backgroundColor": "#ebfbee",
+			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
@@ -2256,8 +2268,8 @@ value（省略指向对象） ^wZxAXCUh
 				"type": 3
 			},
 			"seed": 606212879,
-			"version": 314,
-			"versionNonce": 539229007,
+			"version": 317,
+			"versionNonce": 1894148271,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -2269,7 +2281,7 @@ value（省略指向对象） ^wZxAXCUh
 					"type": "arrow"
 				}
 			],
-			"updated": 1748191069403,
+			"updated": 1748191693762,
 			"link": null,
 			"locked": false
 		},
@@ -2282,7 +2294,7 @@ value（省略指向对象） ^wZxAXCUh
 			"height": 37.800000000000004,
 			"angle": 0,
 			"strokeColor": "#e03131",
-			"backgroundColor": "#ebfbee",
+			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
@@ -2295,11 +2307,11 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "aM8",
 			"roundness": null,
 			"seed": 889694561,
-			"version": 314,
-			"versionNonce": 1808120175,
+			"version": 317,
+			"versionNonce": 1167392193,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191069403,
+			"updated": 1748191693762,
 			"link": null,
 			"locked": false,
 			"text": "threadLocal2Ref",
@@ -2321,9 +2333,9 @@ value（省略指向对象） ^wZxAXCUh
 			"width": 300,
 			"height": 100,
 			"angle": 0,
-			"strokeColor": "#2f9e44",
-			"backgroundColor": "#ebfbee",
-			"fillStyle": "hachure",
+			"strokeColor": "#0c8599",
+			"backgroundColor": "transparent",
+			"fillStyle": "cross-hatch",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
@@ -2337,8 +2349,8 @@ value（省略指向对象） ^wZxAXCUh
 				"type": 3
 			},
 			"seed": 1586940001,
-			"version": 359,
-			"versionNonce": 594241967,
+			"version": 371,
+			"versionNonce": 1217624783,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -2350,7 +2362,7 @@ value（省略指向对象） ^wZxAXCUh
 					"type": "arrow"
 				}
 			],
-			"updated": 1748191069404,
+			"updated": 1748191693762,
 			"link": null,
 			"locked": false
 		},
@@ -2362,8 +2374,8 @@ value（省略指向对象） ^wZxAXCUh
 			"width": 125.55192565917969,
 			"height": 37.800000000000004,
 			"angle": 0,
-			"strokeColor": "#2f9e44",
-			"backgroundColor": "#ebfbee",
+			"strokeColor": "#0c8599",
+			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
@@ -2376,11 +2388,11 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "aMV",
 			"roundness": null,
 			"seed": 291580463,
-			"version": 355,
-			"versionNonce": 1154505679,
+			"version": 364,
+			"versionNonce": 1485938081,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191069404,
+			"updated": 1748191693762,
 			"link": null,
 			"locked": false,
 			"text": "threadRef",
@@ -2395,6 +2407,318 @@ value（省略指向对象） ^wZxAXCUh
 			"lineHeight": 1.35
 		},
 		{
+			"id": "DphYFjjmu90252fVQf9k4",
+			"type": "rectangle",
+			"x": -1000,
+			"y": 200,
+			"width": 400,
+			"height": 620,
+			"angle": 0,
+			"strokeColor": "#6741d9",
+			"backgroundColor": "transparent",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"lGfHJwB8kmGglupSlFGDm"
+			],
+			"frameId": null,
+			"index": "aMZ",
+			"roundness": {
+				"type": 3
+			},
+			"seed": 1380492367,
+			"version": 466,
+			"versionNonce": 176072719,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "FJnNI86u"
+				}
+			],
+			"updated": 1748191764245,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "FJnNI86u",
+			"type": "text",
+			"x": -914.2099685668945,
+			"y": 205,
+			"width": 228.41993713378906,
+			"height": 48.6,
+			"angle": 0,
+			"strokeColor": "#6741d9",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"lGfHJwB8kmGglupSlFGDm"
+			],
+			"frameId": null,
+			"index": "aMd",
+			"roundness": null,
+			"seed": 1329450017,
+			"version": 478,
+			"versionNonce": 934071855,
+			"isDeleted": false,
+			"boundElements": [],
+			"updated": 1748191764245,
+			"link": null,
+			"locked": false,
+			"text": "Thread 2 的栈",
+			"rawText": "Thread 2 的栈",
+			"fontSize": 36,
+			"fontFamily": 6,
+			"textAlign": "center",
+			"verticalAlign": "top",
+			"containerId": "DphYFjjmu90252fVQf9k4",
+			"originalText": "Thread 2 的栈",
+			"autoResize": true,
+			"lineHeight": 1.35
+		},
+		{
+			"id": "LFSMbcEjkTEztI0_y1cSG",
+			"type": "rectangle",
+			"x": -960,
+			"y": 340,
+			"width": 300,
+			"height": 100,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"lGfHJwB8kmGglupSlFGDm"
+			],
+			"frameId": null,
+			"index": "aMl",
+			"roundness": {
+				"type": 3
+			},
+			"seed": 627917423,
+			"version": 448,
+			"versionNonce": 74526799,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "kIJnNTiN"
+				}
+			],
+			"updated": 1748191764245,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "kIJnNTiN",
+			"type": "text",
+			"x": -906.3479461669922,
+			"y": 371.1,
+			"width": 192.69589233398438,
+			"height": 37.800000000000004,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"lGfHJwB8kmGglupSlFGDm"
+			],
+			"frameId": null,
+			"index": "aMt",
+			"roundness": null,
+			"seed": 617717761,
+			"version": 446,
+			"versionNonce": 446975599,
+			"isDeleted": false,
+			"boundElements": [],
+			"updated": 1748191764245,
+			"link": null,
+			"locked": false,
+			"text": "threadLocalRef",
+			"rawText": "threadLocalRef",
+			"fontSize": 28,
+			"fontFamily": 6,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "LFSMbcEjkTEztI0_y1cSG",
+			"originalText": "threadLocalRef",
+			"autoResize": true,
+			"lineHeight": 1.35
+		},
+		{
+			"id": "OUxkOLqCOcCNxCPrbCxsL",
+			"type": "rectangle",
+			"x": -960,
+			"y": 520,
+			"width": 300,
+			"height": 100,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"lGfHJwB8kmGglupSlFGDm"
+			],
+			"frameId": null,
+			"index": "aN",
+			"roundness": {
+				"type": 3
+			},
+			"seed": 43588751,
+			"version": 458,
+			"versionNonce": 1427024015,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "gBFVIwIW"
+				}
+			],
+			"updated": 1748191764245,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "gBFVIwIW",
+			"type": "text",
+			"x": -914.7479400634766,
+			"y": 551.1,
+			"width": 209.49588012695312,
+			"height": 37.800000000000004,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"lGfHJwB8kmGglupSlFGDm"
+			],
+			"frameId": null,
+			"index": "aNV",
+			"roundness": null,
+			"seed": 1686108129,
+			"version": 458,
+			"versionNonce": 560512687,
+			"isDeleted": false,
+			"boundElements": [],
+			"updated": 1748191764245,
+			"link": null,
+			"locked": false,
+			"text": "threadLocal2Ref",
+			"rawText": "threadLocal2Ref",
+			"fontSize": 28,
+			"fontFamily": 6,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "OUxkOLqCOcCNxCPrbCxsL",
+			"originalText": "threadLocal2Ref",
+			"autoResize": true,
+			"lineHeight": 1.35
+		},
+		{
+			"id": "VV5AfL2YpTqY5AtY1_el7",
+			"type": "rectangle",
+			"x": -960,
+			"y": 680,
+			"width": 300,
+			"height": 100,
+			"angle": 0,
+			"strokeColor": "#6741d9",
+			"backgroundColor": "transparent",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"lGfHJwB8kmGglupSlFGDm"
+			],
+			"frameId": null,
+			"index": "aO",
+			"roundness": {
+				"type": 3
+			},
+			"seed": 495235759,
+			"version": 518,
+			"versionNonce": 626920591,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "7ZDAGnlf"
+				},
+				{
+					"id": "QpSpYIN41Vw7C563nOesy",
+					"type": "arrow"
+				}
+			],
+			"updated": 1748191844305,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "7ZDAGnlf",
+			"type": "text",
+			"x": -872.7759628295898,
+			"y": 711.1,
+			"width": 125.55192565917969,
+			"height": 37.800000000000004,
+			"angle": 0,
+			"strokeColor": "#6741d9",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"lGfHJwB8kmGglupSlFGDm"
+			],
+			"frameId": null,
+			"index": "aP",
+			"roundness": null,
+			"seed": 1884836801,
+			"version": 506,
+			"versionNonce": 361303841,
+			"isDeleted": false,
+			"boundElements": [],
+			"updated": 1748191771554,
+			"link": null,
+			"locked": false,
+			"text": "threadRef",
+			"rawText": "threadRef",
+			"fontSize": 28,
+			"fontFamily": 6,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "VV5AfL2YpTqY5AtY1_el7",
+			"originalText": "threadRef",
+			"autoResize": true,
+			"lineHeight": 1.35
+		},
+		{
 			"id": "7pvoR5shuJp3P9pcfKYNf",
 			"type": "arrow",
 			"x": -660,
@@ -2402,11 +2726,11 @@ value（省略指向对象） ^wZxAXCUh
 			"width": 555.2145309338589,
 			"height": 106.97430535329435,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "#0c8599",
 			"backgroundColor": "#b2f2bb",
 			"fillStyle": "cross-hatch",
 			"strokeWidth": 2,
-			"strokeStyle": "solid",
+			"strokeStyle": "dashed",
 			"roughness": 1,
 			"opacity": 100,
 			"groupIds": [],
@@ -2414,11 +2738,11 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "aQ",
 			"roundness": null,
 			"seed": 1025079137,
-			"version": 2641,
-			"versionNonce": 219281423,
+			"version": 2648,
+			"versionNonce": 927127919,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191069621,
+			"updated": 1748191860987,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2485,11 +2809,11 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "aR",
 			"roundness": null,
 			"seed": 1213176001,
-			"version": 1830,
-			"versionNonce": 1482317775,
+			"version": 1835,
+			"versionNonce": 570223393,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191069620,
+			"updated": 1748191844312,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2548,8 +2872,8 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "aS",
 			"roundness": null,
 			"seed": 1188523361,
-			"version": 1601,
-			"versionNonce": 504735041,
+			"version": 1602,
+			"versionNonce": 159438465,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -2557,7 +2881,7 @@ value（省略指向对象） ^wZxAXCUh
 					"id": "KrQi2jke"
 				}
 			],
-			"updated": 1748190988689,
+			"updated": 1748191844315,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2662,11 +2986,11 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "aT",
 			"roundness": null,
 			"seed": 803992481,
-			"version": 1587,
-			"versionNonce": 146509295,
+			"version": 1592,
+			"versionNonce": 322032289,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191069620,
+			"updated": 1748191844314,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2725,8 +3049,8 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "aU",
 			"roundness": null,
 			"seed": 1104690799,
-			"version": 3514,
-			"versionNonce": 131534273,
+			"version": 3515,
+			"versionNonce": 810868481,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -2734,7 +3058,7 @@ value（省略指向对象） ^wZxAXCUh
 					"id": "f9zmFX2R"
 				}
 			],
-			"updated": 1748190988688,
+			"updated": 1748191844312,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2835,11 +3159,11 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "ao",
 			"roundness": null,
 			"seed": 1110221217,
-			"version": 535,
-			"versionNonce": 288892655,
+			"version": 558,
+			"versionNonce": 1968689857,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191007466,
+			"updated": 1748191844314,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2918,11 +3242,11 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "ap",
 			"roundness": null,
 			"seed": 1052591969,
-			"version": 438,
-			"versionNonce": 1821602063,
+			"version": 461,
+			"versionNonce": 184835681,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191007466,
+			"updated": 1748191844315,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2982,6 +3306,104 @@ value（省略指向对象） ^wZxAXCUh
 			"endIsSpecial": false
 		},
 		{
+			"id": "QpSpYIN41Vw7C563nOesy",
+			"type": "arrow",
+			"x": -810.1,
+			"y": 785,
+			"width": 2370.1,
+			"height": 900,
+			"angle": 0,
+			"strokeColor": "#6741d9",
+			"backgroundColor": "#99e9f2",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 1,
+			"strokeStyle": "dashed",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "aw",
+			"roundness": null,
+			"seed": 327281039,
+			"version": 644,
+			"versionNonce": 1954310497,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1748191853539,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0,
+					275
+				],
+				[
+					2370.1,
+					275
+				],
+				[
+					2370.1,
+					-625
+				],
+				[
+					1935.1,
+					-625
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "VV5AfL2YpTqY5AtY1_el7",
+				"focus": 0.0006666666666660603,
+				"gap": 5,
+				"fixedPoint": [
+					0.4996666666666666,
+					1.05
+				]
+			},
+			"endBinding": {
+				"elementId": "dyjLdC36kw5VhJEIWdrJK",
+				"focus": -0.4,
+				"gap": 5,
+				"fixedPoint": [
+					1.0166666666666666,
+					0.3
+				]
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"elbowed": true,
+			"fixedSegments": [
+				{
+					"index": 2,
+					"start": [
+						0,
+						275
+					],
+					"end": [
+						2370.1,
+						275
+					]
+				},
+				{
+					"index": 3,
+					"start": [
+						2370.1,
+						275
+					],
+					"end": [
+						2370.1,
+						-625
+					]
+				}
+			],
+			"startIsSpecial": false,
+			"endIsSpecial": false
+		},
+		{
 			"id": "pCEByztu",
 			"type": "text",
 			"x": 47.91200256347656,
@@ -2989,7 +3411,7 @@ value（省略指向对象） ^wZxAXCUh
 			"width": 4.175994873046875,
 			"height": 21.6,
 			"angle": 0,
-			"strokeColor": "#0c8599",
+			"strokeColor": "#99e9f2",
 			"backgroundColor": "#99e9f2",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -3001,11 +3423,11 @@ value（省略指向对象） ^wZxAXCUh
 			"index": "a2",
 			"roundness": null,
 			"seed": 1486285569,
-			"version": 4,
-			"versionNonce": 198003279,
+			"version": 5,
+			"versionNonce": 828427105,
 			"isDeleted": true,
 			"boundElements": null,
-			"updated": 1748190881306,
+			"updated": 1748191683239,
 			"link": null,
 			"locked": false,
 			"text": "",
@@ -3933,16 +4355,54 @@ value（省略指向对象） ^wZxAXCUh
 			"originalText": "",
 			"autoResize": true,
 			"lineHeight": 1.35
+		},
+		{
+			"id": "5Xts3DN4",
+			"type": "text",
+			"x": -602.049341938387,
+			"y": 194.90848912506272,
+			"width": 4.175994873046875,
+			"height": 21.6,
+			"angle": 0,
+			"strokeColor": "#0c8599",
+			"backgroundColor": "#99e9f2",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "av",
+			"roundness": null,
+			"seed": 1310081537,
+			"version": 3,
+			"versionNonce": 643593665,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1748191715311,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 16,
+			"fontFamily": 6,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "",
+			"autoResize": true,
+			"lineHeight": 1.35
 		}
 	],
 	"appState": {
 		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#3bc9db",
-		"currentItemBackgroundColor": "#e3fafc",
+		"currentItemStrokeColor": "#0c8599",
+		"currentItemBackgroundColor": "#99e9f2",
 		"currentItemFillStyle": "cross-hatch",
 		"currentItemStrokeWidth": 1,
-		"currentItemStrokeStyle": "solid",
+		"currentItemStrokeStyle": "dashed",
 		"currentItemRoughness": 0,
 		"currentItemOpacity": 100,
 		"currentItemFontFamily": 6,
@@ -3951,10 +4411,10 @@ value（省略指向对象） ^wZxAXCUh
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "elbow",
-		"scrollX": 2428.57851695854,
-		"scrollY": 1309.7024107140107,
+		"scrollX": 3111.392915228536,
+		"scrollY": 2287.7027565603034,
 		"zoom": {
-			"value": 0.333693
+			"value": 0.244339
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
