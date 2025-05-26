@@ -33,8 +33,6 @@ threadLocal对象
 
 tlObj ^oyvr9khF
 
-弱引用 ^WOzGVfxk
-
 threadLocalRef ^dYqsLMYO
 
 threadRef ^q0tFzCTJ
@@ -50,8 +48,6 @@ threadLocal2 ^s8gWr6Nz
 threadLocal对象
 
 2 ^koqEDg1c
-
-弱引用 ^KrQi2jke
 
 通过Thread.currentThread()可以获取当前线程，进而获取当前线程的 threadLocalMap ^f9zmFX2R
 
@@ -80,6 +76,8 @@ threadLocalRef ^kIJnNTiN
 threadLocal2Ref ^gBFVIwIW
 
 threadRef ^7ZDAGnlf
+
+entry 是弱引用 ^ipuzvKOm
 
 %%
 ## Drawing
@@ -1988,16 +1986,16 @@ threadRef ^7ZDAGnlf
 			"index": "aK",
 			"roundness": null,
 			"seed": 76695841,
-			"version": 2453,
-			"versionNonce": 1126056303,
+			"version": 2458,
+			"versionNonce": 1796972847,
 			"isDeleted": false,
 			"boundElements": [
 				{
 					"type": "text",
-					"id": "WOzGVfxk"
+					"id": "ipuzvKOm"
 				}
 			],
-			"updated": 1748223159683,
+			"updated": 1748231856013,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2057,40 +2055,40 @@ threadRef ^7ZDAGnlf
 			"endIsSpecial": false
 		},
 		{
-			"id": "WOzGVfxk",
+			"id": "ipuzvKOm",
 			"type": "text",
-			"x": -290,
-			"y": 166.5,
-			"width": 60,
-			"height": 27,
+			"x": -313.0959777832031,
+			"y": 169.2,
+			"width": 106.19195556640625,
+			"height": 21.6,
 			"angle": 0,
 			"strokeColor": "#f08c00",
-			"backgroundColor": "transparent",
+			"backgroundColor": "#d0bfff",
 			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 1,
+			"strokeWidth": 1,
+			"strokeStyle": "dashed",
+			"roughness": 0,
 			"opacity": 100,
 			"groupIds": [],
 			"frameId": null,
-			"index": "aL",
+			"index": "aKV",
 			"roundness": null,
-			"seed": 746689665,
-			"version": 18,
-			"versionNonce": 334588097,
+			"seed": 480363361,
+			"version": 11,
+			"versionNonce": 1611389711,
 			"isDeleted": false,
-			"boundElements": [],
-			"updated": 1748188539876,
+			"boundElements": null,
+			"updated": 1748231782134,
 			"link": null,
 			"locked": false,
-			"text": "弱引用",
-			"rawText": "弱引用",
-			"fontSize": 20,
+			"text": "entry 是弱引用",
+			"rawText": "entry 是弱引用",
+			"fontSize": 16,
 			"fontFamily": 6,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "mfHELO_8Z7AX3ZvCe_fNz",
-			"originalText": "弱引用",
+			"originalText": "entry 是弱引用",
 			"autoResize": true,
 			"lineHeight": 1.35
 		},
@@ -2888,16 +2886,11 @@ threadRef ^7ZDAGnlf
 			"index": "aS",
 			"roundness": null,
 			"seed": 1188523361,
-			"version": 1604,
-			"versionNonce": 803639791,
+			"version": 1606,
+			"versionNonce": 90439887,
 			"isDeleted": false,
-			"boundElements": [
-				{
-					"type": "text",
-					"id": "KrQi2jke"
-				}
-			],
-			"updated": 1748223159685,
+			"boundElements": [],
+			"updated": 1748231753945,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2943,44 +2936,6 @@ threadRef ^7ZDAGnlf
 			"fixedSegments": null,
 			"startIsSpecial": null,
 			"endIsSpecial": null
-		},
-		{
-			"id": "KrQi2jke",
-			"type": "text",
-			"x": -270,
-			"y": 316.5,
-			"width": 60,
-			"height": 27,
-			"angle": 0,
-			"strokeColor": "#e03131",
-			"backgroundColor": "#ebfbee",
-			"fillStyle": "hachure",
-			"strokeWidth": 2,
-			"strokeStyle": "dotted",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"index": "aSV",
-			"roundness": null,
-			"seed": 29151297,
-			"version": 20,
-			"versionNonce": 1974263631,
-			"isDeleted": false,
-			"boundElements": [],
-			"updated": 1748188533982,
-			"link": null,
-			"locked": false,
-			"text": "弱引用",
-			"rawText": "弱引用",
-			"fontSize": 20,
-			"fontFamily": 6,
-			"textAlign": "center",
-			"verticalAlign": "middle",
-			"containerId": "H-F_Cfwv9IbEHvvnlAh0y",
-			"originalText": "弱引用",
-			"autoResize": true,
-			"lineHeight": 1.35
 		},
 		{
 			"id": "S6s3TbIzidqvDqT9xC0Pp",
@@ -3619,6 +3574,82 @@ threadRef ^7ZDAGnlf
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "_JFjTnK7kEs52Pz-0J2yO",
+			"originalText": "",
+			"autoResize": true,
+			"lineHeight": 1.35
+		},
+		{
+			"id": "WOzGVfxk",
+			"type": "text",
+			"x": -262.60999298095703,
+			"y": 166.5,
+			"width": 5.2199859619140625,
+			"height": 27,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "aL",
+			"roundness": null,
+			"seed": 746689665,
+			"version": 20,
+			"versionNonce": 268910191,
+			"isDeleted": true,
+			"boundElements": [],
+			"updated": 1748231749793,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 20,
+			"fontFamily": 6,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "mfHELO_8Z7AX3ZvCe_fNz",
+			"originalText": "",
+			"autoResize": true,
+			"lineHeight": 1.35
+		},
+		{
+			"id": "KrQi2jke",
+			"type": "text",
+			"x": -242.60999298095703,
+			"y": 316.5,
+			"width": 5.2199859619140625,
+			"height": 27,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#ebfbee",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "dotted",
+			"roughness": 0,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "aSV",
+			"roundness": null,
+			"seed": 29151297,
+			"version": 33,
+			"versionNonce": 99159791,
+			"isDeleted": true,
+			"boundElements": [],
+			"updated": 1748231753945,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 20,
+			"fontFamily": 6,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "H-F_Cfwv9IbEHvvnlAh0y",
 			"originalText": "",
 			"autoResize": true,
 			"lineHeight": 1.35
@@ -4656,23 +4687,23 @@ threadRef ^7ZDAGnlf
 	"appState": {
 		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#1e1e1e",
+		"currentItemStrokeColor": "#f08c00",
 		"currentItemBackgroundColor": "#d0bfff",
 		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 1,
 		"currentItemStrokeStyle": "dashed",
 		"currentItemRoughness": 0,
-		"currentItemOpacity": 50,
+		"currentItemOpacity": 100,
 		"currentItemFontFamily": 6,
 		"currentItemFontSize": 16,
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "elbow",
-		"scrollX": 1407.7066395271286,
-		"scrollY": 682.4046844364958,
+		"scrollX": 1887.4474644412317,
+		"scrollY": 912.7627265992197,
 		"zoom": {
-			"value": 0.511723
+			"value": 0.500257
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
