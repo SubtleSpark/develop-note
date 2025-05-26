@@ -35,8 +35,6 @@ tlObj ^oyvr9khF
 
 threadLocalRef ^dYqsLMYO
 
-threadRef ^q0tFzCTJ
-
 Thread 1 的栈 ^s3sSKGKA
 
 threadLocal2Ref ^E8U5a69g
@@ -75,9 +73,7 @@ threadLocalRef ^kIJnNTiN
 
 threadLocal2Ref ^gBFVIwIW
 
-threadRef ^7ZDAGnlf
-
-entry 是弱引用 ^ipuzvKOm
+entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 
 %%
 ## Drawing
@@ -91,9 +87,9 @@ entry 是弱引用 ^ipuzvKOm
 			"id": "6sS-4tepnlCuDMPTR1XUY",
 			"type": "rectangle",
 			"x": -500,
-			"y": -500,
-			"width": 1900,
-			"height": 1500,
+			"y": -900,
+			"width": 1780,
+			"height": 2000,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#e6fcf5",
@@ -109,8 +105,8 @@ entry 是弱引用 ^ipuzvKOm
 				"type": 3
 			},
 			"seed": 228786031,
-			"version": 367,
-			"versionNonce": 461700097,
+			"version": 405,
+			"versionNonce": 930482017,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -118,15 +114,15 @@ entry 是弱引用 ^ipuzvKOm
 					"id": "GCby9eTm"
 				}
 			],
-			"updated": 1748223695492,
+			"updated": 1748235473884,
 			"link": null,
-			"locked": true
+			"locked": false
 		},
 		{
 			"id": "GCby9eTm",
 			"type": "text",
-			"x": 432,
-			"y": -495,
+			"x": 372,
+			"y": -895,
 			"width": 36,
 			"height": 48.6,
 			"angle": 0,
@@ -142,13 +138,13 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a1",
 			"roundness": null,
 			"seed": 8467887,
-			"version": 351,
-			"versionNonce": 140083343,
+			"version": 384,
+			"versionNonce": 1161011073,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748223695492,
+			"updated": 1748235473817,
 			"link": null,
-			"locked": true,
+			"locked": false,
 			"text": "堆",
 			"rawText": "堆",
 			"fontSize": 36,
@@ -163,8 +159,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "_JFjTnK7kEs52Pz-0J2yO",
 			"type": "rectangle",
-			"x": -300,
-			"y": 40,
+			"x": 200,
+			"y": -800,
 			"width": 700,
 			"height": 860,
 			"angle": 0,
@@ -184,19 +180,19 @@ entry 是弱引用 ^ipuzvKOm
 				"type": 3
 			},
 			"seed": 691974593,
-			"version": 83,
-			"versionNonce": 344917711,
+			"version": 174,
+			"versionNonce": 489503919,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276591,
+			"updated": 1748235137480,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "xTxkz6L8xSFwtyxlnc3eQ",
 			"type": "arrow",
-			"x": 49.85205905327513,
-			"y": 262.3688954559574,
+			"x": 549.8520590532751,
+			"y": -577.6311045440426,
 			"width": 0.06508380386770796,
 			"height": 132.6311045440426,
 			"angle": 0,
@@ -214,11 +210,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a3l",
 			"roundness": null,
 			"seed": 82104737,
-			"version": 4615,
-			"versionNonce": 1170429167,
+			"version": 5328,
+			"versionNonce": 1032358383,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276591,
+			"updated": 1748235137748,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -260,8 +256,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "9xq_0KoHycVqj-4nzWpjD",
 			"type": "rectangle",
-			"x": -100,
-			"y": 100,
+			"x": 400,
+			"y": -740,
 			"width": 300,
 			"height": 200,
 			"angle": 0,
@@ -282,8 +278,8 @@ entry 是弱引用 ^ipuzvKOm
 				"type": 3
 			},
 			"seed": 1786508673,
-			"version": 690,
-			"versionNonce": 59301647,
+			"version": 780,
+			"versionNonce": 9105761,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -291,23 +287,19 @@ entry 是弱引用 ^ipuzvKOm
 					"id": "mIwSmPGg"
 				},
 				{
-					"id": "7pvoR5shuJp3P9pcfKYNf",
-					"type": "arrow"
-				},
-				{
 					"id": "-6uWyZAawkTKUGlPBEnFj",
 					"type": "arrow"
 				}
 			],
-			"updated": 1748234276591,
+			"updated": 1748235441914,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "mIwSmPGg",
 			"type": "text",
-			"x": -34.20252227783203,
-			"y": 105,
+			"x": 465.79747772216797,
+			"y": -735,
 			"width": 168.40504455566406,
 			"height": 37.36889545595735,
 			"angle": 0,
@@ -326,11 +318,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a3m",
 			"roundness": null,
 			"seed": 2101583201,
-			"version": 864,
-			"versionNonce": 542647599,
+			"version": 953,
+			"versionNonce": 71804687,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276591,
+			"updated": 1748235137480,
 			"link": null,
 			"locked": false,
 			"text": "Thread对象 1",
@@ -347,8 +339,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "xX2jvQeG",
 			"type": "text",
-			"x": -100,
-			"y": 220,
+			"x": 400,
+			"y": -620,
 			"width": 300,
 			"height": 37.36889545595735,
 			"angle": 0,
@@ -367,8 +359,8 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a3mV",
 			"roundness": null,
 			"seed": 1284196673,
-			"version": 637,
-			"versionNonce": 194619215,
+			"version": 726,
+			"versionNonce": 1484369263,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -376,7 +368,7 @@ entry 是弱引用 ^ipuzvKOm
 					"type": "arrow"
 				}
 			],
-			"updated": 1748234276591,
+			"updated": 1748235137481,
 			"link": null,
 			"locked": false,
 			"text": "threadLocalMap",
@@ -393,8 +385,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "hkUSwq9ywGuFAzad-PKIZ",
 			"type": "rectangle",
-			"x": -240,
-			"y": 400,
+			"x": 260,
+			"y": -440,
 			"width": 580,
 			"height": 440,
 			"angle": 0,
@@ -415,8 +407,8 @@ entry 是弱引用 ^ipuzvKOm
 				"type": 3
 			},
 			"seed": 1370650913,
-			"version": 443,
-			"versionNonce": 866510191,
+			"version": 532,
+			"versionNonce": 1118985647,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -428,15 +420,15 @@ entry 是弱引用 ^ipuzvKOm
 					"type": "arrow"
 				}
 			],
-			"updated": 1748234276591,
+			"updated": 1748235137482,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "4BuPszc7",
 			"type": "text",
-			"x": -56.38594055175781,
-			"y": 405,
+			"x": 443.6140594482422,
+			"y": -435,
 			"width": 212.77188110351562,
 			"height": 37.800000000000004,
 			"angle": 0,
@@ -455,11 +447,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a3p",
 			"roundness": null,
 			"seed": 774417665,
-			"version": 369,
-			"versionNonce": 667246479,
+			"version": 458,
+			"versionNonce": 1192808399,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276591,
+			"updated": 1748235137482,
 			"link": null,
 			"locked": false,
 			"text": "ThreadLocalMap",
@@ -476,8 +468,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "-7uD2Hj0M2eG9cDja0_jA",
 			"type": "rectangle",
-			"x": -200,
-			"y": 500,
+			"x": 300,
+			"y": -340,
 			"width": 300,
 			"height": 100,
 			"angle": 0,
@@ -497,8 +489,8 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a3t",
 			"roundness": null,
 			"seed": 695035105,
-			"version": 424,
-			"versionNonce": 2050004399,
+			"version": 513,
+			"versionNonce": 1391749135,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -506,15 +498,15 @@ entry 是弱引用 ^ipuzvKOm
 					"id": "407uDWee"
 				}
 			],
-			"updated": 1748234276591,
+			"updated": 1748235137482,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "407uDWee",
 			"type": "text",
-			"x": -158.8799285888672,
-			"y": 536.5,
+			"x": 341.1200714111328,
+			"y": -303.5,
 			"width": 217.75985717773438,
 			"height": 27,
 			"angle": 0,
@@ -534,11 +526,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a3x",
 			"roundness": null,
 			"seed": 1863327937,
-			"version": 456,
-			"versionNonce": 1645217743,
+			"version": 545,
+			"versionNonce": 1802145327,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276591,
+			"updated": 1748235137482,
 			"link": null,
 			"locked": false,
 			"text": "key（threadLocal对象）",
@@ -555,8 +547,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "01JGAJweMlVMRFoXhiA7-",
 			"type": "rectangle",
-			"x": -200,
-			"y": 600,
+			"x": 300,
+			"y": -240,
 			"width": 300,
 			"height": 100,
 			"angle": 0,
@@ -576,8 +568,8 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a4",
 			"roundness": null,
 			"seed": 212885665,
-			"version": 441,
-			"versionNonce": 494679535,
+			"version": 534,
+			"versionNonce": 2054615119,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -589,15 +581,15 @@ entry 是弱引用 ^ipuzvKOm
 					"type": "arrow"
 				}
 			],
-			"updated": 1748234276591,
+			"updated": 1748235137482,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "H9zjGt9A",
 			"type": "text",
-			"x": -72.56998443603516,
-			"y": 636.5,
+			"x": 427.43001556396484,
+			"y": -203.5,
 			"width": 45.13996887207031,
 			"height": 27,
 			"angle": 0,
@@ -617,11 +609,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a48",
 			"roundness": null,
 			"seed": 805151873,
-			"version": 475,
-			"versionNonce": 327000079,
+			"version": 564,
+			"versionNonce": 1240600175,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276591,
+			"updated": 1748235137482,
 			"link": null,
 			"locked": false,
 			"text": "tlObj",
@@ -638,8 +630,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "NsigjkT4hbyKn0sbrtqha",
 			"type": "rectangle",
-			"x": -200,
-			"y": 700,
+			"x": 300,
+			"y": -140,
 			"width": 300,
 			"height": 100,
 			"angle": 0,
@@ -659,8 +651,8 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a4G",
 			"roundness": null,
 			"seed": 616000609,
-			"version": 450,
-			"versionNonce": 906806831,
+			"version": 539,
+			"versionNonce": 675708591,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -672,15 +664,15 @@ entry 是弱引用 ^ipuzvKOm
 					"type": "arrow"
 				}
 			],
-			"updated": 1748234276591,
+			"updated": 1748235137482,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "s8gWr6Nz",
 			"type": "text",
-			"x": -109.47994232177734,
-			"y": 736.5,
+			"x": 390.52005767822266,
+			"y": -103.5,
 			"width": 118.95988464355469,
 			"height": 27,
 			"angle": 0,
@@ -700,11 +692,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a4V",
 			"roundness": null,
 			"seed": 313342017,
-			"version": 497,
-			"versionNonce": 605169743,
+			"version": 586,
+			"versionNonce": 125882575,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276591,
+			"updated": 1748235137482,
 			"link": null,
 			"locked": false,
 			"text": "threadLocal2",
@@ -721,8 +713,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "FY2W6dKeDfIA0s0KZmeoF",
 			"type": "rectangle",
-			"x": 100,
-			"y": 500,
+			"x": 600,
+			"y": -340,
 			"width": 200,
 			"height": 100,
 			"angle": 0,
@@ -742,8 +734,8 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a4l",
 			"roundness": null,
 			"seed": 2076084257,
-			"version": 452,
-			"versionNonce": 191252079,
+			"version": 541,
+			"versionNonce": 135276815,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -751,15 +743,15 @@ entry 是弱引用 ^ipuzvKOm
 					"id": "AwE7rJwu"
 				}
 			],
-			"updated": 1748234276591,
+			"updated": 1748235137483,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "AwE7rJwu",
 			"type": "text",
-			"x": 115.59002685546875,
-			"y": 523,
+			"x": 615.5900268554688,
+			"y": -317,
 			"width": 168.8199462890625,
 			"height": 54,
 			"angle": 0,
@@ -779,11 +771,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a5",
 			"roundness": null,
 			"seed": 2044386305,
-			"version": 539,
-			"versionNonce": 1255252111,
+			"version": 628,
+			"versionNonce": 1768304431,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276591,
+			"updated": 1748235137483,
 			"link": null,
 			"locked": false,
 			"text": "value（省略指向对\n象）",
@@ -800,8 +792,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "bZoodE_bYY-lcpZFjq4Na",
 			"type": "rectangle",
-			"x": 100,
-			"y": 600,
+			"x": 600,
+			"y": -240,
 			"width": 200,
 			"height": 100,
 			"angle": 0,
@@ -821,8 +813,8 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a5G",
 			"roundness": null,
 			"seed": 1023521761,
-			"version": 461,
-			"versionNonce": 1410119343,
+			"version": 550,
+			"versionNonce": 1515614543,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -830,15 +822,15 @@ entry 是弱引用 ^ipuzvKOm
 					"id": "Xr0QXiib"
 				}
 			],
-			"updated": 1748234276592,
+			"updated": 1748235137483,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "Xr0QXiib",
 			"type": "text",
-			"x": 172.43002319335938,
-			"y": 636.5,
+			"x": 672.4300231933594,
+			"y": -203.5,
 			"width": 55.13995361328125,
 			"height": 27,
 			"angle": 0,
@@ -858,11 +850,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a5V",
 			"roundness": null,
 			"seed": 1229098945,
-			"version": 529,
-			"versionNonce": 1304430799,
+			"version": 618,
+			"versionNonce": 1681485679,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235137483,
 			"link": null,
 			"locked": false,
 			"text": "“val1”",
@@ -879,8 +871,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "7ihi9syoz1_7N3CGBMy0H",
 			"type": "rectangle",
-			"x": 100,
-			"y": 700,
+			"x": 600,
+			"y": -140,
 			"width": 200,
 			"height": 100,
 			"angle": 0,
@@ -900,8 +892,8 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a6",
 			"roundness": null,
 			"seed": 1958539169,
-			"version": 469,
-			"versionNonce": 1971590895,
+			"version": 558,
+			"versionNonce": 1364699535,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -909,15 +901,15 @@ entry 是弱引用 ^ipuzvKOm
 					"id": "hoYsfH2R"
 				}
 			],
-			"updated": 1748234276592,
+			"updated": 1748235137483,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "hoYsfH2R",
 			"type": "text",
-			"x": 172.43002319335938,
-			"y": 736.5,
+			"x": 672.4300231933594,
+			"y": -103.5,
 			"width": 55.13995361328125,
 			"height": 27,
 			"angle": 0,
@@ -937,11 +929,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a7",
 			"roundness": null,
 			"seed": 631264129,
-			"version": 547,
-			"versionNonce": 1105289487,
+			"version": 636,
+			"versionNonce": 250191791,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235137483,
 			"link": null,
 			"locked": false,
 			"text": "“val2”",
@@ -958,8 +950,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "cSKF1d_5rodqXrVxmiqWc",
 			"type": "rectangle",
-			"x": 620,
-			"y": 40,
+			"x": 200,
+			"y": 200,
 			"width": 700,
 			"height": 860,
 			"angle": 0,
@@ -979,19 +971,19 @@ entry 是弱引用 ^ipuzvKOm
 				"type": 3
 			},
 			"seed": 1345076065,
-			"version": 143,
-			"versionNonce": 1146119983,
+			"version": 170,
+			"versionNonce": 347064719,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235141247,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "MLTL6iD8_j-rVqkK5t1e0",
 			"type": "arrow",
-			"x": 969.8520590532751,
-			"y": 262.3688954559574,
+			"x": 549.8520590532751,
+			"y": 422.3688954559574,
 			"width": 0.0650838038677648,
 			"height": 132.6311045440426,
 			"angle": 0,
@@ -1009,11 +1001,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a78",
 			"roundness": null,
 			"seed": 883959617,
-			"version": 5226,
-			"versionNonce": 1262070095,
+			"version": 5543,
+			"versionNonce": 249231471,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235141448,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1055,8 +1047,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "dyjLdC36kw5VhJEIWdrJK",
 			"type": "rectangle",
-			"x": 820,
-			"y": 100,
+			"x": 400,
+			"y": 260,
 			"width": 300,
 			"height": 200,
 			"angle": 0,
@@ -1077,28 +1069,24 @@ entry 是弱引用 ^ipuzvKOm
 				"type": 3
 			},
 			"seed": 1569429281,
-			"version": 755,
-			"versionNonce": 1140172655,
+			"version": 783,
+			"versionNonce": 1780773839,
 			"isDeleted": false,
 			"boundElements": [
 				{
 					"type": "text",
 					"id": "fdPxzxw8"
-				},
-				{
-					"id": "QpSpYIN41Vw7C563nOesy",
-					"type": "arrow"
 				}
 			],
-			"updated": 1748234276592,
+			"updated": 1748235447045,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "fdPxzxw8",
 			"type": "text",
-			"x": 885.797477722168,
-			"y": 105,
+			"x": 465.79747772216797,
+			"y": 265,
 			"width": 168.40504455566406,
 			"height": 37.36889545595735,
 			"angle": 0,
@@ -1117,11 +1105,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a7O",
 			"roundness": null,
 			"seed": 1563298561,
-			"version": 924,
-			"versionNonce": 1556930959,
+			"version": 951,
+			"versionNonce": 1606868975,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235141247,
 			"link": null,
 			"locked": false,
 			"text": "Thread对象 2",
@@ -1138,8 +1126,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "lOUFrIBO",
 			"type": "text",
-			"x": 820,
-			"y": 220,
+			"x": 400,
+			"y": 380,
 			"width": 300,
 			"height": 37.36889545595735,
 			"angle": 0,
@@ -1158,8 +1146,8 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a7V",
 			"roundness": null,
 			"seed": 1276576481,
-			"version": 699,
-			"versionNonce": 1727518639,
+			"version": 726,
+			"versionNonce": 1899294767,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1167,7 +1155,7 @@ entry 是弱引用 ^ipuzvKOm
 					"type": "arrow"
 				}
 			],
-			"updated": 1748234276592,
+			"updated": 1748235141248,
 			"link": null,
 			"locked": false,
 			"text": "threadLocalMap",
@@ -1184,8 +1172,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "yYM750nrYuVfmEKnhDlDI",
 			"type": "rectangle",
-			"x": 680,
-			"y": 400,
+			"x": 260,
+			"y": 560,
 			"width": 580,
 			"height": 440,
 			"angle": 0,
@@ -1206,8 +1194,8 @@ entry 是弱引用 ^ipuzvKOm
 				"type": 3
 			},
 			"seed": 114687681,
-			"version": 506,
-			"versionNonce": 2023688655,
+			"version": 533,
+			"versionNonce": 1175187567,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1219,15 +1207,15 @@ entry 是弱引用 ^ipuzvKOm
 					"type": "arrow"
 				}
 			],
-			"updated": 1748234276592,
+			"updated": 1748235141248,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "Cy3HM7at",
 			"type": "text",
-			"x": 863.6140594482422,
-			"y": 405,
+			"x": 443.6140594482422,
+			"y": 565,
 			"width": 212.77188110351562,
 			"height": 37.800000000000004,
 			"angle": 0,
@@ -1246,11 +1234,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a7d",
 			"roundness": null,
 			"seed": 738885281,
-			"version": 428,
-			"versionNonce": 1322973167,
+			"version": 455,
+			"versionNonce": 926026383,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235141248,
 			"link": null,
 			"locked": false,
 			"text": "ThreadLocalMap",
@@ -1267,8 +1255,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "KX1qhotnRZ9g3Z6woDPJa",
 			"type": "rectangle",
-			"x": 720,
-			"y": 500,
+			"x": 300,
+			"y": 660,
 			"width": 300,
 			"height": 100,
 			"angle": 0,
@@ -1288,8 +1276,8 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a7l",
 			"roundness": null,
 			"seed": 1516503681,
-			"version": 483,
-			"versionNonce": 1874076175,
+			"version": 510,
+			"versionNonce": 2022568655,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1297,15 +1285,15 @@ entry 是弱引用 ^ipuzvKOm
 					"id": "cSOznOBz"
 				}
 			],
-			"updated": 1748234276592,
+			"updated": 1748235141248,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "cSOznOBz",
 			"type": "text",
-			"x": 761.1200714111328,
-			"y": 536.5,
+			"x": 341.1200714111328,
+			"y": 696.5,
 			"width": 217.75985717773438,
 			"height": 27,
 			"angle": 0,
@@ -1325,11 +1313,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a7t",
 			"roundness": null,
 			"seed": 782371425,
-			"version": 515,
-			"versionNonce": 203622447,
+			"version": 542,
+			"versionNonce": 587514095,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235141248,
 			"link": null,
 			"locked": false,
 			"text": "key（threadLocal对象）",
@@ -1346,8 +1334,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "lSoQT-gqwjTxeD1x2HGKq",
 			"type": "rectangle",
-			"x": 720,
-			"y": 600,
+			"x": 300,
+			"y": 760,
 			"width": 300,
 			"height": 100,
 			"angle": 0,
@@ -1367,8 +1355,8 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a8",
 			"roundness": null,
 			"seed": 26482241,
-			"version": 505,
-			"versionNonce": 571484751,
+			"version": 532,
+			"versionNonce": 230476559,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1380,15 +1368,15 @@ entry 是弱引用 ^ipuzvKOm
 					"type": "arrow"
 				}
 			],
-			"updated": 1748234276592,
+			"updated": 1748235141248,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "9ph5Mh1W",
 			"type": "text",
-			"x": 847.4300155639648,
-			"y": 636.5,
+			"x": 427.43001556396484,
+			"y": 796.5,
 			"width": 45.13996887207031,
 			"height": 27,
 			"angle": 0,
@@ -1408,11 +1396,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a88",
 			"roundness": null,
 			"seed": 1712956961,
-			"version": 534,
-			"versionNonce": 1582565487,
+			"version": 561,
+			"versionNonce": 355373359,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235141248,
 			"link": null,
 			"locked": false,
 			"text": "tlObj",
@@ -1429,8 +1417,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "U_BsgMnHhpD73khthWIcb",
 			"type": "rectangle",
-			"x": 720,
-			"y": 700,
+			"x": 300,
+			"y": 860,
 			"width": 300,
 			"height": 100,
 			"angle": 0,
@@ -1450,8 +1438,8 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a8G",
 			"roundness": null,
 			"seed": 1730296321,
-			"version": 514,
-			"versionNonce": 1052189327,
+			"version": 541,
+			"versionNonce": 517034351,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1463,15 +1451,15 @@ entry 是弱引用 ^ipuzvKOm
 					"type": "arrow"
 				}
 			],
-			"updated": 1748234276592,
+			"updated": 1748235141248,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "7y8arVIm",
 			"type": "text",
-			"x": 810.5200576782227,
-			"y": 736.5,
+			"x": 390.52005767822266,
+			"y": 896.5,
 			"width": 118.95988464355469,
 			"height": 27,
 			"angle": 0,
@@ -1491,11 +1479,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a8V",
 			"roundness": null,
 			"seed": 95244769,
-			"version": 556,
-			"versionNonce": 1945237679,
+			"version": 583,
+			"versionNonce": 1923304335,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235141248,
 			"link": null,
 			"locked": false,
 			"text": "threadLocal2",
@@ -1512,8 +1500,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "ilE36iIrMK8a42XfKsW4b",
 			"type": "rectangle",
-			"x": 1020,
-			"y": 500,
+			"x": 600,
+			"y": 660,
 			"width": 200,
 			"height": 100,
 			"angle": 0,
@@ -1533,8 +1521,8 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a8l",
 			"roundness": null,
 			"seed": 1992977857,
-			"version": 511,
-			"versionNonce": 61672143,
+			"version": 538,
+			"versionNonce": 1734538191,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1542,15 +1530,15 @@ entry 是弱引用 ^ipuzvKOm
 					"id": "wZxAXCUh"
 				}
 			],
-			"updated": 1748234276592,
+			"updated": 1748235141249,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "wZxAXCUh",
 			"type": "text",
-			"x": 1035.5900268554688,
-			"y": 523,
+			"x": 615.5900268554688,
+			"y": 683,
 			"width": 168.8199462890625,
 			"height": 54,
 			"angle": 0,
@@ -1570,11 +1558,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a9",
 			"roundness": null,
 			"seed": 563678625,
-			"version": 598,
-			"versionNonce": 713087215,
+			"version": 625,
+			"versionNonce": 1368498671,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235141249,
 			"link": null,
 			"locked": false,
 			"text": "value（省略指向对\n象）",
@@ -1591,8 +1579,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "pmQtGM_pI0Tv2Hofu9c-s",
 			"type": "rectangle",
-			"x": 1020,
-			"y": 600,
+			"x": 600,
+			"y": 760,
 			"width": 200,
 			"height": 100,
 			"angle": 0,
@@ -1612,8 +1600,8 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a9G",
 			"roundness": null,
 			"seed": 1565045121,
-			"version": 520,
-			"versionNonce": 2113266447,
+			"version": 547,
+			"versionNonce": 2047183887,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1621,15 +1609,15 @@ entry 是弱引用 ^ipuzvKOm
 					"id": "u8l6ytVy"
 				}
 			],
-			"updated": 1748234276592,
+			"updated": 1748235141249,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "u8l6ytVy",
 			"type": "text",
-			"x": 1054.3400650024414,
-			"y": 636.5,
+			"x": 634.3400650024414,
+			"y": 796.5,
 			"width": 131.3198699951172,
 			"height": 27,
 			"angle": 0,
@@ -1649,11 +1637,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "a9V",
 			"roundness": null,
 			"seed": 1863899489,
-			"version": 597,
-			"versionNonce": 1317316911,
+			"version": 624,
+			"versionNonce": 1555509807,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235141249,
 			"link": null,
 			"locked": false,
 			"text": "“thread2 val1”",
@@ -1670,8 +1658,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "E4X99f1TKSOR2RF0Z6yyB",
 			"type": "rectangle",
-			"x": 1020,
-			"y": 700,
+			"x": 600,
+			"y": 860,
 			"width": 200,
 			"height": 100,
 			"angle": 0,
@@ -1691,8 +1679,8 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "aA",
 			"roundness": null,
 			"seed": 1213793601,
-			"version": 528,
-			"versionNonce": 1234545487,
+			"version": 555,
+			"versionNonce": 1653544015,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1700,15 +1688,15 @@ entry 是弱引用 ^ipuzvKOm
 					"id": "7QBn4mGv"
 				}
 			],
-			"updated": 1748234276592,
+			"updated": 1748235141249,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "7QBn4mGv",
 			"type": "text",
-			"x": 1054.3400650024414,
-			"y": 736.5,
+			"x": 634.3400650024414,
+			"y": 896.5,
 			"width": 131.3198699951172,
 			"height": 27,
 			"angle": 0,
@@ -1728,11 +1716,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "aB",
 			"roundness": null,
 			"seed": 73970977,
-			"version": 621,
-			"versionNonce": 1535207791,
+			"version": 648,
+			"versionNonce": 1130738287,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235141249,
 			"link": null,
 			"locked": false,
 			"text": "“thread2 val2”",
@@ -1749,8 +1737,8 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "bB7ZhGZw",
 			"type": "text",
-			"x": -700,
-			"y": -780,
+			"x": -640,
+			"y": -960,
 			"width": 1060,
 			"height": 97.2,
 			"angle": 0,
@@ -1766,11 +1754,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "aH",
 			"roundness": null,
 			"seed": 649554177,
-			"version": 595,
-			"versionNonce": 1368417167,
+			"version": 608,
+			"versionNonce": 2007502977,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235260506,
 			"link": null,
 			"locked": false,
 			"text": "static ThreadLocal<String> tlObj = new ThreadLocal<>();\ntlObj.set(\"val1\");",
@@ -1787,7 +1775,7 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "kC0IvJW5ejfuBejg_T4Jx",
 			"type": "rectangle",
-			"x": 200,
+			"x": -340,
 			"y": -400,
 			"width": 300,
 			"height": 160,
@@ -1806,8 +1794,8 @@ entry 是弱引用 ^ipuzvKOm
 				"type": 3
 			},
 			"seed": 415539425,
-			"version": 499,
-			"versionNonce": 1006311855,
+			"version": 607,
+			"versionNonce": 1939316943,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1823,26 +1811,26 @@ entry 是弱引用 ^ipuzvKOm
 					"type": "arrow"
 				},
 				{
-					"id": "mfHELO_8Z7AX3ZvCe_fNz",
-					"type": "arrow"
-				},
-				{
 					"id": "yc3lKWLOLb-43XSndycaR",
 					"type": "arrow"
 				},
 				{
 					"id": "YYtBU9SEM5InR2QsqGwge",
 					"type": "arrow"
+				},
+				{
+					"id": "mfHELO_8Z7AX3ZvCe_fNz",
+					"type": "arrow"
 				}
 			],
-			"updated": 1748234276592,
+			"updated": 1748235116579,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "oyvr9khF",
 			"type": "text",
-			"x": 247.12804412841797,
+			"x": -292.87195587158203,
 			"y": -376.7,
 			"width": 205.74391174316406,
 			"height": 113.4,
@@ -1859,11 +1847,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "aJ",
 			"roundness": null,
 			"seed": 1459567841,
-			"version": 418,
-			"versionNonce": 1530503809,
+			"version": 522,
+			"versionNonce": 749252335,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748188701159,
+			"updated": 1748235116579,
 			"link": null,
 			"locked": false,
 			"text": "threadLocal对象\n\ntlObj",
@@ -1880,7 +1868,7 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "OZtrOe3V4JX2OiL2KgtPF",
 			"type": "rectangle",
-			"x": 200,
+			"x": -420,
 			"y": -200,
 			"width": 300,
 			"height": 160,
@@ -1899,8 +1887,8 @@ entry 是弱引用 ^ipuzvKOm
 				"type": 3
 			},
 			"seed": 1746918593,
-			"version": 464,
-			"versionNonce": 266996687,
+			"version": 607,
+			"versionNonce": 908081327,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1924,14 +1912,14 @@ entry 是弱引用 ^ipuzvKOm
 					"type": "arrow"
 				}
 			],
-			"updated": 1748234276592,
+			"updated": 1748235347875,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "koqEDg1c",
 			"type": "text",
-			"x": 247.12804412841797,
+			"x": -372.87195587158203,
 			"y": -176.7,
 			"width": 205.74391174316406,
 			"height": 113.4,
@@ -1948,11 +1936,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "aJV",
 			"roundness": null,
 			"seed": 551143855,
-			"version": 399,
-			"versionNonce": 48762305,
+			"version": 542,
+			"versionNonce": 1712540367,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748188701161,
+			"updated": 1748235347875,
 			"link": null,
 			"locked": false,
 			"text": "threadLocal对象\n\n2",
@@ -1969,10 +1957,10 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "mfHELO_8Z7AX3ZvCe_fNz",
 			"type": "arrow",
-			"x": -205,
-			"y": 640,
-			"width": 455,
-			"height": 920,
+			"x": 295,
+			"y": -200,
+			"width": 330,
+			"height": 120.10000000000002,
 			"angle": 0,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
@@ -1986,8 +1974,8 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "aK",
 			"roundness": null,
 			"seed": 1147706529,
-			"version": 2460,
-			"versionNonce": 441149327,
+			"version": 3360,
+			"versionNonce": 1014116111,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1995,7 +1983,7 @@ entry 是弱引用 ^ipuzvKOm
 					"id": "ipuzvKOm"
 				}
 			],
-			"updated": 1748234305445,
+			"updated": 1748235217265,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2004,22 +1992,22 @@ entry 是弱引用 ^ipuzvKOm
 					0
 				],
 				[
-					-55,
+					-165,
 					0
 				],
 				[
-					-55,
-					-920
+					-165,
+					-120.10000000000002
 				],
 				[
-					400,
-					-920
+					-330,
+					-120.10000000000002
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "01JGAJweMlVMRFoXhiA7-",
-				"focus": 0.2,
+				"focus": -0.44373460814138754,
 				"gap": 5,
 				"fixedPoint": [
 					-0.016666666666666666,
@@ -2028,39 +2016,27 @@ entry 是弱引用 ^ipuzvKOm
 			},
 			"endBinding": {
 				"elementId": "kC0IvJW5ejfuBejg_T4Jx",
-				"focus": -0.5,
+				"focus": -0.41986941348643475,
 				"gap": 5,
 				"fixedPoint": [
-					-0.016666666666666666,
-					0.75
+					1.0166666666666666,
+					0.49937499999999985
 				]
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
 			"elbowed": true,
-			"fixedSegments": [
-				{
-					"index": 2,
-					"start": [
-						-55,
-						0
-					],
-					"end": [
-						-55,
-						-920
-					]
-				}
-			],
-			"startIsSpecial": false,
-			"endIsSpecial": false
+			"fixedSegments": null,
+			"startIsSpecial": null,
+			"endIsSpecial": null
 		},
 		{
 			"id": "ipuzvKOm",
 			"type": "text",
-			"x": -326.3699722290039,
+			"x": -409.7499084472656,
 			"y": 166.5,
-			"width": 132.7399444580078,
-			"height": 27,
+			"width": 219.4998016357422,
+			"height": 54,
 			"angle": 0,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "#d0bfff",
@@ -2074,21 +2050,21 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "aKV",
 			"roundness": null,
 			"seed": 480363361,
-			"version": 13,
-			"versionNonce": 1732221121,
+			"version": 68,
+			"versionNonce": 1794551599,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1748234308347,
+			"updated": 1748235212201,
 			"link": null,
 			"locked": false,
-			"text": "entry 是弱引用",
-			"rawText": "entry 是弱引用",
+			"text": "entry 到 thradLocal 对象\n是弱引用",
+			"rawText": "entry 到 thradLocal 对象是弱引用",
 			"fontSize": 20,
 			"fontFamily": 6,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "mfHELO_8Z7AX3ZvCe_fNz",
-			"originalText": "entry 是弱引用",
+			"originalText": "entry 到 thradLocal 对象是弱引用",
 			"autoResize": true,
 			"lineHeight": 1.35
 		},
@@ -2332,87 +2308,6 @@ entry 是弱引用 ^ipuzvKOm
 			"lineHeight": 1.35
 		},
 		{
-			"id": "divLPbA6svwcFyAsp6XiP",
-			"type": "rectangle",
-			"x": -960,
-			"y": -20,
-			"width": 300,
-			"height": 100,
-			"angle": 0,
-			"strokeColor": "#0c8599",
-			"backgroundColor": "transparent",
-			"fillStyle": "cross-hatch",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 2,
-			"opacity": 100,
-			"groupIds": [
-				"x618Z0Nvg5MLJRP32qdMH"
-			],
-			"frameId": null,
-			"index": "aMG",
-			"roundness": {
-				"type": 3
-			},
-			"seed": 701909953,
-			"version": 372,
-			"versionNonce": 1045826767,
-			"isDeleted": false,
-			"boundElements": [
-				{
-					"type": "text",
-					"id": "q0tFzCTJ"
-				},
-				{
-					"id": "7pvoR5shuJp3P9pcfKYNf",
-					"type": "arrow"
-				}
-			],
-			"updated": 1748234276592,
-			"link": null,
-			"locked": false
-		},
-		{
-			"id": "q0tFzCTJ",
-			"type": "text",
-			"x": -872.7759628295898,
-			"y": 11.099999999999998,
-			"width": 125.55192565917969,
-			"height": 37.800000000000004,
-			"angle": 0,
-			"strokeColor": "#0c8599",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 2,
-			"opacity": 100,
-			"groupIds": [
-				"x618Z0Nvg5MLJRP32qdMH"
-			],
-			"frameId": null,
-			"index": "aMV",
-			"roundness": null,
-			"seed": 58272673,
-			"version": 365,
-			"versionNonce": 1824103151,
-			"isDeleted": false,
-			"boundElements": [],
-			"updated": 1748234276592,
-			"link": null,
-			"locked": false,
-			"text": "threadRef",
-			"rawText": "threadRef",
-			"fontSize": 28,
-			"fontFamily": 6,
-			"textAlign": "center",
-			"verticalAlign": "middle",
-			"containerId": "divLPbA6svwcFyAsp6XiP",
-			"originalText": "threadRef",
-			"autoResize": true,
-			"lineHeight": 1.35
-		},
-		{
 			"id": "DphYFjjmu90252fVQf9k4",
 			"type": "rectangle",
 			"x": -1000,
@@ -2652,163 +2547,11 @@ entry 是弱引用 ^ipuzvKOm
 			"lineHeight": 1.35
 		},
 		{
-			"id": "VV5AfL2YpTqY5AtY1_el7",
-			"type": "rectangle",
-			"x": -960,
-			"y": 680,
-			"width": 300,
-			"height": 100,
-			"angle": 0,
-			"strokeColor": "#6741d9",
-			"backgroundColor": "transparent",
-			"fillStyle": "cross-hatch",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 2,
-			"opacity": 100,
-			"groupIds": [
-				"lGfHJwB8kmGglupSlFGDm"
-			],
-			"frameId": null,
-			"index": "aO",
-			"roundness": {
-				"type": 3
-			},
-			"seed": 183352001,
-			"version": 521,
-			"versionNonce": 804326863,
-			"isDeleted": false,
-			"boundElements": [
-				{
-					"type": "text",
-					"id": "7ZDAGnlf"
-				},
-				{
-					"id": "QpSpYIN41Vw7C563nOesy",
-					"type": "arrow"
-				}
-			],
-			"updated": 1748234276592,
-			"link": null,
-			"locked": false
-		},
-		{
-			"id": "7ZDAGnlf",
-			"type": "text",
-			"x": -872.7759628295898,
-			"y": 711.1,
-			"width": 125.55192565917969,
-			"height": 37.800000000000004,
-			"angle": 0,
-			"strokeColor": "#6741d9",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 2,
-			"opacity": 100,
-			"groupIds": [
-				"lGfHJwB8kmGglupSlFGDm"
-			],
-			"frameId": null,
-			"index": "aP",
-			"roundness": null,
-			"seed": 1305131681,
-			"version": 507,
-			"versionNonce": 1431075823,
-			"isDeleted": false,
-			"boundElements": [],
-			"updated": 1748234276592,
-			"link": null,
-			"locked": false,
-			"text": "threadRef",
-			"rawText": "threadRef",
-			"fontSize": 28,
-			"fontFamily": 6,
-			"textAlign": "center",
-			"verticalAlign": "middle",
-			"containerId": "VV5AfL2YpTqY5AtY1_el7",
-			"originalText": "threadRef",
-			"autoResize": true,
-			"lineHeight": 1.35
-		},
-		{
-			"id": "7pvoR5shuJp3P9pcfKYNf",
-			"type": "arrow",
-			"x": -660,
-			"y": 20,
-			"width": 555.2145309338589,
-			"height": 106.97430535329435,
-			"angle": 0,
-			"strokeColor": "#0c8599",
-			"backgroundColor": "#b2f2bb",
-			"fillStyle": "cross-hatch",
-			"strokeWidth": 2,
-			"strokeStyle": "dashed",
-			"roughness": 2,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"index": "aQ",
-			"roundness": null,
-			"seed": 1354546817,
-			"version": 2650,
-			"versionNonce": 894772751,
-			"isDeleted": false,
-			"boundElements": [],
-			"updated": 1748234276592,
-			"link": null,
-			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					280,
-					0
-				],
-				[
-					280,
-					106.97430535329435
-				],
-				[
-					555.2145309338589,
-					106.97430535329435
-				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": {
-				"elementId": "divLPbA6svwcFyAsp6XiP",
-				"focus": -0.2,
-				"gap": 1,
-				"fixedPoint": [
-					1,
-					0.4
-				]
-			},
-			"endBinding": {
-				"elementId": "9xq_0KoHycVqj-4nzWpjD",
-				"focus": 0.7302569455958308,
-				"gap": 5,
-				"fixedPoint": [
-					-0.012644205675195412,
-					0.1348715272020844
-				]
-			},
-			"startArrowhead": null,
-			"endArrowhead": "arrow",
-			"elbowed": true,
-			"fixedSegments": null,
-			"startIsSpecial": null,
-			"endIsSpecial": null
-		},
-		{
 			"id": "H9vnRKNNpEJ1Ei9E08Cnb",
 			"type": "arrow",
 			"x": -660,
 			"y": -320,
-			"width": 855,
+			"width": 315,
 			"height": 0.08000000000004093,
 			"angle": 0,
 			"strokeColor": "#f08c00",
@@ -2823,11 +2566,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "aR",
 			"roundness": null,
 			"seed": 1384334945,
-			"version": 1837,
-			"versionNonce": 2130938927,
+			"version": 2356,
+			"versionNonce": 476475439,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235436725,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2836,7 +2579,7 @@ entry 是弱引用 ^ipuzvKOm
 					0
 				],
 				[
-					855,
+					315,
 					-0.08000000000004093
 				]
 			],
@@ -2869,10 +2612,10 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "H-F_Cfwv9IbEHvvnlAh0y",
 			"type": "arrow",
-			"x": -200,
-			"y": 740,
-			"width": 440,
-			"height": 820,
+			"x": 300,
+			"y": -80,
+			"width": 420,
+			"height": 0,
 			"angle": 0,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#a5d8ff",
@@ -2886,11 +2629,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "aS",
 			"roundness": null,
 			"seed": 233689665,
-			"version": 1607,
-			"versionNonce": 1849699919,
+			"version": 2896,
+			"versionNonce": 1644275599,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235348026,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2899,34 +2642,26 @@ entry 是弱引用 ^ipuzvKOm
 					0
 				],
 				[
-					-40,
+					-420,
 					0
-				],
-				[
-					-40,
-					-820
-				],
-				[
-					400,
-					-820
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "NsigjkT4hbyKn0sbrtqha",
-				"focus": 0.2,
+				"focus": -0.2,
 				"gap": 1,
 				"fixedPoint": [
 					0,
-					0.4
+					0.6
 				]
 			},
 			"endBinding": {
 				"elementId": "OZtrOe3V4JX2OiL2KgtPF",
-				"focus": -0.5,
+				"focus": 0.5,
 				"gap": 1,
 				"fixedPoint": [
-					0,
+					1,
 					0.75
 				]
 			},
@@ -2942,7 +2677,7 @@ entry 是弱引用 ^ipuzvKOm
 			"type": "arrow",
 			"x": -660,
 			"y": -120,
-			"width": 855,
+			"width": 235,
 			"height": 0.09999999999999432,
 			"angle": 0,
 			"strokeColor": "#e03131",
@@ -2957,11 +2692,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "aT",
 			"roundness": null,
 			"seed": 937157153,
-			"version": 1594,
-			"versionNonce": 769887343,
+			"version": 2553,
+			"versionNonce": 631673423,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235436726,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2970,7 +2705,7 @@ entry 是弱引用 ^ipuzvKOm
 					0
 				],
 				[
-					855,
+					235,
 					-0.09999999999999432
 				]
 			],
@@ -3003,10 +2738,10 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "-6uWyZAawkTKUGlPBEnFj",
 			"type": "arrow",
-			"x": 195.23499944767818,
-			"y": -266.75048189787094,
-			"width": 215.23499944767818,
-			"height": 366.75048189787094,
+			"x": -180,
+			"y": -400,
+			"width": 560,
+			"height": 240,
 			"angle": 0,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "#a5d8ff",
@@ -3020,8 +2755,8 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "aU",
 			"roundness": null,
 			"seed": 1027405313,
-			"version": 3518,
-			"versionNonce": 2041980559,
+			"version": 4600,
+			"versionNonce": 559439855,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -3029,7 +2764,7 @@ entry 是弱引用 ^ipuzvKOm
 					"id": "f9zmFX2R"
 				}
 			],
-			"updated": 1748234276592,
+			"updated": 1748235435459,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3038,47 +2773,69 @@ entry 是弱引用 ^ipuzvKOm
 					0
 				],
 				[
-					-215.23499944767818,
-					0
-				],
-				[
-					-215.23499944767818,
-					366.75048189787094
+					560,
+					-240
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "kC0IvJW5ejfuBejg_T4Jx",
-				"focus": -0.665618896380643,
-				"gap": 1,
-				"fixedPoint": [
-					-0.015883337171312347,
-					0.832809488138307
-				]
+				"focus": -0.5247524752475249,
+				"gap": 1
 			},
 			"endBinding": {
 				"elementId": "9xq_0KoHycVqj-4nzWpjD",
-				"focus": -0.46666666666666656,
-				"gap": 1,
-				"fixedPoint": [
-					0.26666666666666666,
-					0
-				]
+				"focus": 0.4434782608695653,
+				"gap": 20
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
-			"elbowed": true,
-			"fixedSegments": null,
-			"startIsSpecial": null,
-			"endIsSpecial": null
+			"elbowed": false,
+			"fixedSegments": [
+				{
+					"index": 3,
+					"start": [
+						-4.4043749309597615,
+						-133.24951810212906
+					],
+					"end": [
+						-8.808749861919523,
+						-133.24951810212906
+					]
+				},
+				{
+					"index": 5,
+					"start": [
+						-8.808749861919523,
+						-293.24951810212906
+					],
+					"end": [
+						-17.617499723839103,
+						-293.24951810212906
+					]
+				},
+				{
+					"index": 7,
+					"start": [
+						-17.617499723839103,
+						-173.24951810212906
+					],
+					"end": [
+						-35.234999447678206,
+						-173.24951810212906
+					]
+				}
+			],
+			"startIsSpecial": false,
+			"endIsSpecial": false
 		},
 		{
 			"id": "f9zmFX2R",
 			"type": "text",
 			"x": -130,
 			"y": -334.25048189787094,
-			"width": 220,
-			"height": 135,
+			"width": 391.33978271484375,
+			"height": 54,
 			"angle": 0,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "#a5d8ff",
@@ -3092,14 +2849,14 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "aV",
 			"roundness": null,
 			"seed": 1894748929,
-			"version": 295,
-			"versionNonce": 1884609985,
+			"version": 343,
+			"versionNonce": 615674063,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748188763634,
+			"updated": 1748235423147,
 			"link": null,
 			"locked": false,
-			"text": "通过\nThread.currentThread()\n可以获取当前线程，进而\n获取当前线程的\nthreadLocalMap",
+			"text": "通过Thread.currentThread()可以获取当前线\n程，进而获取当前线程的 threadLocalMap",
 			"rawText": "通过Thread.currentThread()可以获取当前线程，进而获取当前线程的 threadLocalMap",
 			"fontSize": 20,
 			"fontFamily": 6,
@@ -3113,10 +2870,10 @@ entry 是弱引用 ^ipuzvKOm
 		{
 			"id": "YYtBU9SEM5InR2QsqGwge",
 			"type": "arrow",
-			"x": 720,
-			"y": 640,
-			"width": 215,
-			"height": 920,
+			"x": 300,
+			"y": 800,
+			"width": 335,
+			"height": 1120.1,
 			"angle": 0,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "#ebfbee",
@@ -3130,11 +2887,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "ao",
 			"roundness": null,
 			"seed": 1091603937,
-			"version": 622,
-			"versionNonce": 7371951,
+			"version": 1348,
+			"versionNonce": 1203601729,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235207592,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3143,22 +2900,22 @@ entry 是弱引用 ^ipuzvKOm
 					0
 				],
 				[
-					-80,
+					-170,
 					0
 				],
 				[
-					-80,
-					-920
+					-170,
+					-1120.1
 				],
 				[
-					-215,
-					-920
+					-335,
+					-1120.1
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "lSoQT-gqwjTxeD1x2HGKq",
-				"focus": 0.2,
+				"focus": -0.8912131626660892,
 				"gap": 1,
 				"fixedPoint": [
 					0,
@@ -3167,39 +2924,27 @@ entry 是弱引用 ^ipuzvKOm
 			},
 			"endBinding": {
 				"elementId": "kC0IvJW5ejfuBejg_T4Jx",
-				"focus": -1.0333333333333332,
+				"focus": -0.8913533352154606,
 				"gap": 5,
 				"fixedPoint": [
 					1.0166666666666666,
-					0.75
+					0.49937500000000057
 				]
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
 			"elbowed": true,
-			"fixedSegments": [
-				{
-					"index": 2,
-					"start": [
-						-80,
-						0
-					],
-					"end": [
-						-80,
-						-920
-					]
-				}
-			],
-			"startIsSpecial": false,
-			"endIsSpecial": false
+			"fixedSegments": null,
+			"startIsSpecial": null,
+			"endIsSpecial": null
 		},
 		{
 			"id": "-Wl4WFfykmGcn8XlyUzbP",
 			"type": "arrow",
-			"x": 720,
-			"y": 740,
-			"width": 215,
-			"height": 820,
+			"x": 300,
+			"y": 900,
+			"width": 415,
+			"height": 980,
 			"angle": 0,
 			"strokeColor": "#e03131",
 			"backgroundColor": "#ebfbee",
@@ -3213,11 +2958,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "ap",
 			"roundness": null,
 			"seed": 1516644801,
-			"version": 525,
-			"versionNonce": 96145103,
+			"version": 1633,
+			"versionNonce": 1608142799,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235348027,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3226,22 +2971,22 @@ entry 是弱引用 ^ipuzvKOm
 					0
 				],
 				[
-					-180,
+					-210,
 					0
 				],
 				[
-					-180,
-					-820
+					-210,
+					-980
 				],
 				[
-					-215,
-					-820
+					-415,
+					-980
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "U_BsgMnHhpD73khthWIcb",
-				"focus": 0.2,
+				"focus": -0.8772519083969462,
 				"gap": 1,
 				"fixedPoint": [
 					0,
@@ -3250,7 +2995,7 @@ entry 是弱引用 ^ipuzvKOm
 			},
 			"endBinding": {
 				"elementId": "OZtrOe3V4JX2OiL2KgtPF",
-				"focus": -1.0333333333333332,
+				"focus": -0.7968929804372843,
 				"gap": 5,
 				"fixedPoint": [
 					1.0166666666666666,
@@ -3260,126 +3005,16 @@ entry 是弱引用 ^ipuzvKOm
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
 			"elbowed": true,
-			"fixedSegments": [
-				{
-					"index": 2,
-					"start": [
-						-180,
-						0
-					],
-					"end": [
-						-180,
-						-820
-					]
-				}
-			],
-			"startIsSpecial": false,
-			"endIsSpecial": false
-		},
-		{
-			"id": "QpSpYIN41Vw7C563nOesy",
-			"type": "arrow",
-			"x": -810.1,
-			"y": 785,
-			"width": 2370.1,
-			"height": 900,
-			"angle": 0,
-			"strokeColor": "#6741d9",
-			"backgroundColor": "#99e9f2",
-			"fillStyle": "cross-hatch",
-			"strokeWidth": 1,
-			"strokeStyle": "dashed",
-			"roughness": 2,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"index": "aw",
-			"roundness": null,
-			"seed": 308103585,
-			"version": 706,
-			"versionNonce": 1143889135,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1748234276592,
-			"link": null,
-			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					0,
-					275
-				],
-				[
-					2370.1,
-					275
-				],
-				[
-					2370.1,
-					-625
-				],
-				[
-					1935.1,
-					-625
-				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": {
-				"elementId": "VV5AfL2YpTqY5AtY1_el7",
-				"focus": 0.0006666666666660603,
-				"gap": 5,
-				"fixedPoint": [
-					0.4996666666666666,
-					1.05
-				]
-			},
-			"endBinding": {
-				"elementId": "dyjLdC36kw5VhJEIWdrJK",
-				"focus": -0.4,
-				"gap": 5,
-				"fixedPoint": [
-					1.0166666666666666,
-					0.3
-				]
-			},
-			"startArrowhead": null,
-			"endArrowhead": "arrow",
-			"elbowed": true,
-			"fixedSegments": [
-				{
-					"index": 2,
-					"start": [
-						0,
-						275
-					],
-					"end": [
-						2370.1,
-						275
-					]
-				},
-				{
-					"index": 3,
-					"start": [
-						2370.1,
-						275
-					],
-					"end": [
-						2370.1,
-						-625
-					]
-				}
-			],
-			"startIsSpecial": false,
-			"endIsSpecial": false
+			"fixedSegments": null,
+			"startIsSpecial": null,
+			"endIsSpecial": null
 		},
 		{
 			"id": "yc3lKWLOLb-43XSndycaR",
 			"type": "arrow",
 			"x": -660,
 			"y": 380,
-			"width": 855,
+			"width": 315,
 			"height": 700.1,
 			"angle": 0,
 			"strokeColor": "#f08c00",
@@ -3394,11 +3029,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "ax",
 			"roundness": null,
 			"seed": 572878209,
-			"version": 2025,
-			"versionNonce": 257091343,
+			"version": 2544,
+			"versionNonce": 623970671,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235119995,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3415,7 +3050,7 @@ entry 是弱引用 ^ipuzvKOm
 					-700.1
 				],
 				[
-					855,
+					315,
 					-700.1
 				]
 			],
@@ -3462,7 +3097,7 @@ entry 是弱引用 ^ipuzvKOm
 			"type": "arrow",
 			"x": -660,
 			"y": 580,
-			"width": 855,
+			"width": 235,
 			"height": 700.1,
 			"angle": 0,
 			"strokeColor": "#e03131",
@@ -3477,11 +3112,11 @@ entry 是弱引用 ^ipuzvKOm
 			"index": "ay",
 			"roundness": null,
 			"seed": 1895699809,
-			"version": 1729,
-			"versionNonce": 899755311,
+			"version": 2690,
+			"versionNonce": 2059238895,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235348620,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3498,7 +3133,7 @@ entry 是弱引用 ^ipuzvKOm
 					-700.1
 				],
 				[
-					855,
+					235,
 					-700.1
 				]
 			],
@@ -3579,6 +3214,46 @@ entry 是弱引用 ^ipuzvKOm
 			"lineHeight": 1.35
 		},
 		{
+			"id": "gYTrU0tf",
+			"type": "text",
+			"x": 47.39000701904297,
+			"y": 456.5,
+			"width": 5.2199859619140625,
+			"height": 27,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "#d0bfff",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "dashed",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [
+				"NB6iBBLUhxhg4vUTFOHhv"
+			],
+			"frameId": null,
+			"index": "a3e",
+			"roundness": null,
+			"seed": 1106668431,
+			"version": 3,
+			"versionNonce": 1992862735,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1748235050041,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 20,
+			"fontFamily": 6,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "_JFjTnK7kEs52Pz-0J2yO",
+			"originalText": "",
+			"autoResize": true,
+			"lineHeight": 1.35
+		},
+		{
 			"id": "WOzGVfxk",
 			"type": "text",
 			"x": -262.60999298095703,
@@ -3615,6 +3290,231 @@ entry 是弱引用 ^ipuzvKOm
 			"originalText": "",
 			"autoResize": true,
 			"lineHeight": 1.35
+		},
+		{
+			"id": "divLPbA6svwcFyAsp6XiP",
+			"type": "rectangle",
+			"x": -960,
+			"y": -20,
+			"width": 300,
+			"height": 100,
+			"angle": 0,
+			"strokeColor": "#0c8599",
+			"backgroundColor": "transparent",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [
+				"x618Z0Nvg5MLJRP32qdMH"
+			],
+			"frameId": null,
+			"index": "aMG",
+			"roundness": {
+				"type": 3
+			},
+			"seed": 701909953,
+			"version": 373,
+			"versionNonce": 1959752399,
+			"isDeleted": true,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "q0tFzCTJ"
+				},
+				{
+					"id": "7pvoR5shuJp3P9pcfKYNf",
+					"type": "arrow"
+				}
+			],
+			"updated": 1748235439069,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "q0tFzCTJ",
+			"type": "text",
+			"x": -872.7759628295898,
+			"y": 11.099999999999998,
+			"width": 125.55192565917969,
+			"height": 37.800000000000004,
+			"angle": 0,
+			"strokeColor": "#0c8599",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [
+				"x618Z0Nvg5MLJRP32qdMH"
+			],
+			"frameId": null,
+			"index": "aMV",
+			"roundness": null,
+			"seed": 58272673,
+			"version": 366,
+			"versionNonce": 405874081,
+			"isDeleted": true,
+			"boundElements": [],
+			"updated": 1748235439069,
+			"link": null,
+			"locked": false,
+			"text": "threadRef",
+			"rawText": "threadRef",
+			"fontSize": 28,
+			"fontFamily": 6,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "divLPbA6svwcFyAsp6XiP",
+			"originalText": "threadRef",
+			"autoResize": true,
+			"lineHeight": 1.35
+		},
+		{
+			"id": "VV5AfL2YpTqY5AtY1_el7",
+			"type": "rectangle",
+			"x": -960,
+			"y": 680,
+			"width": 300,
+			"height": 100,
+			"angle": 0,
+			"strokeColor": "#6741d9",
+			"backgroundColor": "transparent",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [
+				"lGfHJwB8kmGglupSlFGDm"
+			],
+			"frameId": null,
+			"index": "aO",
+			"roundness": {
+				"type": 3
+			},
+			"seed": 183352001,
+			"version": 522,
+			"versionNonce": 54558977,
+			"isDeleted": true,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "7ZDAGnlf"
+				},
+				{
+					"id": "QpSpYIN41Vw7C563nOesy",
+					"type": "arrow"
+				}
+			],
+			"updated": 1748235445141,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "7ZDAGnlf",
+			"type": "text",
+			"x": -872.7759628295898,
+			"y": 711.1,
+			"width": 125.55192565917969,
+			"height": 37.800000000000004,
+			"angle": 0,
+			"strokeColor": "#6741d9",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [
+				"lGfHJwB8kmGglupSlFGDm"
+			],
+			"frameId": null,
+			"index": "aP",
+			"roundness": null,
+			"seed": 1305131681,
+			"version": 508,
+			"versionNonce": 801426319,
+			"isDeleted": true,
+			"boundElements": [],
+			"updated": 1748235445141,
+			"link": null,
+			"locked": false,
+			"text": "threadRef",
+			"rawText": "threadRef",
+			"fontSize": 28,
+			"fontFamily": 6,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "VV5AfL2YpTqY5AtY1_el7",
+			"originalText": "threadRef",
+			"autoResize": true,
+			"lineHeight": 1.35
+		},
+		{
+			"id": "7pvoR5shuJp3P9pcfKYNf",
+			"type": "arrow",
+			"x": -960,
+			"y": 20,
+			"width": 1355.2145309416278,
+			"height": 733.0256946467076,
+			"angle": 0,
+			"strokeColor": "#0c8599",
+			"backgroundColor": "#b2f2bb",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 30,
+			"groupIds": [],
+			"frameId": null,
+			"index": "aQ",
+			"roundness": null,
+			"seed": 1354546817,
+			"version": 2980,
+			"versionNonce": 127814415,
+			"isDeleted": true,
+			"boundElements": [],
+			"updated": 1748235441913,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					681,
+					0
+				],
+				[
+					681,
+					-733.0256946467076
+				],
+				[
+					1355.2145309416278,
+					-733.0256946467076
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "9xq_0KoHycVqj-4nzWpjD",
+				"focus": 0.7302569455958308,
+				"gap": 5,
+				"fixedPoint": [
+					-0.012644205675195412,
+					0.1348715272020844
+				]
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"elbowed": true,
+			"fixedSegments": null,
+			"startIsSpecial": null,
+			"endIsSpecial": null
 		},
 		{
 			"id": "KrQi2jke",
@@ -4608,6 +4508,69 @@ entry 是弱引用 ^ipuzvKOm
 			"lineHeight": 1.35
 		},
 		{
+			"id": "QpSpYIN41Vw7C563nOesy",
+			"type": "arrow",
+			"x": -960,
+			"y": 720,
+			"width": 1360.0000000000002,
+			"height": 400,
+			"angle": 0,
+			"strokeColor": "#6741d9",
+			"backgroundColor": "#99e9f2",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 30,
+			"groupIds": [],
+			"frameId": null,
+			"index": "aw",
+			"roundness": null,
+			"seed": 308103585,
+			"version": 1555,
+			"versionNonce": 1464005825,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1748235447044,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					681,
+					0
+				],
+				[
+					681,
+					-400
+				],
+				[
+					1360.0000000000002,
+					-400
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "dyjLdC36kw5VhJEIWdrJK",
+				"focus": 0.5836734693877543,
+				"gap": 1,
+				"fixedPoint": [
+					7.579122514774402e-16,
+					0.3
+				]
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"elbowed": true,
+			"fixedSegments": null,
+			"startIsSpecial": null,
+			"endIsSpecial": null
+		},
+		{
 			"id": "a62OfD0d",
 			"type": "text",
 			"x": 423.764856763097,
@@ -4691,19 +4654,19 @@ entry 是弱引用 ^ipuzvKOm
 		"currentItemBackgroundColor": "#d0bfff",
 		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 1,
-		"currentItemStrokeStyle": "dashed",
+		"currentItemStrokeStyle": "solid",
 		"currentItemRoughness": 2,
-		"currentItemOpacity": 100,
+		"currentItemOpacity": 30,
 		"currentItemFontFamily": 6,
 		"currentItemFontSize": 20,
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"currentItemArrowType": "elbow",
-		"scrollX": 738.8878511954646,
-		"scrollY": 757.4121955985518,
+		"currentItemArrowType": "sharp",
+		"scrollX": 1254.4276896807644,
+		"scrollY": 909.7731091401731,
 		"zoom": {
-			"value": 0.702043
+			"value": 0.429449
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
