@@ -69,9 +69,9 @@ threadLocal2 ^7y8arVIm
 
 value（省略指向对象） ^wZxAXCUh
 
-“val1” ^u8l6ytVy
+“thread2 val1” ^u8l6ytVy
 
-“val2” ^7QBn4mGv
+“thread2 val2” ^7QBn4mGv
 
 Thread 2 的栈 ^FJnNI86u
 
@@ -103,7 +103,7 @@ threadRef ^7ZDAGnlf
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 0,
-			"opacity": 100,
+			"opacity": 50,
 			"groupIds": [],
 			"frameId": null,
 			"index": "a0",
@@ -111,8 +111,8 @@ threadRef ^7ZDAGnlf
 				"type": 3
 			},
 			"seed": 228786031,
-			"version": 363,
-			"versionNonce": 248956097,
+			"version": 367,
+			"versionNonce": 461700097,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -120,7 +120,7 @@ threadRef ^7ZDAGnlf
 					"id": "GCby9eTm"
 				}
 			],
-			"updated": 1748223152797,
+			"updated": 1748223695492,
 			"link": null,
 			"locked": true
 		},
@@ -138,17 +138,17 @@ threadRef ^7ZDAGnlf
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
-			"opacity": 100,
+			"opacity": 50,
 			"groupIds": [],
 			"frameId": null,
 			"index": "a1",
 			"roundness": null,
 			"seed": 8467887,
-			"version": 347,
-			"versionNonce": 41264079,
+			"version": 351,
+			"versionNonce": 140083343,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748223152797,
+			"updated": 1748223695492,
 			"link": null,
 			"locked": true,
 			"text": "堆",
@@ -1011,11 +1011,11 @@ threadRef ^7ZDAGnlf
 			"index": "a78",
 			"roundness": null,
 			"seed": 1499360719,
-			"version": 5223,
-			"versionNonce": 1085334223,
+			"version": 5225,
+			"versionNonce": 147323087,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748223159682,
+			"updated": 1748223765212,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1630,9 +1630,9 @@ threadRef ^7ZDAGnlf
 		{
 			"id": "u8l6ytVy",
 			"type": "text",
-			"x": 1092.4300231933594,
+			"x": 1054.3400650024414,
 			"y": 636.5,
-			"width": 55.13995361328125,
+			"width": 131.3198699951172,
 			"height": 27,
 			"angle": 0,
 			"strokeColor": "#f08c00",
@@ -1651,21 +1651,21 @@ threadRef ^7ZDAGnlf
 			"index": "a9V",
 			"roundness": null,
 			"seed": 1894959553,
-			"version": 587,
-			"versionNonce": 1841745729,
+			"version": 596,
+			"versionNonce": 727181487,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748223159678,
+			"updated": 1748223775494,
 			"link": null,
 			"locked": false,
-			"text": "“val1”",
-			"rawText": "“val1”",
+			"text": "“thread2 val1”",
+			"rawText": "“thread2 val1”",
 			"fontSize": 20,
 			"fontFamily": 6,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "pmQtGM_pI0Tv2Hofu9c-s",
-			"originalText": "“val1”",
+			"originalText": "“thread2 val1”",
 			"autoResize": true,
 			"lineHeight": 1.35
 		},
@@ -1709,9 +1709,9 @@ threadRef ^7ZDAGnlf
 		{
 			"id": "7QBn4mGv",
 			"type": "text",
-			"x": 1092.4300231933594,
+			"x": 1054.3400650024414,
 			"y": 736.5,
-			"width": 55.13995361328125,
+			"width": 131.3198699951172,
 			"height": 27,
 			"angle": 0,
 			"strokeColor": "#e03131",
@@ -1730,21 +1730,21 @@ threadRef ^7ZDAGnlf
 			"index": "aB",
 			"roundness": null,
 			"seed": 1851124129,
-			"version": 605,
-			"versionNonce": 227360545,
+			"version": 620,
+			"versionNonce": 1375918895,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748223159678,
+			"updated": 1748223791328,
 			"link": null,
 			"locked": false,
-			"text": "“val2”",
-			"rawText": "“val2”",
+			"text": "“thread2 val2”",
+			"rawText": "“thread2 val2”",
 			"fontSize": 20,
 			"fontFamily": 6,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "E4X99f1TKSOR2RF0Z6yyB",
-			"originalText": "“val2”",
+			"originalText": "“thread2 val2”",
 			"autoResize": true,
 			"lineHeight": 1.35
 		},
@@ -2108,7 +2108,7 @@ threadRef ^7ZDAGnlf
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
-			"opacity": 100,
+			"opacity": 50,
 			"groupIds": [
 				"x618Z0Nvg5MLJRP32qdMH"
 			],
@@ -2118,8 +2118,8 @@ threadRef ^7ZDAGnlf
 				"type": 3
 			},
 			"seed": 2042756321,
-			"version": 326,
-			"versionNonce": 998848993,
+			"version": 328,
+			"versionNonce": 1582699905,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -2127,7 +2127,7 @@ threadRef ^7ZDAGnlf
 					"id": "s3sSKGKA"
 				}
 			],
-			"updated": 1748223118022,
+			"updated": 1748223673954,
 			"link": null,
 			"locked": false
 		},
@@ -2145,7 +2145,7 @@ threadRef ^7ZDAGnlf
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
-			"opacity": 100,
+			"opacity": 50,
 			"groupIds": [
 				"x618Z0Nvg5MLJRP32qdMH"
 			],
@@ -2153,11 +2153,11 @@ threadRef ^7ZDAGnlf
 			"index": "aLV",
 			"roundness": null,
 			"seed": 1112732111,
-			"version": 333,
-			"versionNonce": 1299285057,
+			"version": 335,
+			"versionNonce": 1776336655,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191701529,
+			"updated": 1748223673954,
 			"link": null,
 			"locked": false,
 			"text": "Thread 1 的栈",
@@ -2428,7 +2428,7 @@ threadRef ^7ZDAGnlf
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
-			"opacity": 100,
+			"opacity": 50,
 			"groupIds": [
 				"lGfHJwB8kmGglupSlFGDm"
 			],
@@ -2438,8 +2438,8 @@ threadRef ^7ZDAGnlf
 				"type": 3
 			},
 			"seed": 1380492367,
-			"version": 468,
-			"versionNonce": 430046095,
+			"version": 477,
+			"versionNonce": 889298433,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -2447,7 +2447,7 @@ threadRef ^7ZDAGnlf
 					"id": "FJnNI86u"
 				}
 			],
-			"updated": 1748223141704,
+			"updated": 1748223666326,
 			"link": null,
 			"locked": false
 		},
@@ -2465,7 +2465,7 @@ threadRef ^7ZDAGnlf
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
-			"opacity": 100,
+			"opacity": 50,
 			"groupIds": [
 				"lGfHJwB8kmGglupSlFGDm"
 			],
@@ -2473,11 +2473,11 @@ threadRef ^7ZDAGnlf
 			"index": "aMd",
 			"roundness": null,
 			"seed": 1329450017,
-			"version": 478,
-			"versionNonce": 934071855,
+			"version": 487,
+			"versionNonce": 1274019471,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191764245,
+			"updated": 1748223666326,
 			"link": null,
 			"locked": false,
 			"text": "Thread 2 的栈",
@@ -2515,8 +2515,8 @@ threadRef ^7ZDAGnlf
 				"type": 3
 			},
 			"seed": 627917423,
-			"version": 449,
-			"versionNonce": 853477057,
+			"version": 451,
+			"versionNonce": 1227888207,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -2528,7 +2528,7 @@ threadRef ^7ZDAGnlf
 					"type": "arrow"
 				}
 			],
-			"updated": 1748223005839,
+			"updated": 1748223727310,
 			"link": null,
 			"locked": false
 		},
@@ -2554,11 +2554,11 @@ threadRef ^7ZDAGnlf
 			"index": "aMt",
 			"roundness": null,
 			"seed": 617717761,
-			"version": 446,
-			"versionNonce": 446975599,
+			"version": 448,
+			"versionNonce": 1922462831,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748191764245,
+			"updated": 1748223727310,
 			"link": null,
 			"locked": false,
 			"text": "threadLocalRef",
@@ -3175,11 +3175,11 @@ threadRef ^7ZDAGnlf
 			"index": "ao",
 			"roundness": null,
 			"seed": 1110221217,
-			"version": 619,
-			"versionNonce": 1413607855,
+			"version": 621,
+			"versionNonce": 1779304175,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748223159684,
+			"updated": 1748223765213,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3258,11 +3258,11 @@ threadRef ^7ZDAGnlf
 			"index": "ap",
 			"roundness": null,
 			"seed": 1052591969,
-			"version": 522,
-			"versionNonce": 2123375151,
+			"version": 524,
+			"versionNonce": 1873629455,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748223159685,
+			"updated": 1748223765213,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3439,11 +3439,11 @@ threadRef ^7ZDAGnlf
 			"index": "ax",
 			"roundness": null,
 			"seed": 610449967,
-			"version": 1970,
-			"versionNonce": 1607613327,
+			"version": 2024,
+			"versionNonce": 519448047,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748223159683,
+			"updated": 1748223727929,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -4613,6 +4613,44 @@ threadRef ^7ZDAGnlf
 			"originalText": "",
 			"autoResize": true,
 			"lineHeight": 1.35
+		},
+		{
+			"id": "KftQNWY9",
+			"type": "text",
+			"x": 1155.2521091946196,
+			"y": -454.77412301224587,
+			"width": 4.175994873046875,
+			"height": 21.6,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#d0bfff",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "dashed",
+			"roughness": 0,
+			"opacity": 50,
+			"groupIds": [],
+			"frameId": null,
+			"index": "b00",
+			"roundness": null,
+			"seed": 1849727265,
+			"version": 3,
+			"versionNonce": 1358136545,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1748223682887,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 16,
+			"fontFamily": 6,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "",
+			"autoResize": true,
+			"lineHeight": 1.35
 		}
 	],
 	"appState": {
@@ -4624,17 +4662,17 @@ threadRef ^7ZDAGnlf
 		"currentItemStrokeWidth": 1,
 		"currentItemStrokeStyle": "dashed",
 		"currentItemRoughness": 0,
-		"currentItemOpacity": 100,
+		"currentItemOpacity": 50,
 		"currentItemFontFamily": 6,
 		"currentItemFontSize": 16,
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "elbow",
-		"scrollX": 1715.3679576075754,
-		"scrollY": 1007.5399447664521,
+		"scrollX": 1407.7066395271286,
+		"scrollY": 682.4046844364958,
 		"zoom": {
-			"value": 0.409278
+			"value": 0.511723
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
