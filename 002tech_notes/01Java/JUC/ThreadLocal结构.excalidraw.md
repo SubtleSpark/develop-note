@@ -75,6 +75,8 @@ threadLocal2Ref ^gBFVIwIW
 
 entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 
+val1 ^NGi6gupo
+
 %%
 ## Drawing
 ```json
@@ -813,16 +815,20 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 			"index": "a5G",
 			"roundness": null,
 			"seed": 1023521761,
-			"version": 550,
-			"versionNonce": 1515614543,
+			"version": 551,
+			"versionNonce": 1736982849,
 			"isDeleted": false,
 			"boundElements": [
 				{
 					"type": "text",
 					"id": "Xr0QXiib"
+				},
+				{
+					"id": "p1lJlrABfWHviMZ9M-lzO",
+					"type": "arrow"
 				}
 			],
-			"updated": 1748235137483,
+			"updated": 1748235567436,
 			"link": null,
 			"locked": false
 		},
@@ -1794,8 +1800,8 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 				"type": 3
 			},
 			"seed": 415539425,
-			"version": 607,
-			"versionNonce": 1939316943,
+			"version": 609,
+			"versionNonce": 1413498703,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1811,19 +1817,19 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 					"type": "arrow"
 				},
 				{
-					"id": "yc3lKWLOLb-43XSndycaR",
-					"type": "arrow"
-				},
-				{
 					"id": "YYtBU9SEM5InR2QsqGwge",
 					"type": "arrow"
 				},
 				{
 					"id": "mfHELO_8Z7AX3ZvCe_fNz",
 					"type": "arrow"
+				},
+				{
+					"id": "yc3lKWLOLb-43XSndycaR",
+					"type": "arrow"
 				}
 			],
-			"updated": 1748235116579,
+			"updated": 1748235632814,
 			"link": null,
 			"locked": false
 		},
@@ -1887,8 +1893,8 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 				"type": 3
 			},
 			"seed": 1746918593,
-			"version": 607,
-			"versionNonce": 908081327,
+			"version": 609,
+			"versionNonce": 792985487,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1904,15 +1910,15 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 					"type": "arrow"
 				},
 				{
-					"id": "W2CoOANNENDACYEIoLevQ",
+					"id": "-Wl4WFfykmGcn8XlyUzbP",
 					"type": "arrow"
 				},
 				{
-					"id": "-Wl4WFfykmGcn8XlyUzbP",
+					"id": "W2CoOANNENDACYEIoLevQ",
 					"type": "arrow"
 				}
 			],
-			"updated": 1748235347875,
+			"updated": 1748235632814,
 			"link": null,
 			"locked": false
 		},
@@ -1974,8 +1980,8 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 			"index": "aK",
 			"roundness": null,
 			"seed": 1147706529,
-			"version": 3360,
-			"versionNonce": 1014116111,
+			"version": 3361,
+			"versionNonce": 1679345743,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1983,7 +1989,7 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 					"id": "ipuzvKOm"
 				}
 			],
-			"updated": 1748235217265,
+			"updated": 1748235632817,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2074,7 +2080,7 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 			"x": -1000,
 			"y": -500,
 			"width": 400,
-			"height": 620,
+			"height": 500,
 			"angle": 0,
 			"strokeColor": "#0c8599",
 			"backgroundColor": "#99e9f2",
@@ -2092,8 +2098,8 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 				"type": 3
 			},
 			"seed": 1028546689,
-			"version": 329,
-			"versionNonce": 1302766607,
+			"version": 335,
+			"versionNonce": 664801665,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -2101,7 +2107,7 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 					"id": "s3sSKGKA"
 				}
 			],
-			"updated": 1748234276592,
+			"updated": 1748235641728,
 			"link": null,
 			"locked": false
 		},
@@ -2313,7 +2319,7 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 			"x": -1000,
 			"y": 200,
 			"width": 400,
-			"height": 620,
+			"height": 500,
 			"angle": 0,
 			"strokeColor": "#6741d9",
 			"backgroundColor": "#d0bfff",
@@ -2331,8 +2337,8 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 				"type": 3
 			},
 			"seed": 158666625,
-			"version": 478,
-			"versionNonce": 1069966607,
+			"version": 488,
+			"versionNonce": 303929327,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -2340,7 +2346,7 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 					"id": "FJnNI86u"
 				}
 			],
-			"updated": 1748234276592,
+			"updated": 1748235636212,
 			"link": null,
 			"locked": false
 		},
@@ -2366,11 +2372,11 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 			"index": "aMd",
 			"roundness": null,
 			"seed": 1376352097,
-			"version": 488,
-			"versionNonce": 1190456111,
+			"version": 498,
+			"versionNonce": 1672352943,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235632814,
 			"link": null,
 			"locked": false,
 			"text": "Thread 2 的栈",
@@ -2408,8 +2414,8 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 				"type": 3
 			},
 			"seed": 2139480897,
-			"version": 452,
-			"versionNonce": 246263119,
+			"version": 458,
+			"versionNonce": 1711974721,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -2421,7 +2427,7 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 					"type": "arrow"
 				}
 			],
-			"updated": 1748234276592,
+			"updated": 1748235632814,
 			"link": null,
 			"locked": false
 		},
@@ -2447,11 +2453,11 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 			"index": "aMt",
 			"roundness": null,
 			"seed": 1045025569,
-			"version": 449,
-			"versionNonce": 38349679,
+			"version": 459,
+			"versionNonce": 1569040079,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235632814,
 			"link": null,
 			"locked": false,
 			"text": "threadLocalRef",
@@ -2489,8 +2495,8 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 				"type": 3
 			},
 			"seed": 46450433,
-			"version": 460,
-			"versionNonce": 235922831,
+			"version": 466,
+			"versionNonce": 927993089,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -2502,7 +2508,7 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 					"type": "arrow"
 				}
 			],
-			"updated": 1748234276592,
+			"updated": 1748235632814,
 			"link": null,
 			"locked": false
 		},
@@ -2528,11 +2534,11 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 			"index": "aNV",
 			"roundness": null,
 			"seed": 125189857,
-			"version": 459,
-			"versionNonce": 20601775,
+			"version": 469,
+			"versionNonce": 1994781935,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748234276592,
+			"updated": 1748235632814,
 			"link": null,
 			"locked": false,
 			"text": "threadLocal2Ref",
@@ -2566,11 +2572,11 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 			"index": "aR",
 			"roundness": null,
 			"seed": 1384334945,
-			"version": 2356,
-			"versionNonce": 476475439,
+			"version": 2357,
+			"versionNonce": 167695855,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748235436725,
+			"updated": 1748235632816,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2629,11 +2635,11 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 			"index": "aS",
 			"roundness": null,
 			"seed": 233689665,
-			"version": 2896,
-			"versionNonce": 1644275599,
+			"version": 2897,
+			"versionNonce": 1712805551,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748235348026,
+			"updated": 1748235632818,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2692,11 +2698,11 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 			"index": "aT",
 			"roundness": null,
 			"seed": 937157153,
-			"version": 2553,
-			"versionNonce": 631673423,
+			"version": 2554,
+			"versionNonce": 1907376271,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748235436726,
+			"updated": 1748235632818,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2738,10 +2744,10 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 		{
 			"id": "-6uWyZAawkTKUGlPBEnFj",
 			"type": "arrow",
-			"x": -180,
-			"y": -400,
-			"width": 560,
-			"height": 240,
+			"x": -178.8970165728493,
+			"y": -400.4727071830647,
+			"width": 562.5576593075541,
+			"height": 241.09613970323733,
 			"angle": 0,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "#a5d8ff",
@@ -2755,8 +2761,8 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 			"index": "aU",
 			"roundness": null,
 			"seed": 1027405313,
-			"version": 4600,
-			"versionNonce": 559439855,
+			"version": 4601,
+			"versionNonce": 380387343,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -2764,7 +2770,7 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 					"id": "f9zmFX2R"
 				}
 			],
-			"updated": 1748235435459,
+			"updated": 1748235632817,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2773,8 +2779,8 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 					0
 				],
 				[
-					560,
-					-240
+					562.5576593075541,
+					-241.09613970323733
 				]
 			],
 			"lastCommittedPoint": null,
@@ -2887,11 +2893,11 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 			"index": "ao",
 			"roundness": null,
 			"seed": 1091603937,
-			"version": 1348,
-			"versionNonce": 1203601729,
+			"version": 1349,
+			"versionNonce": 442983983,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748235207592,
+			"updated": 1748235632817,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -2958,11 +2964,11 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 			"index": "ap",
 			"roundness": null,
 			"seed": 1516644801,
-			"version": 1633,
-			"versionNonce": 1608142799,
+			"version": 1634,
+			"versionNonce": 91662543,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748235348027,
+			"updated": 1748235632818,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3029,11 +3035,11 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 			"index": "ax",
 			"roundness": null,
 			"seed": 572878209,
-			"version": 2544,
-			"versionNonce": 623970671,
+			"version": 2570,
+			"versionNonce": 1368974959,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748235119995,
+			"updated": 1748235632818,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3112,11 +3118,11 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 			"index": "ay",
 			"roundness": null,
 			"seed": 1895699809,
-			"version": 2690,
-			"versionNonce": 2059238895,
+			"version": 2716,
+			"versionNonce": 1030141679,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1748235348620,
+			"updated": 1748235632819,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3174,6 +3180,135 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 			],
 			"startIsSpecial": false,
 			"endIsSpecial": false
+		},
+		{
+			"id": "pqrqswevkOEhahCEYIN8-",
+			"type": "rectangle",
+			"x": 1000,
+			"y": -240,
+			"width": 200,
+			"height": 100,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 30,
+			"groupIds": [],
+			"frameId": null,
+			"index": "b01",
+			"roundness": {
+				"type": 3
+			},
+			"seed": 1656444673,
+			"version": 77,
+			"versionNonce": 546879567,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "NGi6gupo"
+				},
+				{
+					"id": "p1lJlrABfWHviMZ9M-lzO",
+					"type": "arrow"
+				}
+			],
+			"updated": 1748235572439,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "NGi6gupo",
+			"type": "text",
+			"x": 1080.5800170898438,
+			"y": -203.5,
+			"width": 38.8399658203125,
+			"height": 27,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "b01G",
+			"roundness": null,
+			"seed": 1129767937,
+			"version": 68,
+			"versionNonce": 1486542447,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1748235572439,
+			"link": null,
+			"locked": false,
+			"text": "val1",
+			"rawText": "val1",
+			"fontSize": 20,
+			"fontFamily": 6,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "pqrqswevkOEhahCEYIN8-",
+			"originalText": "val1",
+			"autoResize": true,
+			"lineHeight": 1.35
+		},
+		{
+			"id": "p1lJlrABfWHviMZ9M-lzO",
+			"type": "arrow",
+			"x": 801,
+			"y": -180,
+			"width": 198.10734742451052,
+			"height": 2.842170943040401e-14,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "b03",
+			"roundness": null,
+			"seed": 2135338575,
+			"version": 79,
+			"versionNonce": 790337583,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1748235572873,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					198.10734742451052,
+					-2.842170943040401e-14
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "bZoodE_bYY-lcpZFjq4Na",
+				"focus": 0.2,
+				"gap": 1
+			},
+			"endBinding": {
+				"elementId": "pqrqswevkOEhahCEYIN8-",
+				"focus": -0.2,
+				"gap": 1
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"elbowed": false
 		},
 		{
 			"id": "pCEByztu",
@@ -4645,28 +4780,104 @@ entry 到 thradLocal 对象是弱引用 ^ipuzvKOm
 			"originalText": "",
 			"autoResize": true,
 			"lineHeight": 1.35
+		},
+		{
+			"id": "ZDt9a1TU",
+			"type": "text",
+			"x": 1347.390007019043,
+			"y": -423.5,
+			"width": 5.2199859619140625,
+			"height": 27,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "b01V",
+			"roundness": null,
+			"seed": 800091361,
+			"version": 4,
+			"versionNonce": 638271553,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1748235528453,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 20,
+			"fontFamily": 6,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "pqrqswevkOEhahCEYIN8-",
+			"originalText": "",
+			"autoResize": true,
+			"lineHeight": 1.35
+		},
+		{
+			"id": "Bhj6NXjg",
+			"type": "text",
+			"x": 1453.1260310113698,
+			"y": -415.1426002402253,
+			"width": 5.2199859619140625,
+			"height": 27,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 2,
+			"opacity": 30,
+			"groupIds": [],
+			"frameId": null,
+			"index": "b02",
+			"roundness": null,
+			"seed": 592094561,
+			"version": 3,
+			"versionNonce": 1469546785,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1748235523308,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 20,
+			"fontFamily": 6,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "",
+			"autoResize": true,
+			"lineHeight": 1.35
 		}
 	],
 	"appState": {
 		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#f08c00",
-		"currentItemBackgroundColor": "#d0bfff",
+		"currentItemStrokeColor": "#1e1e1e",
+		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 1,
 		"currentItemStrokeStyle": "solid",
 		"currentItemRoughness": 2,
-		"currentItemOpacity": 30,
+		"currentItemOpacity": 100,
 		"currentItemFontFamily": 6,
 		"currentItemFontSize": 20,
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "sharp",
-		"scrollX": 1254.4276896807644,
-		"scrollY": 909.7731091401731,
+		"scrollX": 1232.1778250145715,
+		"scrollY": 1060.2097357812445,
 		"zoom": {
-			"value": 0.429449
+			"value": 0.556341
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
