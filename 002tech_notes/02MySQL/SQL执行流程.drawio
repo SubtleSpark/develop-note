@@ -1,56 +1,32 @@
 <mxfile host="65bd71144e">
     <diagram id="sql-execution-flow" name="MySQL SQL执行流程">
-        <mxGraphModel dx="594" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="743" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="server_layer" value="Server 层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="20" width="720" height="480" as="geometry"/>
+                <mxCell id="server_layer" value="Server 层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;verticalAlign=top;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="20" width="640" height="480" as="geometry"/>
                 </mxCell>
                 <mxCell id="client_group" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="80" width="200" height="160" as="geometry"/>
+                    <mxGeometry x="130" y="80" width="200" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="client" value="客户端" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=default;imageAspect=0;aspect=fixed;image=img/lib/active_directory/vista_terminal.svg;perimeter=ellipsePerimeter;shadow=0;dashed=0;spacingTop=3;" parent="1" vertex="1">
-                    <mxGeometry x="10" y="100" width="60" height="60" as="geometry"/>
+                    <mxGeometry x="10" y="140" width="60" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="connector" value="连接器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-                    <mxGeometry x="180" y="140" width="60" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="query_cache" value="查询缓存" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-                    <mxGeometry x="320" y="140" width="80" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="parser_group" value="解析器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="600" y="80" width="140" height="160" as="geometry"/>
-                </mxCell>
-                <mxCell id="word_parser" value="词法分析" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-                    <mxGeometry x="620" y="100" width="100" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="syntax_parser" value="语法分析" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-                    <mxGeometry x="620" y="160" width="100" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="execution_flow" value="执行SQL查询语句流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="320" y="280" width="160" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="executor" value="执行器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-                    <mxGeometry x="80" y="320" width="80" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="optimizer" value="优化器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-                    <mxGeometry x="400" y="320" width="80" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="preprocessor" value="预处理器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-                    <mxGeometry x="600" y="320" width="80" height="60" as="geometry"/>
+                    <mxGeometry x="240" y="140" width="60" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="storage_layer" value="存储引擎" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="540" width="720" height="160" as="geometry"/>
+                    <mxGeometry x="120" y="540" width="640" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="innodb" value="Innodb" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="280" y="580" width="80" height="40" as="geometry"/>
+                    <mxGeometry x="230" y="580" width="80" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="myisam" value="MyISAM" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="280" y="630" width="80" height="40" as="geometry"/>
+                    <mxGeometry x="230" y="630" width="80" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="database" value="数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-                    <mxGeometry x="480" y="580" width="60" height="80" as="geometry"/>
+                    <mxGeometry x="430" y="580" width="60" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="client" target="connector" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry"/>
@@ -58,42 +34,64 @@
                 <mxCell id="arrow1" value="客户端与服务器&#xa;通信协议" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="client" target="connector" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="arrow2" value="SQL查询语句" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="connector" target="query_cache" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="arrow3" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="query_cache" target="parser_group" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="arrow2" value="SQL查询语句" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="connector" target="parser_group" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="170" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="arrow4" value="语法树" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="parser_group" target="preprocessor" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="arrow5" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" parent="1" source="preprocessor" target="optimizer" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="arrow6" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" parent="1" source="optimizer" target="executor" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="arrow7" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="executor" target="storage_layer" edge="1">
+                <mxCell id="arrow7" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="executor" target="innodb" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="arrow8" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="innodb" target="database" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="arrow9" value="返回记录" style="endArrow=classic;html=1;exitX=0;exitY=0.25;entryX=0;entryY=0.75;" parent="1" source="executor" target="connector" edge="1">
+                <mxCell id="arrow9" value="返回记录" style="endArrow=classic;html=1;exitX=0;exitY=0.25;entryX=0;entryY=0.75;strokeColor=default;edgeStyle=orthogonalEdgeStyle;" parent="1" source="executor" target="connector" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="570" y="90" width="140" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="parser_group" value="解析器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;verticalAlign=top;" parent="11" vertex="1">
+                    <mxGeometry width="140" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="word_parser" value="词法分析" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="11" vertex="1">
+                    <mxGeometry x="20" y="30" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="syntax_parser" value="语法分析" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="11" vertex="1">
+                    <mxGeometry x="20" y="90" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+                    <mxGeometry x="175" y="280" width="570" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="preprocessor" value="预处理器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="12" vertex="1">
+                    <mxGeometry x="425" y="40" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="optimizer" value="优化器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="12" vertex="1">
+                    <mxGeometry x="302" y="40" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="arrow5" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" parent="12" source="preprocessor" target="optimizer" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="executor" value="执行器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="12" vertex="1">
+                    <mxGeometry x="55" y="40" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="execution_flow" value="执行SQL查询语句流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="12" vertex="1">
+                    <mxGeometry x="205" y="10" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="执行计划" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shape=document;boundedLbl=1;" vertex="1" parent="12">
+                    <mxGeometry x="178" y="40" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="12" source="optimizer" target="9">
                     <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="40" y="335"/>
-                            <mxPoint x="40" y="185"/>
-                        </Array>
+                        <mxPoint x="225" y="70" as="sourcePoint"/>
+                        <mxPoint x="135" y="70" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="arrow10" value="缓存记录" style="endArrow=classic;html=1;exitX=0.5;exitY=0;entryX=1;entryY=0.25;" parent="1" source="query_cache" target="connector" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="360" y="100"/>
-                            <mxPoint x="260" y="100"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="arrow6" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" parent="12" source="9" target="executor" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
