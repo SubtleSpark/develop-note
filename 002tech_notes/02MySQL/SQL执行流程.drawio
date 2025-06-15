@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
-    <diagram id="sql-execution-flow" name="MySQL SQL执行流程">
-        <mxGraphModel dx="743" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <diagram id="lxSOXpMN3MD044OJFaUk" name="第 1 页">
+        <mxGraphModel dx="594" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -31,7 +31,7 @@
                 <mxCell id="" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="client" target="connector" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="arrow1" value="客户端与服务器&#xa;通信协议" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="client" target="connector" edge="1">
+                <mxCell id="arrow1" value="客户端与服务器&#xa;通信协议" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBackgroundColor=none;" parent="1" source="client" target="connector" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="arrow2" value="SQL查询语句" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="connector" target="parser_group" edge="1">
@@ -39,7 +39,7 @@
                         <mxPoint x="320" y="170" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="arrow4" value="语法树" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="parser_group" target="preprocessor" edge="1">
+                <mxCell id="arrow4" value="语法树" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;labelBackgroundColor=none;" parent="1" source="parser_group" target="preprocessor" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="arrow7" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="executor" target="innodb" edge="1">
@@ -51,7 +51,7 @@
                 <mxCell id="arrow9" value="返回记录" style="endArrow=classic;html=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;strokeColor=default;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" parent="1" source="executor" target="connector" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="11" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="570" y="90" width="140" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="parser_group" value="解析器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;verticalAlign=top;" parent="11" vertex="1">
@@ -63,7 +63,7 @@
                 <mxCell id="syntax_parser" value="语法分析" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="11" vertex="1">
                     <mxGeometry x="20" y="90" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+                <mxCell id="12" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
                     <mxGeometry x="175" y="310" width="570" height="130" as="geometry"/>
                 </mxCell>
                 <mxCell id="preprocessor" value="预处理器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="12" vertex="1">
@@ -81,10 +81,10 @@
                 <mxCell id="execution_flow" value="执行SQL查询语句流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="12" vertex="1">
                     <mxGeometry x="205" y="10" width="160" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="执行计划" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shape=document;boundedLbl=1;" vertex="1" parent="12">
+                <mxCell id="9" value="执行计划" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shape=document;boundedLbl=1;" parent="12" vertex="1">
                     <mxGeometry x="178" y="40" width="80" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="12" source="optimizer" target="9">
+                <mxCell id="10" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" parent="12" source="optimizer" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="225" y="70" as="sourcePoint"/>
                         <mxPoint x="135" y="70" as="targetPoint"/>
