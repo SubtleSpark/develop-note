@@ -104,7 +104,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.11.1",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.12.3",
     "libraryItems": [
       {
         "status": "unpublished",
@@ -664,7 +664,8 @@
                 0,
                 100
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -711,7 +712,8 @@
                 0,
                 100
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -758,7 +760,8 @@
                 0,
                 100
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -805,7 +808,8 @@
                 0,
                 100
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -1550,7 +1554,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -1598,7 +1603,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -2105,7 +2111,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -2152,7 +2159,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -2876,7 +2884,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -2923,7 +2932,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -3647,7 +3657,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -3694,7 +3705,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -4088,7 +4100,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -4135,7 +4148,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -4558,7 +4572,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -4606,7 +4621,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -5260,7 +5276,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -5308,7 +5325,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -6122,7 +6140,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -6169,7 +6188,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -6584,7 +6604,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -6632,7 +6653,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -6729,7 +6751,8 @@
                 544.666666666667,
                 -226.83333333333337
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -6785,7 +6808,8 @@
                 546.1748575183256,
                 -198.44084294514732
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -6841,7 +6865,8 @@
                 420,
                 -140
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -6897,7 +6922,8 @@
                 440,
                 -160
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -6953,7 +6979,8 @@
                 538.251394312475,
                 -60.925666781666905
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -7009,7 +7036,8 @@
                 539.7059390413015,
                 -104.50772003936936
               ]
-            ]
+            ],
+            "polygon": false
           }
         ],
         "id": "gT5K1h9DKLmBsYkCstlZB",
@@ -7063,7 +7091,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -7110,7 +7139,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -7774,7 +7804,8 @@
                 495,
                 -122.22222222222217
               ]
-            ]
+            ],
+            "polygon": false
           }
         ],
         "id": "wd5g6k-whjfcq7o4rF25-",
@@ -7829,7 +7860,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -7877,7 +7909,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -8014,7 +8047,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -8110,7 +8144,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -8157,7 +8192,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           }
         ],
         "id": "H0eQEIW02HDZkRTouaeDC",
@@ -8213,7 +8249,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -8262,7 +8299,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -8401,7 +8439,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -8574,7 +8613,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -8623,7 +8663,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           }
         ],
         "id": "fqTpfZxved_RK2UHSf_eP",
@@ -8678,7 +8719,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -8726,7 +8768,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -8863,7 +8906,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -9035,7 +9079,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -9083,7 +9128,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -9207,7 +9253,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           }
         ],
         "id": "DptHWTByOdR3ffa3rM74d",
@@ -9261,7 +9308,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -9308,7 +9356,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -9487,7 +9536,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -9534,7 +9584,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -9673,7 +9724,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -9812,7 +9864,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           }
         ],
         "id": "j3LnCNQpJ9NORihUbssdd",
@@ -9866,7 +9919,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -9913,7 +9967,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -10848,7 +10903,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -10896,7 +10952,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "ellipse",
@@ -11269,7 +11326,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -23506,7 +23564,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -23583,7 +23642,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           }
         ],
         "id": "eKe0Sb5hN1-n5h9cCQmS1",
@@ -23637,7 +23697,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -24294,7 +24355,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -24341,7 +24403,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -30742,7 +30805,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -30789,7 +30853,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -30966,7 +31031,8 @@
                 20,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -31013,7 +31079,8 @@
                 20,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -31060,7 +31127,8 @@
                 20,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -31107,7 +31175,8 @@
                 20,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -31441,7 +31510,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -31488,7 +31558,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -31942,7 +32013,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -31989,7 +32061,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -33103,7 +33176,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -33150,7 +33224,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -36934,7 +37009,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -36981,7 +37057,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -37435,7 +37512,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -37482,7 +37560,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -38369,7 +38448,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -38416,7 +38496,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -38539,7 +38620,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           }
         ],
         "id": "u7PVu00XfQUfPxRBe6Pe5",
@@ -38593,7 +38675,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -38640,7 +38723,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -38727,7 +38811,8 @@
                 1.0610832590236896,
                 141.50999633427728
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -38774,7 +38859,8 @@
                 2.067813523605537,
                 223.00916698955007
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -38821,7 +38907,8 @@
                 2.22752356387673,
                 101.30995189450687
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -38868,7 +38955,8 @@
                 1.9210422180219666,
                 182.18890614230213
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -39035,7 +39123,8 @@
                 17.64705882352939,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -39082,7 +39171,8 @@
                 17.64705882352939,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -39129,7 +39219,8 @@
                 17.64705882352939,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -39176,7 +39267,8 @@
                 17.64705882352939,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -39223,7 +39315,8 @@
                 17.64705882352939,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -39270,7 +39363,8 @@
                 17.64705882352939,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -39317,7 +39411,8 @@
                 17.64705882352939,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -39364,7 +39459,8 @@
                 17.64705882352939,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           }
         ],
         "id": "8NUZKRvQJ7yjW3dzCdz_A",
@@ -39446,7 +39542,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -39521,7 +39618,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -39596,7 +39694,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -39679,7 +39778,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -39726,7 +39826,8 @@
                 0,
                 280
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -39773,7 +39874,8 @@
                 580,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -39891,7 +39993,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -39962,7 +40065,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -40029,7 +40133,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -40108,7 +40213,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -40318,7 +40424,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -40433,7 +40540,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -40528,7 +40636,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -40651,7 +40760,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           }
         ],
         "id": "fCwxkggdIm_51xUgFNgqN",
@@ -40765,7 +40875,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -40832,7 +40943,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -40899,7 +41011,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -40967,7 +41080,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -41035,7 +41149,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -41103,7 +41218,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -41171,7 +41287,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -41239,7 +41356,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -41307,7 +41425,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -41375,7 +41494,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -41443,7 +41563,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -41511,7 +41632,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -41578,7 +41700,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -41645,7 +41768,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -41712,7 +41836,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
@@ -42018,7 +42143,8 @@
                 0,
                 0
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -42067,7 +42193,8 @@
                 -100,
                 60
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -42116,7 +42243,8 @@
                 102.82352941176487,
                 59.029411764705856
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -42165,7 +42293,8 @@
                 0,
                 100
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -42214,7 +42343,8 @@
                 0,
                 100
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -42263,7 +42393,8 @@
                 100.47058823529414,
                 60.20588235294122
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -42312,7 +42443,8 @@
                 100,
                 -60
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -42361,7 +42493,8 @@
                 -81.92887775532577,
                 49.15732665319548
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -42410,7 +42543,8 @@
                 84.24216371547627,
                 48.36213460439377
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -42459,7 +42593,8 @@
                 0,
                 81.92887775532577
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -42508,7 +42643,8 @@
                 0,
                 81.92887775532577
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -42557,7 +42693,8 @@
                 82.31442541535085,
                 49.32600375445648
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -42606,7 +42743,8 @@
                 81.92887775532577,
                 -49.15732665319548
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -42655,7 +42793,8 @@
                 -65.65862066225094,
                 39.39517239735056
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -42704,7 +42843,8 @@
                 67.51251112800873,
                 38.75789754974634
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -42753,7 +42893,8 @@
                 0,
                 65.65862066225094
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -42802,7 +42943,8 @@
                 0,
                 65.65862066225094
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -42851,7 +42993,8 @@
                 65.96760240654388,
                 39.53035191047876
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -42900,7 +43043,8 @@
                 65.65862066225094,
                 -39.39517239735056
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -42949,7 +43093,8 @@
                 -49.61107896262983,
                 29.7666473775779
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -42998,7 +43143,8 @@
                 51.011862368633594,
                 29.28512808176413
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -43047,7 +43193,8 @@
                 0,
                 49.61107896262983
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -43096,7 +43243,8 @@
                 0,
                 49.61107896262983
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -43145,7 +43293,8 @@
                 49.84454286363046,
                 29.868787834265696
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -43194,7 +43343,8 @@
                 49.61107896262983,
                 -29.7666473775779
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -43243,7 +43393,8 @@
                 -33.69820306020117,
                 20.218921836120693
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -43292,7 +43443,8 @@
                 34.64968173484219,
                 19.89185104171285
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -43341,7 +43493,8 @@
                 0,
                 33.69820306020117
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -43390,7 +43543,8 @@
                 0,
                 33.69820306020117
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -43439,7 +43593,8 @@
                 33.85678283930802,
                 20.288300489479944
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -43488,7 +43643,8 @@
                 33.69820306020117,
                 -20.218921836120693
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -43537,7 +43693,8 @@
                 -17.392717734218607,
                 10.435630640531159
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -43586,7 +43743,8 @@
                 17.883806234949507,
                 10.266818968404914
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -43635,7 +43793,8 @@
                 0,
                 17.392717734218607
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -43684,7 +43843,8 @@
                 0,
                 17.392717734218607
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -43733,7 +43893,8 @@
                 17.47456581767376,
                 10.471439177042788
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -43782,7 +43943,8 @@
                 17.392717734218607,
                 -10.435630640531159
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -43830,7 +43992,8 @@
                 0,
                 216.875
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -43878,7 +44041,8 @@
                 199.375,
                 -97.5
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "line",
@@ -43926,7 +44090,8 @@
                 199.375,
                 98.125
               ]
-            ]
+            ],
+            "polygon": false
           },
           {
             "type": "text",
