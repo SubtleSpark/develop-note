@@ -3,6 +3,5 @@
   "blue-topaz-theme@@search-bar-style-option": "default-search-bar",
   "blue-topaz-theme@@bt-status-on": false,
   "blue-topaz-theme@@layout-style-options": "layout-style-options-default",
-  "blue-topaz-theme@@left-ribbon-style": "default-left-ribbon-style",
-  "blue-topaz-theme@@hide-vault-name": false
+  "blue-topaz-theme@@left-ribbon-style": "default-left-ribbon-style"
 }
